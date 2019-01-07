@@ -13,6 +13,7 @@ of the approaches to analysing such data. We will continue to discuss this in th
 * If you have not done so already, please work through this Labster simulation. This will take approximately 35 minutes. 
 * It is based on a real published research study involving the sequencing of ancient DNA from remains of a man who lived about 4000 years ago (Rasmussen et al., 2010). 
 * You can access this simulation via the link on the Labster section of the BIO2092 ELE page: http://vle.exeter.ac.uk/course/view.php?id=4041#section-7
+<img src="labster.png" alt="alt text" width="250" align='middle'>
       
 ### Accessing the sequence data from study of a 4000-year-old man
 All the sequencing data from this study are available through the public repositories. Specifically, the raw sequence reads are available from either the Sequence Read Archive (SRA) in the USA or the European Sequence Archive (ENA) in Europe (Leinonen, Akhtar, et al., 2011; Leinonen, Sugawara, et al., 2011; Kodama et al., 2012; Silvester et al., 2018).
