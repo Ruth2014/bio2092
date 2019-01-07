@@ -1,4 +1,4 @@
-# bio2092
+# BIO2092
 Computer practical materials for Genomics &amp; Introductory Bioinformatics course (BIO2092) at the University of Exeter
 # Skeleton workshop
 
