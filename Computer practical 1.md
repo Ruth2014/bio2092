@@ -27,7 +27,7 @@ Navigate to the research paper at https://www.ncbi.nlm.nih.gov/pubmed/?term=2014
 
 <img src="palaeo-eskimo-paper.JPG" alt="alt text" width="250">
 
-Header 1 | Header 2
+ | 
 -------------------------- | ----------------------------------
 If you follow the hyperlink or search the NCBI portal for this accession number, you will arrive a page like this, describing the data from this study that is held in the SRA: | <img src="palaeo-eskimo-paper-sra.png" alt="alt text" width="250">
 
