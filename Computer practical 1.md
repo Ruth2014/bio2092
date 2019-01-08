@@ -35,7 +35,7 @@ This is telling us that there are 59 datasets associated with this project. Clic
 * In this case the project contains only one sample.
 * Click on the links to find out more about the BioProject and the BioSample and answer the questions below.
 
-Question    |     Answer
+Question    |     Please write your answer in this column
 ---------------------| -----------------------------------------------------------
 How many base-pairs of data, in total, were generated in this research project?     |
 Which DNA sequencing method(s) did the researcher use? |
@@ -72,6 +72,12 @@ Phred score | Probability that the base is wrong | Accuracy
 20 | 1 in 100 | 99 %
 30 | 1 in 1000 | 99.9 %
 40 | 1 in 10000 | 99.99 %
+
+Question    |     Please write your answer in this column
+---------------------| -----------------------------------------------------------
+What do you think about the quality/accuracy of the DNA sequencing in this research study? | 
+What factors do you think might have contributed to this? | 
+
 
 
 
