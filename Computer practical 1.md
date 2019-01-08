@@ -21,11 +21,11 @@ All the sequencing data from this study are available through the public reposit
 
 Navigate to the research paper at https://www.ncbi.nlm.nih.gov/pubmed/?term=20148029 and try to find a hyperlink to the sequence data. Alternatively, if you look at the text of the paper in *Nature*, you will read that “Sequences have been deposited to the short [sic] read archive with accession number SRA010102”. 
 
-<img src="palaeo-eskimo-paper.JPG" alt="alt text" width="250" align='bottom'>
+<img src="palaeo-eskimo-paper.JPG" alt="alt text" align='middle'>
 
 If you follow the hyperlink or search the NCBI portal for this accession number, you will arrive a page like this, describing the data from this study that is held in the SRA:
 
-<img src="palaeo-eskimo-paper-sra.png" alt="alt text" width="250" align='bottom'>
+<img src="palaeo-eskimo-paper-sra.png" alt="alt text" width="500" align='middle'>
 
 This is telling us that there are 59 datasets associated with this project. Click on the link to the Run Selector to explore these in a bit more detail:
 
