@@ -185,41 +185,39 @@ Question | Please write you answer in this space
 -------- | --------------------------------------
   What is the predicted function? |
   Does it have any significance in pathogenesis, biotechnology, fundamental biological processes? Hint: PubMed database might be helpful. | 
-  Can we predict the structure of the protein?  |                                                                                                                            
-  Does it contain any structural domains?  |                                                                                                                                 
-  Is the gene part of an operon or cluster of functionally related genes?  |                                                                                                 
-  Do homologues occur in only closely related organisms or do they occur more widely across all domains of life?  |                                                          
-  Can you generate a multiple sequence alignment for your protein and its homologues?    |                                                                                   
-  From the alignment, can you build a phylogenetic tree?   |                                                                                                                 
-  What organism (taxonomic group) does your protein come from? The phylogenetic tree might help you to answer this.  |                                                       
+  Can we predict the structure of the protein?  |   
+  Does it contain any structural domains?  |                         
+  Is the gene part of an operon or cluster of functionally related genes?  |                                   
+  Do homologues occur in only closely related organisms or do they occur more widely across all domains of life?  |      
+  Can you generate a multiple sequence alignment for your protein and its homologues?    | 
+  From the alignment, can you build a phylogenetic tree?   |      
+  What organism (taxonomic group) does your protein come from? The phylogenetic tree might help you to answer this.  |    
 
 Suggested online analysis tools (additional information about some of
 these is provided below):
 
-  Translate DNA to protein                         <https://web.expasy.org/translate/>
-  ------------------------------------------------ ----------------------------------------------
-  STRING (see mini-tutorial below)                 <https://string-db.org/>
-  Pfam                                             <http://pfam.xfam.org/>
-  Find open reading frames in your gene sequence   <http://www.ncbi.nlm.nih.gov/gorf/gorf.html>
+Suggested tool | Web address 
+-------------- | --------------
+  Translate DNA to protein          |               https://web.expasy.org/translate/
+  STRING (see mini-tutorial below)  |              https://string-db.org/
+  Pfam                              |              http://pfam.xfam.org/
+  Find open reading frames in your gene sequence |  http://www.ncbi.nlm.nih.gov/gorf/gorf.html
+
 
 ## Generating an alignment and phylogenetic tree
-
-
 Please see the following series of screenshots illustrating how to use
 BLAST to gather homologues of our query sequence, align them and
 generate a rough phylogenetic tree.
 
 Here is the BLASTP search form:
 
-![](./media/image14.png){width="6.4215277777777775in"
-height="3.3208333333333333in"}
+![](./media/image14.png)
 
 Here is the BLASTP result page. Note the graphical representation of
 domain structure. Also note hyperlinks to “Multiple alignment” and
 “Distance tree of results”:
 
-![](./media/image15.png){width="6.4215277777777775in"
-height="3.3208333333333333in"}
+![](./media/image15.png)
 
 Here is the distance tree showing the relationships between our query
 protein sequence and the BLASTP hits. This tree approximates to the
@@ -230,17 +228,15 @@ and , more distantly, to other epsiolon-proteobacteria such as
 sequence originates from a bacterium of that group. Can you think of a
 way to investigate or check this further, using BLAST searches?
 
-![](./media/image16.png){width="6.4215277777777775in"
-height="3.3208333333333333in"}
+![](./media/image16.png)
 
 Here we can see the details of the amino-acid sequence alignment of our
 query sequence against the BLASTP hits:
 
-![](./media/image17.png){width="6.4215277777777775in"
-height="3.3208333333333333in"}
+![](./media/image17.png)
 
-Predicting protein function with the STRING database: <http://string.embl.de/>
-------------------------------------------------------------------------------
+## Predicting protein function with the STRING database: http://string.embl.de/
+
 
 Many microbial genomics databases are available that, rather than just
 presenting raw data, have some “added value”, such as tools for
@@ -262,8 +258,7 @@ it with your newly discovered gene/protein.
 First, enter the terms into the search box and press the “Search”
 button:
 
-![](./media/image18.png){width="4.103232720909887in"
-height="2.487805118110236in"}
+![](./media/image18.png)
 
 (Note that you can also search “by sequence” rather than “by name”;
 therefore, you could paste-in the sequence of your newly discovered
@@ -272,8 +267,7 @@ protein.)
 This yields a network of interactions, inferred from genome sequence
 data, between the *otsA* gene and some others:
 
-![](./media/image19.png){width="2.6365321522309713in"
-height="2.3780489938757654in"}
+![](./media/image19.png)
 
 Note that this network is represented as a ‘graph’ consisting of nodes
 (*a.k.a.* ‘vertices’) and connections (‘edges’). We will encounter
@@ -283,8 +277,7 @@ graphs again in other contexts of bioinformatics, especially in
 Note that some of these genes, associated via genome sequence data, also
 happen to have related functions (trehalose biosynthesis):
 
-![](./media/image20.png){width="6.643903105861767in"
-height="2.425640857392826in"}
+![](./media/image20.png)
 
 Try to understand the meaning of the realtionships that link the genes
 in this network. Here we can see that *otsA* and *tpp* are adjacent to
@@ -293,18 +286,14 @@ each other in many genomes, suggesting a functional link
 into a single protein (“Gene Fusion”). Furthemore, most genomes either
 contain both genes or neither gene (“Cooccurrence”):
 
-![](./media/image21.png){width="1.8779527559055118in"
-height="2.7559055118110236in"}
-![](./media/image22.png){width="1.9133858267716535in"
-height="2.7559055118110236in"}
-![](./media/image23.png){width="2.02755905511811in"
-height="2.7559055118110236in"}
+![](./media/image21.png)
+![](./media/image22.png)
+![](./media/image23.png)
 
 Now, explore some of the other associations, some of which are less
 obvious, such as the link with *katF* or *osmY*.
 
-Finding and displaying open reading frames (ORFs)
--------------------------------------------------
+## Finding and displaying open reading frames (ORFs)
 
 A double-stranded DNA sequence has six different reading frames (three
 forward and three reverse). An open reading frame (ORF) is the part of a
@@ -313,23 +302,22 @@ An ORF is a continuous stretch of DNA beginning with a start codon
 usually methionine (ATG) and ending with a stop codon (TAA, TAG or TGA
 in most genomes).
 
-For this task, you will use the NCBI ORF Finder at
-<http://www.ncbi.nlm.nih.gov/gorf/gorf.html>
+For this task, you will use the NCBI ORF Finder at http://www.ncbi.nlm.nih.gov/gorf/gorf.html"
 
-![](./media/image24.png){width="6.0in" height="3.1236439195100614in"}
+![](./media/image24.png)
 
 Exercise: Use this tool to find the ORfs in the human opsin-5 transcript
 sequence (accession number NM\_181744) or in your newly discovered gene.
 
-![](./media/image25.png){width="6.0in" height="5.352366579177603in"}
+![](./media/image25.png)
 
 Exercise: Can you find which ORF encodes the protein product of this
 transcript? Hint: the predicted amino acid sequence of opsin-5
 (accession number NP\_859528.1) is:
 
-&gt;gi|38678524|ref|NP\_859528.1| opsin-5 \[Homo sapiens\]
+`>gi|38678524|ref|NP\_859528.1| opsin-5 \[Homo sapiens\]
 
-MALNHTALPQDERLPHYLRDGDPFASKLSWEADLVAGFYLTIIGILSTFGNGYVLYMSSRRKKKLRPAEIMTINLAVCDLGISVVGKPFTIISCFCHRWVFGWIGCRWYGWAGFFFGCGSLITMTAVSLDRYLKICYLSYGVWLKRKHAYICLAAIWAYASFWTTMPLVGLGDYVPEPFGTSCTLDWWLAQASVGGQVFILNILFFCLLLPTAVIVFSYVKIIAKVKSSSKEVAHFDSRIHSSHVLEMKLTKVAMLICAGFLIAWIPYAVVSVWSAFGRPDSIPIQLSVVPTLLAKSAAMYNPIIYQVIDYKFACCQTGGLKATKKKSLEGFRLHTVTTVRKSSAVLEIHEEWE
+MALNHTALPQDERLPHYLRDGDPFASKLSWEADLVAGFYLTIIGILSTFGNGYVLYMSSRRKKKLRPAEIMTINLAVCDLGISVVGKPFTIISCFCHRWVFGWIGCRWYGWAGFFFGCGSLITMTAVSLDRYLKICYLSYGVWLKRKHAYICLAAIWAYASFWTTMPLVGLGDYVPEPFGTSCTLDWWLAQASVGGQVFILNILFFCLLLPTAVIVFSYVKIIAKVKSSSKEVAHFDSRIHSSHVLEMKLTKVAMLICAGFLIAWIPYAVVSVWSAFGRPDSIPIQLSVVPTLLAKSAAMYNPIIYQVIDYKFACCQTGGLKATKKKSLEGFRLHTVTTVRKSSAVLEIHEEWE`
 
 So, in your newly discovered gene, can you find a single ORF that
 encodes the newly discovered protein? If so, then in which reading frame
