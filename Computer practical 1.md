@@ -14,21 +14,32 @@ of the approaches to analysing such data. We will continue to discuss this in th
 * It is based on a real published research study involving the sequencing of ancient DNA from remains of a man who lived about 4000 years ago (Rasmussen et al., 2010). 
 * You can access this simulation via the link on the Labster section of the BIO2092 ELE page: http://vle.exeter.ac.uk/course/view.php?id=4041#section-7
 
-<img src="labster.png" alt="alt text" width="250">
+<img src="labster.png" alt="Labster" width="250">
       
 ### Accessing the sequence data from study of a 4000-year-old man
 All the sequencing data from this study are available through the public repositories. Specifically, the raw sequence reads are available from either the Sequence Read Archive (SRA) in the USA or the European Sequence Archive (ENA) in Europe (Leinonen, Akhtar, et al., 2011; Leinonen, Sugawara, et al., 2011; Kodama et al., 2012; Silvester et al., 2018).
 
 Navigate to the research paper at https://www.ncbi.nlm.nih.gov/pubmed/?term=20148029 and try to find a hyperlink to the sequence data. Alternatively, if you look at the text of the paper in *Nature*, you will read that “Sequences have been deposited to the short read archive with accession number SRA010102”: 
 
-<img src="palaeo-eskimo-paper.JPG" alt="alt text" align='middle'>
+<img src="palaeo-eskimo-paper.JPG" alt="Pubmed entry for paper">
 
 If you follow the hyperlink or search the NCBI portal for this accession number, you will arrive a page like this, describing the data from this study that is held in the SRA:
 
-<img src="palaeo-eskimo-paper-sra.png" alt="alt text" width="500">
+<img src="palaeo-eskimo-paper-sra.png" alt="Sra entry" width="500">
 
 This is telling us that there are 59 datasets associated with this project. Click on the link to the Run Selector to explore these in a bit more detail:
 
-<img src="run-selector.png" alt="alt text" width="500">
+<img src="run-selector.png" alt="Run selector" width="500">
+
+# Note that sequence data are organised into BioProjects and each sequence dataset is linked to a BioSample.
+# In this case the project contains only one sample.
+# Click on the links to find out more about the BioProject and the BioSample and answer the questions below.
+
+Question    |     Answer
+----  |     ----
+* How many base-pairs of data, in total, were generated in this research project?     |
+* Which DNA sequencing method(s) did the researcher use?      |
+* What information can you find about the geographic location of the sample?    |	
+* From which tissue was the DNA extracted? |	
 
 
