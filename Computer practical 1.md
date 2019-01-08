@@ -25,8 +25,10 @@ Navigate to the research paper at https://www.ncbi.nlm.nih.gov/pubmed/?term=2014
 
 If you follow the hyperlink or search the NCBI portal for this accession number, you will arrive a page like this, describing the data from this study that is held in the SRA:
 
-<img src="palaeo-eskimo-paper-sra.png" alt="alt text" width="500" align='middle'>
+<img src="palaeo-eskimo-paper-sra.png" alt="alt text" width="500">
 
 This is telling us that there are 59 datasets associated with this project. Click on the link to the Run Selector to explore these in a bit more detail:
 
-<img src="run-selector.png" alt="alt text" width="500" align='middle'>
+<img src="run-selector.png" alt="alt text" width="500">
+
+
