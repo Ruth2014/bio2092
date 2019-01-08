@@ -14,12 +14,12 @@ of the approaches to analysing such data. We will continue to discuss this in th
 * It is based on a real published research study involving the sequencing of ancient DNA from remains of a man who lived about 4000 years ago (Rasmussen et al., 2010). 
 * You can access this simulation via the link on the Labster section of the BIO2092 ELE page: http://vle.exeter.ac.uk/course/view.php?id=4041#section-7
 
-<img src="labster.png" alt="alt text" width="250" align='bottom'>
+<img src="labster.png" alt="alt text" width="250">
       
 ### Accessing the sequence data from study of a 4000-year-old man
 All the sequencing data from this study are available through the public repositories. Specifically, the raw sequence reads are available from either the Sequence Read Archive (SRA) in the USA or the European Sequence Archive (ENA) in Europe (Leinonen, Akhtar, et al., 2011; Leinonen, Sugawara, et al., 2011; Kodama et al., 2012; Silvester et al., 2018).
 
-Navigate to the research paper at https://www.ncbi.nlm.nih.gov/pubmed/?term=20148029 and try to find a hyperlink to the sequence data. Alternatively, if you look at the text of the paper in *Nature*, you will read that “Sequences have been deposited to the short [sic] read archive with accession number SRA010102”. 
+Navigate to the research paper at https://www.ncbi.nlm.nih.gov/pubmed/?term=20148029 and try to find a hyperlink to the sequence data. Alternatively, if you look at the text of the paper in *Nature*, you will read that “Sequences have been deposited to the short read archive with accession number SRA010102”: 
 
 <img src="palaeo-eskimo-paper.JPG" alt="alt text" align='middle'>
 
@@ -29,3 +29,4 @@ If you follow the hyperlink or search the NCBI portal for this accession number,
 
 This is telling us that there are 59 datasets associated with this project. Click on the link to the Run Selector to explore these in a bit more detail:
 
+<img src="run-selector.png" alt="alt text" width="500" align='middle'>
