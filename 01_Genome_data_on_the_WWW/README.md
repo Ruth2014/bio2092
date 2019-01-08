@@ -1,6 +1,5 @@
 ![](./media/image1.gif)
-   
-# BIO2092 Computer Practical
+
 # Bioinformatics resources on the WWW
 
 ## Introduction
