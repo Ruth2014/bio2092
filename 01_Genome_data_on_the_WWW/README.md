@@ -1,14 +1,8 @@
-  ![](./media/image1.gif){width="1.6895833333333334in" height="0.6256944444444444in"}   ![](./media/image2.jpeg){width="0.9991797900262467in" height="0.5826126421697287in"}
-  ------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------
+![](./media/image1.gif)
+   
+# BIO2092 Computer Practical – Bioinformatics resources on the WWW
 
-BIO2092 Computer Practical – Bioinformatics resources on the WWW
-================================================================
-
-Tuesday 16^th^ January 2018
-===========================
-
-Introduction
-------------
+## Introduction
 
 A huge volume and range of biological data are available via the World
 Wide Web (WWW). In this course, we are mainly concerned with
@@ -24,11 +18,10 @@ sequence databases to make your novel discovery. You can work
 individually or in small groups, if you prefer. Try to answer the
 questions in the boxes below (but this is not assessed).
 
-The data
---------
+## The data
 
 A good place to access DNA sequence data is the NCBI Nucleotide database
-(<https://www.ncbi.nlm.nih.gov/nuccore/>). You can do simple (and quite
+(https://www.ncbi.nlm.nih.gov/nuccore/). You can do simple (and quite
 sophisticated) searches for sequence data here. But perhaps the most
 useful way to access sequence data is via a BLAST search. You should
 already be familiar with BLAST from previous modules.
@@ -38,10 +31,9 @@ similarity between sequences. The program compares nucleotide or protein
 sequences to sequence databases and calculates the statistical
 significance of matches. BLAST can be used to infer functional and
 evolutionary relationships between sequences as well as help identify
-members of gene families.” <https://blast.ncbi.nlm.nih.gov/Blast.cgi>
+members of gene families.” https://blast.ncbi.nlm.nih.gov/Blast.cgi
 
-Discover a previously unknown gene
-----------------------------------
+## Discover a previously unknown gene
 
 The data in this Nucleotide database include complete chromosomes,
 individual genes, expressed sequence tags (ESTs) and various other
@@ -55,8 +47,7 @@ for new genes. In fact there is a name for this: ‘bioprospecting’ (Lee
 and Lee, 2013; Kodzius and Gojobori, 2015; Ferrer *et al.*, 2016;
 Madhavan *et al.*, 2017; Roumpeka *et al.*, 2017).
 
-![](./media/image3.png){width="1.33333552055993in"
-height="1.33333552055993in"}
+![](./media/image3.png)
 
 A genome (or metagenome) sequence typically contains regions called
 genes that encode a protein (or a functional RNA), separated by
@@ -74,15 +65,14 @@ sequence from the public databases that has not already undergone
 extensive study and gene prediction. A good source of such sequences are
 the various metagenomics studies of microbiomes. Try searching for a
 suitable example at the NCBI Nucleotide web portal:
-<https://www.ncbi.nlm.nih.gov/nucleotide/>
+https://www.ncbi.nlm.nih.gov/nucleotide/
 
-![](./media/image4.png){width="5.826014873140857in"
-height="2.7362806211723534in"}
+![](./media/image4.png)
 
 You could simply search for ‘metagenome’ or something more specific like
 ‘coral metagenome’, ‘alkali sediment metagenome’; use your imagination!
 Rather than a metagenome, you could choose a not-yet annotated genome
-(e.g. <https://www.ncbi.nlm.nih.gov/nuccore/MKKS00000000.1/>). Then
+(e.g. https://www.ncbi.nlm.nih.gov/nuccore/MKKS00000000.1/). Then
 choose a specific DNA sequence from this metagenome/genome to work on,
 from among those returned by the search. You might need to use some
 trial and error to navigate around the NCBI website, clicking on a few
@@ -95,20 +85,20 @@ Do you know what a **metagenome** is? If not, then Google it and/or ask!
 See an example of a candidate DNA sequence for analysis in the image
 below.
 
-![](./media/image5.png){width="5.21917760279965in"
-height="2.7216262029746283in"}
+![](./media/image5.png)
 
 For the DNA sequence that you have chosen to study, can you find the
 following information?
 
-  Where did this DNA sample come from?                               
-  ------------------------------------------------------------------ --
-  What method was used to sequence the DNA?                          
-  Accession number                                                   
-  How long is this DNA sequence?                                     
-  Do we know what organism this DNA came from?                       
-  Are there any research papers associated with this DNA sequence?   
-  Who generated the data?                                            
+Question | Please write you answer in this space
+-------- | --------------------------------------
+Where did this DNA sample come from? |                                
+What method was used to sequence the DNA?   |                         
+Accession number |                                                    
+How long is this DNA sequence?  |                                    
+Do we know what organism this DNA came from?  |                      
+Are there any research papers associated with this DNA sequence?  |  
+Who generated the data?    |                                        
 
 Now, we are going to try to discover a new protein-coding gene on this
 DNA sequence. To do this, we will perform a BLAST search using your
@@ -116,11 +106,10 @@ chosen DNA sequence as the query against the databases of protein amino
 acid sequences at the NCBI. Remember, there are several flavours of
 BLAST (BLASTN, BLASTP, TBLASTN, BLASTX, TBLASTX); which one should you
 use and why? You can perform your BLAST search at
-<https://blast.ncbi.nlm.nih.gov/Blast.cgi> as in the example in the
+https://blast.ncbi.nlm.nih.gov/Blast.cgi as in the example in the
 image below.
 
-![](./media/image6.png){width="6.398834208223972in"
-height="3.303418635170604in"}
+![](./media/image6.png)
 
 Notice that for the query you can paste-in either the actual DNA
 sequence or just the accession number. When you are ready, hit the
@@ -138,13 +127,11 @@ the SwissProt database. Each of these regions is a candidate
 protein-coding gene. The chances are that these have not been studied,
 described or characterised previously.
 
-![](./media/image7.png){width="5.2149037620297465in"
-height="1.6862292213473316in"}
+![](./media/image7.png)
 
 Let’s choose one of these for further investigation:
 
-![](./media/image8.png){width="5.596848206474191in"
-height="2.111755249343832in"}
+![](./media/image8.png)
 
 We are now going to perform a series of steps in order to obtain the
 sequence of our newly discovered gene. Note that this gene sequence is a
@@ -159,31 +146,26 @@ option and we will use previously described protein P07323.2 as the
 query and metagenomic DNA sequence accession PDVJ01000001.1 as the
 ‘subject sequence’ against which we will search the query:
 
-![](./media/image9.png){width="4.7716896325459315in"
-height="2.467635608048994in"}
+![](./media/image9.png)
 
 The result of this example looks like this:
 
-![](./media/image10.png){width="6.4215277777777775in"
-height="3.3208333333333333in"}
+![](./media/image10.png)
 
 This clearly shows that about 85% of the query protein’s length has
 homology with the metagenomics DNA sequence. Now if we scroll down we
 can see the sequence alignment:
 
-![](./media/image11.png){width="5.066920384951881in"
-height="5.232950568678915in"}
+![](./media/image11.png)
 
 Note the “Download” icon (in the figure above). This allows us to obtain
 the sequence of our new gene:
 
-![](./media/image12.png){width="5.749625984251969in"
-height="1.904520997375328in"}
+![](./media/image12.png)
 
 Here is the resulting nucleotide sequence of our new gene:
 
-![](./media/image13.png){width="5.448864829396325in"
-height="3.7842104111986004in"}
+![](./media/image13.png)
 
 We can now try to gain insights into the structure, function and
 evolution of this gene by pasting its sequence, or the amino-acid
@@ -199,15 +181,17 @@ with the tools mentioned below, copying and pasting your new protein
 sequence. Discuss your findings with other students, the demonstrators
 and lecturer.
 
-  What is the predicted function? Does it have any significance in pathogenesis, biotechnology, fundamental biological processes? Hint: PubMed database might be helpful.   
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --
-  Can we predict the structure of the protein?                                                                                                                              
-  Does it contain any structural domains?                                                                                                                                   
-  Is the gene part of an operon or cluster of functionally related genes?                                                                                                   
-  Do homologues occur in only closely related organisms or do they occur more widely across all domains of life?                                                            
-  Can you generate a multiple sequence alignment for your protein and its homologues?                                                                                       
-  From the alignment, can you build a phylogenetic tree?                                                                                                                    
-  What organism (taxonomic group) does your protein come from? The phylogenetic tree might help you to answer this.                                                         
+Question | Please write you answer in this space
+-------- | --------------------------------------
+  What is the predicted function? |
+  Does it have any significance in pathogenesis, biotechnology, fundamental biological processes? Hint: PubMed database might be helpful. | 
+  Can we predict the structure of the protein?  |                                                                                                                            
+  Does it contain any structural domains?  |                                                                                                                                 
+  Is the gene part of an operon or cluster of functionally related genes?  |                                                                                                 
+  Do homologues occur in only closely related organisms or do they occur more widely across all domains of life?  |                                                          
+  Can you generate a multiple sequence alignment for your protein and its homologues?    |                                                                                   
+  From the alignment, can you build a phylogenetic tree?   |                                                                                                                 
+  What organism (taxonomic group) does your protein come from? The phylogenetic tree might help you to answer this.  |                                                       
 
 Suggested online analysis tools (additional information about some of
 these is provided below):
@@ -218,8 +202,8 @@ these is provided below):
   Pfam                                             <http://pfam.xfam.org/>
   Find open reading frames in your gene sequence   <http://www.ncbi.nlm.nih.gov/gorf/gorf.html>
 
-Generating an alignment and phylogenetic tree
----------------------------------------------
+## Generating an alignment and phylogenetic tree
+
 
 Please see the following series of screenshots illustrating how to use
 BLAST to gather homologues of our query sequence, align them and
