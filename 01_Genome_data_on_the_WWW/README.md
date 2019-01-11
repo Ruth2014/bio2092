@@ -26,12 +26,13 @@ sophisticated) searches for sequence data here. But perhaps the most
 useful way to access sequence data is via a BLAST search. You should
 already be familiar with BLAST from previous modules.
 
-“The Basic Local Alignment Search Tool (BLAST) finds regions of local
-similarity between sequences. The program compares nucleotide or protein
-sequences to sequence databases and calculates the statistical
-significance of matches. BLAST can be used to infer functional and
-evolutionary relationships between sequences as well as help identify
-members of gene families.” https://blast.ncbi.nlm.nih.gov/Blast.cgi
+> “The Basic Local Alignment Search Tool (BLAST) finds regions of local
+> similarity between sequences. The program compares nucleotide or protein
+> sequences to sequence databases and calculates the statistical
+> significance of matches. BLAST can be used to infer functional and
+> evolutionary relationships between sequences as well as help identify
+>members of gene families.”
+https://blast.ncbi.nlm.nih.gov/Blast.cgi
 
 ## Discover a previously unknown gene
 
