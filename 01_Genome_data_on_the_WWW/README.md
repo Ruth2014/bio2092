@@ -343,9 +343,11 @@ data. Take a look at this paper. It didn’t require any expensive
 equipment or specialised laboratory, just a computer with an internet
 connection.
 
+:+1:
+
 Well done! You have reached the end. If you still have time, then you
 may wish to search for and discover another new gene. You are very much
 encouraged to speak to the lecturer about your findings during this
 session.
 
-:+1:
+
