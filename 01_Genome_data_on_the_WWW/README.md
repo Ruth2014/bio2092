@@ -45,9 +45,10 @@ of human chromosomes. However, many DNA sequences in the database have
 hardly been studied at all and present an opportunity for us to discover
 something new. Examples include some microbial genome sequences and a
 wealth of metagenomics sequences. These are a good place to go ‘fishing’
-for new genes. In fact there is a name for this: ‘bioprospecting’ (Lee
-and Lee, 2013; Kodzius and Gojobori, 2015; Ferrer *et al.*, 2016;
-Madhavan *et al.*, 2017; Roumpeka *et al.*, 2017).
+for new genes. In fact there is a name for this: ‘bioprospecting’
+(https://www.ncbi.nlm.nih.gov/pubmed/24124406,
+https://www.ncbi.nlm.nih.gov/pubmed/26204808, 
+https://www.ncbi.nlm.nih.gov/pubmed/28815469)
 
 ![](./media/image3.png)
 
@@ -84,8 +85,15 @@ pages.
 
 Do you know what a **metagenome** is? If not, then Google it and/or ask!
 
+
+Alternatively, rather than using a metagenome, you could go fishing for a new gene by examining an unannotated genome sequence. Here are some examples:
+https://www.ncbi.nlm.nih.gov/nuccore?LinkName=biosample_nuccore&from_uid=6011375
+https://www.ncbi.nlm.nih.gov/nuccore?LinkName=assembly_nuccore_insdc&from_uid=560381
+https://www.ncbi.nlm.nih.gov/nuccore?LinkName=assembly_nuccore_insdc&from_uid=561621
+
+
 See an example of a candidate DNA sequence for analysis in the image
-below.
+below:
 
 ![](./media/image5.png)
 
@@ -113,18 +121,18 @@ image below.
 
 ![](./media/image6.png)
 
-Notice that for the query you can paste-in either the actual DNA
+Notice that for the query you can insert either the actual DNA
 sequence or just the accession number. When you are ready, hit the
 “BLAST” button and wait for the results. By the way, if your patience is
-limited, you might wish to search against the Swiss-Prot (Boeckmann *et
-al.*, 2003) database rather than the nr (NCBI Resource Coordinators,
-2018) database because searching this smaller database will be a bit
+limited, you might wish to search against the [Swiss-Prot](https://www.ncbi.nlm.nih.gov/pubmed/8594581)
+database rather than the default database because searching this smaller database will be a bit
 quicker than searching the much larger one. On the other hand, searching
 against the smaller, less-comprehensive database might yield less
 information. So, you could try both simultaneously.
 
 In the example BLAST result below, we can see four regions of the DNA
-sequence that show clear homology with previously described proteins in
+sequence that show clear [homology](https://www.ncbi.nlm.nih.gov/pubmed/3621342)
+with previously described proteins in
 the SwissProt database. Each of these regions is a candidate
 protein-coding gene. The chances are that these have not been studied,
 described or characterised previously.
@@ -237,13 +245,13 @@ query sequence against the BLASTP hits:
 
 ![](./media/image17.png)
 
-## Predicting protein function with the STRING database: http://string.embl.de/
-
+## Predicting protein function with the STRING database (http://string.embl.de/)
 
 Many microbial genomics databases are available that, rather than just
 presenting raw data, have some “added value”, such as tools for
-predicting the function of genes. One such example is the STRING
-database (Szklarczyk *et al.*, 2015). This database aims to provide
+predicting the function of genes. One such example is the [STRING
+database](https://www.ncbi.nlm.nih.gov/pubmed/25352553).
+This database aims to provide
 clues about the functions of poorly characterised genes by identifying
 associations with genes of better-understood function. These
 associations can be physical proximity of genes in the genome or they
@@ -304,7 +312,7 @@ An ORF is a continuous stretch of DNA beginning with a start codon
 usually methionine (ATG) and ending with a stop codon (TAA, TAG or TGA
 in most genomes).
 
-For this task, you will use the NCBI ORF Finder at http://www.ncbi.nlm.nih.gov/gorf/gorf.html"
+For this task, you will use the NCBI ORF Finder at http://www.ncbi.nlm.nih.gov/gorf/gorf.html
 
 ![](./media/image24.png)
 
@@ -328,8 +336,8 @@ here)
 By now, I hope that you are now convinced that it is possible to make
 new discoveries in biology fairly easily by exploring freely available
 database. This can lead to insights that are worthy of publication.
-Attached at the end of this document is an example of a research paper
-(Studholme and Pau, 2003) that is based entirely on a systematic, yet
+As an example, [here is a research paper](https://www.ncbi.nlm.nih.gov/pubmed/14641908) 
+that is based entirely on a systematic, yet
 quite simple, analysis of publicly available DNA and protein sequence
 data. Take a look at this paper. It didn’t require any expensive
 equipment or specialised laboratory, just a computer with an internet
@@ -340,47 +348,4 @@ may wish to search for and discover another new gene. You are very much
 encouraged to speak to the lecturer about your findings during this
 session.
 
-References
-----------
-
-Boeckmann, B., Bairoch, A., Apweiler, R., Blatter, M.-C., Estreicher,
-A., Gasteiger, E., et al. (2003) The SWISS-PROT protein knowledgebase
-and its supplement TrEMBL in 2003. *Nucleic Acids Res.* **31**: 365–70.
-
-Ferrer, M., Martínez-Martínez, M., Bargiela, R., Streit, W.R.,
-Golyshina, O. V., and Golyshin, P.N. (2016) Estimating the success of
-enzyme bioprospecting through metagenomics: current status and future
-trends. *Microb. Biotechnol.* **9**: 22–34.
-
-Kodzius, R. and Gojobori, T. (2015) Marine metagenomics as a source for
-bioprospecting. *Mar. Genomics* **24**: 21–30.
-
-Lee, M.H. and Lee, S.-W. (2013) Bioprospecting Potential of the Soil
-Metagenome: Novel Enzymes and Bioactivities. *Genomics Inform.* **11**:
-114.
-
-Madhavan, A., Sindhu, R., Parameswaran, B., Sukumaran, R.K., and Pandey,
-A. (2017) Metagenome Analysis: a Powerful Tool for Enzyme
-Bioprospecting. *Appl. Biochem. Biotechnol.* **183**: 636–651.
-
-NCBI Resource Coordinators (2018) Database resources of the National
-Center for Biotechnology Information. *Nucleic Acids Res.* **46**:
-D8–D13.
-
-Roumpeka, D.D., Wallace, R.J., Escalettes, F., Fotheringham, I., and
-Watson, M. (2017) A Review of Bioinformatics Tools for Bio-Prospecting
-from Metagenomic Sequence Data. *Front. Genet.* **8**: 23.
-
-Strong, M., Cascio, D., and Eisenberg, D. (2004) A Web-Based Comparative
-Genomics Tutorial for Investigating Microbial Genomes. *Microbiol.
-Educ.* **5**: 30–35.
-
-Studholme, D.J. and Pau, R.N. (2003) A DNA element recognised by the
-molybdenum-responsive transcription factor ModE is conserved in
-Proteobacteria, green sulphur bacteria and Archaea. *BMC Microbiol.*
-**3**: 1–10.
-
-Szklarczyk, D., Franceschini, A., Wyder, S., Forslund, K., Heller, D.,
-Huerta-Cepas, J., et al. (2015) STRING v10: protein-protein interaction
-networks, integrated over the tree of life. *Nucleic Acids Res.* **43**:
-D447–D452.
+:camel
