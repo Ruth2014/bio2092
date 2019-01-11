@@ -348,4 +348,4 @@ may wish to search for and discover another new gene. You are very much
 encouraged to speak to the lecturer about your findings during this
 session.
 
-:camel:
+:thumbs up:
