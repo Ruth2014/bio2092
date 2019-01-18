@@ -52,7 +52,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/28815469)
 
 ![](./media/image3.png)
 
-A genome (or metagenome) sequence typically contains regions called
+A genome (or metagenome) sequence typically contains segments called
 genes that encode a protein (or a functional RNA), separated by
 intergenic regions. Generally, the genes evolve relatively slowly, so
 they will share sequence similarity with genes from other organisms,
@@ -114,7 +114,13 @@ Who generated the data?    |
 
 Now, we are going to try to discover a new protein-coding gene on this
 DNA sequence. In other words, we are going to *annotate* the naked DNA sequence
-with the positions of a gene.
+with the positions of a gene. The underlying principle is that the protein encoded by this gene
+shares some sequence similarity with already-known proteins. So we are going to search for patches
+of sequence similarity between our naked DNA sequence and a database of amino-acid sequences from
+known proteins.
+
+![cartoon of undiscovered gene](media/gene_discovery.JPG)
+
 
 To acheive this, we will perform a BLAST search using your
 chosen DNA sequence as the query against the databases of protein amino
