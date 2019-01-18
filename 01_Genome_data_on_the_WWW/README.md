@@ -91,7 +91,6 @@ Do you know what a **metagenome** is? If not, then Google it and/or ask!
 Alternatively, rather than using a metagenome, you could go fishing for a new gene by examining an unannotated genome sequence. Here are some examples:
 https://www.ncbi.nlm.nih.gov/nuccore?LinkName=biosample_nuccore&from_uid=6011375
 https://www.ncbi.nlm.nih.gov/nuccore?LinkName=assembly_nuccore_insdc&from_uid=560381
-https://www.ncbi.nlm.nih.gov/nuccore?LinkName=assembly_nuccore_insdc&from_uid=561621
 
 
 See an example of a candidate DNA sequence for analysis in the image
@@ -102,7 +101,7 @@ below:
 For the DNA sequence that you have chosen to study, can you find the
 following information?
 
-Question | Please write you answer in this space
+Question | Please write you answer in this space (it may be useful for your coursework)
 -------- | --------------------------------------
 Where did this DNA sample come from? |                                
 What method was used to sequence the DNA?   |                         
@@ -203,7 +202,7 @@ with the tools mentioned below, copying and pasting your new protein
 sequence. Discuss your findings with other students, the demonstrators
 and lecturer.
 
-Question | Please write you answer in this space
+Question | Please write you answer in this space  (it may be useful for your coursework)
 -------- | --------------------------------------
   What is the predicted function? |
   Does it have any significance in pathogenesis, biotechnology, fundamental biological processes? Hint: PubMed database might be helpful. | 
