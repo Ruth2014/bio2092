@@ -23,7 +23,7 @@ questions in the boxes below (but this is not assessed).
 A good place to access DNA sequence data is the NCBI Nucleotide database
 (https://www.ncbi.nlm.nih.gov/nuccore/). You can do simple (and quite
 sophisticated) searches for sequence data here. But perhaps the most
-useful way to access sequence data is via a BLAST search. You should
+useful way to access sequence data is via a BLAST search. You might
 already be familiar with BLAST from previous modules.
 
 > “The Basic Local Alignment Search Tool (BLAST) finds regions of local
