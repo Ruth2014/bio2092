@@ -353,13 +353,14 @@ here)
 
 By now, I hope that you are now convinced that it is possible to make
 new discoveries in biology fairly easily by exploring freely available
-database. This can lead to insights that are worthy of publication.
+data and using freely available analysis tools.
+This can lead to insights that are worthy of publication in a quality peer reviewed scientific journal.
 As an example, [here is a research paper](https://www.ncbi.nlm.nih.gov/pubmed/14641908) 
 that is based entirely on a systematic, yet
 quite simple, analysis of publicly available DNA and protein sequence
-data. Take a look at this paper. It didn’t require any expensive
+data.  It didn’t require any expensive
 equipment or specialised laboratory, just a computer with an internet
-connection.
+connection!
 
 :+1:
 
