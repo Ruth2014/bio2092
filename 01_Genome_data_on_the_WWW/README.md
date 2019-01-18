@@ -75,8 +75,10 @@ https://www.ncbi.nlm.nih.gov/nucleotide/
 You could simply search for ‘metagenome’ or something more specific like
 ‘coral metagenome’, ‘alkali sediment metagenome’; use your imagination!
 Rather than a metagenome, you could choose a not-yet annotated genome
-(e.g. https://www.ncbi.nlm.nih.gov/nuccore/MKKS00000000.1/). Then
-choose a specific DNA sequence from this metagenome/genome to work on,
+(e.g. https://www.ncbi.nlm.nih.gov/nuccore/MKKS00000000.1/). 
+This would be a good idea, as analysis of this genome fits well with subsequent Computer Practical sessions
+and the coursework assignment.
+Then choose a specific DNA sequence from this metagenome/genome to work on,
 from among those returned by the search. You might need to use some
 trial and error to navigate around the NCBI website, clicking on a few
 links before you get to a specific sequence. Do spend some time trying
@@ -111,11 +113,15 @@ Are there any research papers associated with this DNA sequence?  |
 Who generated the data?    |                                        
 
 Now, we are going to try to discover a new protein-coding gene on this
-DNA sequence. To do this, we will perform a BLAST search using your
+DNA sequence. In other words, we are going to *annotate* the naked DNA sequence
+with the positions of a gene.
+
+To acheive this, we will perform a BLAST search using your
 chosen DNA sequence as the query against the databases of protein amino
 acid sequences at the NCBI. Remember, there are several flavours of
 BLAST (BLASTN, BLASTP, TBLASTN, BLASTX, TBLASTX); which one should you
-use and why? You can perform your BLAST search at
+use and why? (Clue: BLASTX takes a DNA query sequence and searches against a database of proteins).
+You can perform your BLAST search at
 https://blast.ncbi.nlm.nih.gov/Blast.cgi as in the example in the
 image below.
 
@@ -128,7 +134,7 @@ limited, you might wish to search against the [Swiss-Prot](https://www.ncbi.nlm.
 database rather than the default database because searching this smaller database will be a bit
 quicker than searching the much larger one. On the other hand, searching
 against the smaller, less-comprehensive database might yield less
-information. So, you could try both simultaneously.
+information. So, you could try both simultaneously (in different tabs in your browser).
 
 In the example BLAST result below, we can see four regions of the DNA
 sequence that show clear [homology](https://www.ncbi.nlm.nih.gov/pubmed/3621342)
