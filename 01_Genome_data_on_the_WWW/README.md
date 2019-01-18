@@ -74,10 +74,6 @@ https://www.ncbi.nlm.nih.gov/nucleotide/
 
 You could simply search for ‘metagenome’ or something more specific like
 ‘coral metagenome’, ‘alkali sediment metagenome’; use your imagination!
-Rather than a metagenome, you could choose a not-yet annotated genome
-(e.g. https://www.ncbi.nlm.nih.gov/nuccore/MKKS00000000.1/). 
-This would be a good idea, as analysis of this genome fits well with subsequent Computer Practical sessions
-and the coursework assignment.
 Then choose a specific DNA sequence from this metagenome/genome to work on,
 from among those returned by the search. You might need to use some
 trial and error to navigate around the NCBI website, clicking on a few
@@ -87,16 +83,20 @@ pages.
 
 Do you know what a **metagenome** is? If not, then Google it and/or ask!
 
-
-Alternatively, rather than using a metagenome, you could go fishing for a new gene by examining an unannotated genome sequence. Here are some examples:
-https://www.ncbi.nlm.nih.gov/nuccore?LinkName=biosample_nuccore&from_uid=6011375
-https://www.ncbi.nlm.nih.gov/nuccore?LinkName=assembly_nuccore_insdc&from_uid=560381
-
-
 See an example of a candidate DNA sequence for analysis in the image
 below:
 
 ![](./media/image5.png)
+
+*I recommend that you work through this using the illustrated example before choosing your own sequence.*
+
+The example used in the remainder of this document comes from a metagenome. However, instead you could use an unanotated genome. 
+This would be a good idea; analysis of an unannonated microbial genome fits well with subsequent Computer Practical sessions
+and the coursework assignment. 
+Here are some good examples that you could use:
+https://www.ncbi.nlm.nih.gov/nuccore?LinkName=biosample_nuccore&from_uid=6011375
+https://www.ncbi.nlm.nih.gov/nuccore?LinkName=assembly_nuccore_insdc&from_uid=560381
+Choose one specific sequence from among the sets of sequences included in these genomes.
 
 For the DNA sequence that you have chosen to study, can you find the
 following information?
@@ -142,11 +142,10 @@ against the smaller, less-comprehensive database might yield less
 information. So, you could try both simultaneously (in different tabs in your browser).
 
 In the example BLAST result below, we can see four regions of the DNA
-sequence that show clear [homology](https://www.ncbi.nlm.nih.gov/pubmed/3621342)
-with previously described proteins in
-the SwissProt database. Each of these regions is a candidate
-protein-coding gene. The chances are that these have not been studied,
-described or characterised previously.
+sequence that show clear similarity. This strongly suggests there is homology [homology](https://www.ncbi.nlm.nih.gov/pubmed/3621342)
+between the product of our query sequence and 
+previously described proteins in
+the SwissProt database. Since these previously-known proteins are homologous to our query protein, it is likely that they share similar structure and function.
 
 ![](./media/image7.png)
 
@@ -154,15 +153,17 @@ Let’s choose one of these for further investigation:
 
 ![](./media/image8.png)
 
-We are now going to perform a series of steps in order to obtain the
+We are now going to perform a series of steps in order to extract the DNA
 sequence of our newly discovered gene. Note that this gene sequence is a
 substring of the original DNA sequence that we started with. In the
 example above, our gene lies around positions 76,476 and 77,696 in the
-original 188,848-bp sequence.
+original 188,848-bp sequence. We could try to manually copy and paste this substring
+onto the clipboard. However, the steps below are probably easier and less error-prone.
 
 In the example above, we know that protein accession P07323.2 is
 homologous with our new gene. So, let’s use TBLASTN to get the sequence
-of our new gene. This time we will use the “Align two or more sequences”
+of our new gene by aligning the protein against the DNA sequence.
+This time we will use the “Align two or more sequences”
 option and we will use previously described protein P07323.2 as the
 query and metagenomic DNA sequence accession PDVJ01000001.1 as the
 ‘subject sequence’ against which we will search the query:
@@ -174,7 +175,7 @@ The result of this example looks like this:
 ![](./media/image10.png)
 
 This clearly shows that about 85% of the query protein’s length has
-homology with the metagenomics DNA sequence. Now if we scroll down we
+detectable sequence similarity with the metagenomics DNA sequence. Now if we scroll down we
 can see the sequence alignment:
 
 ![](./media/image11.png)
@@ -188,6 +189,10 @@ Here is the resulting nucleotide sequence of our new gene:
 
 ![](./media/image13.png)
 
+Notice that this contains just the sequence of the actual gene and we have discarded the non-coding DNA sequence 
+from usptream and downstream of the gene. We can now perform analyses on this gene without confusing or confounding
+results arising from the up- and downstream flanking sequences.
+
 We can now try to gain insights into the structure, function and
 evolution of this gene by pasting its sequence, or the amino-acid
 sequence of its encoded protein, into various publicly available
@@ -197,9 +202,10 @@ Once you have extracted the sequence of the gene that you have
 discovered, try to answer the following questions about it. Some hints
 are given below about online tools that you could use to address these
 questions. BLAST searches will help to answer many of these. The most
-useful thing to do first is to translate from DNA to protein. Experiment
+useful thing to do first is to *translate from DNA to protein*. Experiment
 with the tools mentioned below, copying and pasting your new protein
-sequence. Discuss your findings with other students, the demonstrators
+sequence. They are all reasonably easy to use; but please ask for help if you get stuck.
+Discuss your findings with other students, the demonstrators
 and lecturer.
 
 Question | Please write you answer in this space  (it may be useful for your coursework)
@@ -225,10 +231,11 @@ Suggested tool | Web address
   Find open reading frames in your gene sequence |  http://www.ncbi.nlm.nih.gov/gorf/gorf.html
 
 
-## Generating an alignment and phylogenetic tree
+## Generating a sequence alignment and phylogenetic tree
+Placing a novel protein/gene into a phylogenetic tree can reveal insights into its evolutionary origins and possibly its function.
 Please see the following series of screenshots illustrating how to use
 BLAST to gather homologues of our query sequence, align them and
-generate a rough phylogenetic tree.
+generate a phylogenetic tree.
 
 Here is the BLASTP search form:
 
