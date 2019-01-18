@@ -119,7 +119,7 @@ shares some sequence similarity with already-known proteins. So we are going to 
 of sequence similarity between our naked DNA sequence and a database of amino-acid sequences from
 known proteins.
 
-![cartoon of undiscovered gene](media/gene_discovery.JPG)
+![cartoon of undiscovered gene](media/gene_discovery.PNG)
 
 
 To acheive this, we will perform a BLAST search using your
