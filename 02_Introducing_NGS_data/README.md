@@ -21,16 +21,14 @@ lectures.
  
  ![](./media/image3.png)
                                                                                                                                             It is based on a real published research study involving the sequencing of ancient DNA from remains of a man who lived about 4000 years ago (Rasmussen *et al.*, 2010).   
-                                                                                                                                           You can access this simulation via the link on the Labster section of the BIO2092 ELE page: http://vle.exeter.ac.uk/course/view.php?id=4041#section-7                  
-                                                                                                                                                                                
+                                                                                                                                           You can access this simulation via the link on the Labster section of the BIO2092 ELE page: https://vle.exeter.ac.uk/mod/lti/view.php?id=684279
+                                                                                                                                           
 ## Accessing the sequence data from study of a 4000-year-old man
 
 All the sequencing data from this study are available through the public
 repositories. Specifically, the raw sequence reads are available from
 either the Sequence Read Archive (SRA) in the USA or the European
-Sequence Archive (ENA) in Europe (Leinonen, Akhtar, *et al.*, 2011;
-Leinonen, Sugawara, *et al.*, 2011; Kodama *et al.*, 2012; Silvester *et
-al.*, 2018).
+Sequence Archive (ENA) in Europe.
 
 Navigate to the research paper at <https://www.ncbi.nlm.nih.gov/pubmed/?term=20148029> and try to find a hyperlink to the sequence data. Alternatively, if you look at the text of the paper in *Nature*, you will read that “Sequences have been deposited to the short read archive with accession number SRA010102”.   
 
@@ -48,27 +46,23 @@ project. Click on the link to the Run Selector to explore these in a bit
 more detail:
 
   
-  -   Note that sequence data are organised into BioProjects and each sequence dataset is linked to a BioSample.   
-  ![](./media/image6.png)
-                                                                                                                   
-  -   In this case the project contains only one sample.                                                           
-                                                                                                                   
-  -   Click on the links to find out more about the BioProject and the BioSample and answer the questions below.   
+Note that sequence data are organised into BioProjects and each sequence dataset is linked to a BioSample.   
+![](./media/image6.png) 
+In this case the project contains only one sample.  
+Click on the links to find out more about the BioProject and the BioSample and answer the questions below.   
                                                                                                                    
                                                                                                                    
-  ---------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+  --------------------------------------------------------------------------------  --
   How many base-pairs of data, in total, were generated in this research project?   
   --------------------------------------------------------------------------------- --
   Which DNA sequencing method(s) did the researcher use?                            
   What information can you find about the geographic location of the sample?        
   From which tissue was the DNA extracted?                                          
-
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------- --
   Now we are going to take a look at the actual sequence data. Within a sequencing project, the sequencing data are organised into “**experiments**” and “**runs**”. One study can contain multiple experiments and one experiment can contain multiple runs. A “run” essentially means one set of data, generated by running the sequencing machine once. However, in practice, we often sequence several different samples simultaneously (to keep costs down). For example, we could run 8 separate samples on a single Illumina HiSeq flowcell, such that each sample occupies only one of the 8 available lanes.   
   
-  ![An Illumina flowcell, with 8 lanes](./media/image7.tiff)
+ ![An Illumina flowcell, with 8 lanes](./media/image7.tiff)
+  
 
 This diagram might be helpful for understanding how BioProjects, BioSamples, experiments and runs are related to each other.  
 ![](./media/image8.tiff)
@@ -76,7 +70,7 @@ It comes from the DDBJ Sequence Read Archive Handbook (<http://trace.ddbj.nig.ac
 a “run”:
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image9.png){width="1.539501312335958in" height="1.354701443569554in"}   ![](./media/image10.png){width="1.3260772090988626in" height="1.3888888888888888in"}   ![](./media/image11.png){width="1.5118624234470692in" height="1.3931627296587927in"}
+  ![](./media/image9.png)  ![](./media/image10.png)  ![](./media/image11.png)
                                                                                                                                                                              
                                                                                       Experiment                                                                             Run
   ----------------------------------------------------------------------------------- -------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------
