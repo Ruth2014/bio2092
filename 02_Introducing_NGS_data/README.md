@@ -144,12 +144,8 @@ Alternatively, we can go directly to the relevant BioProject via this link: <htt
 One advantage of EBI’s webpages is that it allows us to directly download whole sets of reads from their site,
 rather than having to use special software like the NCBI's SRA Toolkit.        
                                                                                                                                      
-                                                                                                                                     
-
+                                                                                                                                    
 Download one of the sequence files. Choose the option of “FASTQ files (FTP)”.
-
-![](./media/image15.png)
-
 Once you have downloaded your FastQ file, you will need to unzip it using something like WinZip.                               
 
 ## FastQ file format
@@ -169,24 +165,17 @@ The FastQ format looks like this:
 ![](./media/image16.png)
 
 Can you think of any advantage of representing the quality scores in this manner rather than what we saw on the NCBI website?
-  -------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
 
-Can you write the quality scores for each base in the following sequence
-read?
+Can you write the quality scores for each base in the following sequence read?
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  FastQ                                                          @SRR1515238.1 HISEQ:317:C43Y2ACXX:6:1101:1634:2111/1
-                                                                 
-                                                                 NTGATCTGGCGGCGGCAGCTCATACTCCAGGGCGGCATGTCGGTGCTGTTGGCAGCCTGGCAGATGCCGCATTCGCTGCGCTGGGAGTGGGAAGCCATCG
-                                                                 
-                                                                 +
-                                                                 
-                                                                 \#1=DDDDDDDDDDII0;ADEIIIIDDDDDDDDD@?:-6&lt;AA?::?:AAAAA?&gt;&gt;?&lt;????????AAAA???&gt;;&gt;A?&gt;???????????????A????AA?
-  -------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------
-  Quality scores                                                 
+```@SRR1515238.1 HISEQ:317:C43Y2ACXX:6:1101:1634:2111/1
+NTGATCTGGCGGCGGCAGCTCATACTCCAGGGCGGCATGTCGGTGCTGTTGGCAGCCTGGCAGATGCCGCATTCGCTGCGCTGGGAGTGGGAAGCCATCG
++
+\#1=DDDDDDDDDDII0;ADEIIIIDDDDDDDDD@?:-6&lt;AA?::?:AAAAA?&gt;&gt;?&lt;????????AAAA???&gt;;&gt;A?&gt;???????????????A????AA?
+```                                              
 
-  Which encoding was used? See paper at back of this document.   
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Which encoding was used? See paper at back of this document.   
+
 
 Here is a summary of the ASCII code, which you will need to decode the
 quality scores:
