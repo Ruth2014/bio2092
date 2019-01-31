@@ -168,10 +168,10 @@ Can you think of any advantage of representing the quality scores in this manner
 
 Can you write the quality scores for each base in the following sequence read?
 
-```@SRR1515238.1 HISEQ:317:C43Y2ACXX:6:1101:1634:2111/1
-NTGATCTGGCGGCGGCAGCTCATACTCCAGGGCGGCATGTCGGTGCTGTTGGCAGCCTGGCAGATGCCGCATTCGCTGCGCTGGGAGTGGGAAGCCATCG
+```@HISEQ:326:C4DKDACXX:1:1101:1729:2243 1:N:0:GTGGCC
+GTGCTCACCGCCCCGGATGCCTTCGCCCAGGTCAGGGACGCCCTGGCCGC
 +
-\#1=DDDDDDDDDDII0;ADEIIIIDDDDDDDDD@?:-6&lt;AA?::?:AAAAA?&gt;&gt;?&lt;????????AAAA???&gt;;&gt;A?&gt;???????????????A????AA?
+CBCFFFFFHHHHHJIJJJJJJFEIIJIJJJICHIJJJJJJHHFFFDEEDD
 ```                                              
 
 Which encoding was used? See paper at back of this document.   
