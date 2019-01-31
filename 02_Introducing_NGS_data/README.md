@@ -166,7 +166,7 @@ The FastQ format looks like this:
 
 Can you think of any advantage of representing the quality scores in this manner rather than what we saw on the NCBI website?
 
-Can you write the quality scores for each base in the following sequence read? You will need to use the [ASCII code](https://www.ascii-code.com/) to decode the symbols. Recall from the lectures that there is an offset of 
+Can you write the quality scores for each base in the following sequence read? You will need to use the [ASCII code](https://www.ascii-code.com/) to decode the symbols. Recall from [Lecture 3](https://vle.exeter.ac.uk/mod/resource/view.php?id=850462) that there is an offset of 33.
 
 ```@HISEQ:326:C4DKDACXX:1:1101:1729:2243 1:N:0:GTGGCC
 GTGCTCACCGCCCCGGATGCCTTCGCCCAGGTCAGGGACGCCCTGGCCGC
@@ -179,20 +179,7 @@ Sequence |G|T|G|C|T|C|A|C|C|G|C|C|C|C|G|G|A|T|G|C|C|T|T|C|G|C|C|C|A|G|G|T|C|A|G|
  Score |  |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   
    
 
-Which encoding was used? See paper at back of this document.   
-
-
-
-![](./media/image17.tiff)
-
-You can check your answer here:
-<https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR1515238>
-
-Remember to check the “quality scores” tickbox.
-
-Assessing the quality of sequence data (in FastQ format)
---------------------------------------------------------
-
+## Assessing the quality of sequence data (in FastQ format)
 You now know how to manually extract the quality scores for the base at
 each position in a sequence read and hence make some judgement about the
 reliability of the data. However, clearly this would not be a feasible
@@ -206,20 +193,17 @@ below. You can find out more about FastQC at its website
 
 ### Launching the FastQC software in Windows:
 
-![](./media/image18.png){width="2.325300743657043in"
-height="2.3921905074365704in"}
-![](./media/image19.png){width="3.2168667979002623in"
-height="2.412650918635171in"}
+![](./media/image18.png)
+
+![](./media/image19.png)
 
 ### Opening a FastQ file in the FastQC software:
 
-![](./media/image20.png){width="4.1636920384951885in"
-height="2.3418799212598427in"}
+![](./media/image20.png)
 
 ### Now wait a minute while the FastQC software analyses the FastQ file:
 
-![](./media/image21.png){width="3.0143536745406823in"
-height="2.2606846019247593in"}
+![](./media/image21.png)
 
 The FastQC program performs a number of tests which determines whether a
 green tick (pass), exclamation mark (warning) or red cross (fail) is
@@ -236,17 +220,12 @@ Now let’s take a tour through the more important information provided by
 FastQC about our sequence dataset.
 
 ### Quality scores
-
-This is one of the most important metrics. If the quality scores are
-poor, either the wrong FastQ encoding (Cock *et al.*, 2010) has been
-guessed by FastQC (see the title of the chart), or the data itself is
-poor quality. This view shows an overview of the range of quality values
+This view shows an overview of the range of quality values
 across all bases at each position in the FASTQ file. Generally anything
 with a median quality score greater than Q20 is regarded as acceptable;
 anything above Q30 is regarded as 'good'.
 
-![](./media/image22.png){width="3.2387674978127734in"
-height="2.256410761154856in"}
+![](./media/image22.png)
 
 In this case this check is red - and it is true that the quality drops
 off at the end of the reads. It is normal for read quality to get worse
@@ -255,14 +234,16 @@ is still very good. We could simply trim the sequence reads down to 250
 bp to eliminate most of the poor-quality data.
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Note that what we are looking at “box and whiskers” plots of the quality scores at each position.   ![](./media/image23.tiff){width="2.538461286089239in" height="0.9949278215223097in"}
+  Note that what we are looking at “box and whiskers” plots of the quality scores at each position.
+  
+  ![](./media/image23.tiff)
                                                                                                       
                                                                                                       <http://www.bbc.co.uk/schools/gcsebitesize/maths/statistics/representingdata3hirev6.shtml>
-  --------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                      
+                                                                                                      
+
 
 ### Per-tile sequence quality
-
 This is a purely technical view on the sequencing run, it is more
 important for the team running the sequencer. The sequencing flowcell is
 divided up into areas called cells. You can see that the read quality
@@ -270,11 +251,9 @@ drops off in some cells faster than others. This maybe because of the
 way the sample flowed over the flowcell or a mark or smear on the lens
 of the optics.
 
-![](./media/image24.png){width="3.3483584864391953in"
-height="2.2222222222222223in"}
+![](./media/image24.png)
 
 ### Per-base sequence content
-
 For a completely randomly generated library with a GC content of 50% one
 expects that at any given position within a read there will be a 25%
 chance of finding an A, C, T or G base. Here we can see that our library
@@ -283,11 +262,9 @@ at the beginning of the read. This may be due to PCR duplicates during
 amplification or during library preparation. It is unlikely that one
 will ever see a perfectly uniform distribution.
 
-![](./media/image25.png){width="4.764957349081365in"
-height="3.2989359142607175in"}
+![](./media/image25.png)
 
 ### Sequence duplication levels
-
 In a library that covers a whole genome uniformly most sequences will
 occur only once in the final set. A low level of duplication may
 indicate a very high level of coverage of the target sequence, but a
@@ -296,57 +273,23 @@ enrichment bias (e.g. PCR over-amplification). FastQC counts the degree
 of duplication for every sequence in the set and creates a plot showing
 the relative number of sequences with different degrees of duplication.
 
-![](./media/image26.png){width="3.476519028871391in"
-height="2.4131353893263343in"}
+![](./media/image26.png)
 
 Finally, please gather the following information about your downloaded
 dataset. Some of this information can be found on the websites and some
 can be found using the FastQC software.
 
-  Filename of the FastQ file                                                                             
-  ------------------------------------------------------------------------------------------------------ --
-  Accession number of the sequencing run. This will likely begin with “SRR”.                             
-  How many sequence reads are there in this file?                                                        
-  What is the length of the sequence reads?                                                              
-  Would you recommend trimming the ends of the reads before further analysis? If so, then by how much?   
-  Are there any other problems with the quality of the data? If so, what are they?                       
+                           | You can write your answer in here on a separate sheet of paper
+-------------------------  | ---------------------------------------------
+Filename of the FastQ file |                                                                            
+Accession number of the sequencing run. This will likely begin with “SRR”. |                             
+How many sequence reads are there in this file?     |                                                   
+What is the length of the sequence reads?   |                                                           
+Would you recommend trimming the ends of the reads before further analysis? If so, then by how much?   |
+Are there any other problems with the quality of the data? If so, what are they?  |                    
 
 Well done; you made it to the end. In subsequent computer practicals, we
 will look at the main approaches to utilising NGS data (following
 quality control); that is alignment to a reference sequence and *de
 novo* assembly. For alignment to a reference sequence, we will explore
 the use of a genome browser software.
-
-References
-----------
-
-Cock, P.J. a, Fields, C.J., Goto, N., Heuer, M.L., and Rice, P.M. (2010)
-The Sanger FASTQ file format for sequences with quality scores, and the
-Solexa/Illumina FASTQ variants. *Nucleic Acids Res.* **38**: 1767–71.
-
-Ewing, B. and Green, P. (1998) Base-calling of automated sequencer
-traces using phred. II. Error probabilities. *Genome Res.* **8**:
-186–94.
-
-Ewing, B., Hillier, L., Wendl, M.C., and Green, P. (1998) Base-calling
-of automated sequencer traces using phred. I. Accuracy assessment.
-*Genome Res.* **8**: 175–85.
-
-Kodama, Y., Shumway, M., and Leinonen, R. (2012) The sequence read
-archive: explosive growth of sequencing data. *Nucleic Acids Res.*
-**40**: D54–D56.
-
-Leinonen, R., Akhtar, R., Birney, E., Bower, L., Cerdeno-Tarraga, A.,
-Cheng, Y., et al. (2011) The European Nucleotide Archive. *Nucleic Acids
-Res.* **39**: D28–D31.
-
-Leinonen, R., Sugawara, H., and Shumway, M. (2011) The Sequence Read
-Archive. *Nucleic Acids Res.* **39**: D19–D21.
-
-Rasmussen, M., Li, Y., Lindgreen, S., Pedersen, J.S., Albrechtsen, A.,
-Moltke, I., et al. (2010) Ancient human genome sequence of an extinct
-Palaeo-Eskimo. *Nature* **463**: 757–62.
-
-Silvester, N., Alako, B., Amid, C., Cerdeño-Tarrága, A., Clarke, L.,
-Cleland, I., et al. (2018) The European Nucleotide Archive in 2017.
-*Nucleic Acids Res.* **46**: D36–D40.
