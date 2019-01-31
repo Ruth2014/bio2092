@@ -35,7 +35,7 @@ Navigate to the research paper at <https://www.ncbi.nlm.nih.gov/pubmed/?term=201
 
 ![](./media/image4.png)
    
-If you [follow the hyperlink](https://www.ncbi.nlm.nih.gov/sra?LinkName=pubmed_sra&from_uid=20148029)
+If you [follow the "SRA" hyperlink](https://www.ncbi.nlm.nih.gov/sra?LinkName=pubmed_sra&from_uid=20148029)
 or search the NCBI portal for this accession
 number, you will arrive a page like this, describing the data from this
 study that is held in the SRA:
@@ -46,16 +46,25 @@ This is telling us that there are 59 datasets associated with this
 project. Click on the link "[Send results to Run selector](https://www.ncbi.nlm.nih.gov/Traces/study/?WebEnv=NCID_1_111035670_130.14.18.48_5555_1548934073_662260917_0MetA0_S_HStore&query_key=10)" to explore these in a bit
 more detail ...
   
-Note that sequence data are organised into BioProjects and each sequence dataset is linked to a BioSample:   
+Note that in the public databases, sequence data are organised into projects (BioProjects) and samples (BioSamples).
+One sample of biological material might have been sequenced once or several times. And one project might involve 
+sequencing of several different biological samples.
+This diagram might be helpful for understanding how BioProjects,
+BioSamples, experiments and runs are related to each other:
 
+![](./media/image8.tiff)
+
+It comes from the DDBJ Sequence Read Archive Handbook (<http://trace.ddbj.nig.ac.jp/book/sra_e.html>). 
+
+In the case of this human palaeosequencing project, the BioProject contains only one BioSample:  
 ![](./media/image6.png) 
 
-In this case the project contains only one sample.  
 
-Click on the links to find out more about the BioProject and the BioSample and answer the questions below.   
+Click on the links to the BioProject and the BioSample to find answers to the questions below.   
                                                                                                                    
                                                                                                                    
   -------------------------------------------------------------------------------- | --
+  Question                                                                          | Answer
   How many base-pairs of data, in total, were generated in this research project?   |
   Which DNA sequencing method(s) did the researcher use?                            |
   What information can you find about the geographic location of the sample?        |
@@ -66,10 +75,7 @@ Click on the links to find out more about the BioProject and the BioSample and a
   
 ![](./media/image7.tiff)
 
-This diagram might be helpful for understanding how BioProjects, BioSamples, experiments and runs are related to each other.  
-![](./media/image8.tiff)
 
-It comes from the DDBJ Sequence Read Archive Handbook (<http://trace.ddbj.nig.ac.jp/book/sra_e.html>).
 
 ![](./media/image9.png) 
 
