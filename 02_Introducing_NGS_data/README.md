@@ -166,7 +166,7 @@ The FastQ format looks like this:
 
 Can you think of any advantage of representing the quality scores in this manner rather than what we saw on the NCBI website?
 
-Can you write the quality scores for each base in the following sequence read?
+Can you write the quality scores for each base in the following sequence read? You will need to use the [ASCII code](https://www.ascii-code.com/) to decode the symbols. Recall from the lectures that there is an offset of 
 
 ```@HISEQ:326:C4DKDACXX:1:1101:1729:2243 1:N:0:GTGGCC
 GTGCTCACCGCCCCGGATGCCTTCGCCCAGGTCAGGGACGCCCTGGCCGC
@@ -181,8 +181,7 @@ Sequence |G|T|G|C|T|C|A|C|C|G|C|C|C|C|G|G|A|T|G|C|C|T|T|C|G|C|C|C|A|G|G|T|C|A|G|
 
 Which encoding was used? See paper at back of this document.   
 
-Here is a summary of the ASCII code, which you will need to decode the
-quality scores:
+
 
 ![](./media/image17.tiff)
 
