@@ -69,10 +69,15 @@ This diagram might be helpful for understanding how BioProjects, BioSamples, exp
 
 It comes from the DDBJ Sequence Read Archive Handbook (<http://trace.ddbj.nig.ac.jp/book/sra_e.html>).
 
-Click on one of the links to an “experiment” and then click on a link to a “run”:
+![](./media/image9.png) 
 
------------------------ | ------------------------- | ------------------------- 
-![](./media/image9.png) |  ![](./media/image10.png) | ![](./media/image11.png)
+Click on one of the links to an “experiment". Here is an example of an experiment:
+
+![](./media/image10.png)
+
+and then click on a link to a “run”. A run looks like this:
+
+![](./media/image11.png)
                                                                                                                                          
 Now, if you click on the “Reads” tab within the run, you can start
 browsing the actual sequence reads:
@@ -92,21 +97,16 @@ Phred system (Ewing and Green, 1998; Ewing *et al.*, 1998):
   30              |  1 in 1000                               | 99.9 %
   40              |  1 in 10000                              | 99.99 %
 
-What do you think about the quality/accuracy of the DNA sequencing in this research study?   
-                                                                                                   
-What factors do you think might have contributed to this?                                    
-                                                                                                   
+What do you think about the quality/accuracy of the DNA sequencing in this research study? 
+What factors do you think might have contributed to this? 
                                                                                               
 ## Downloading NGS data
-
-
 It’s all very well examining individual sequence reads, but the whole
 point of NGS is that it generates huge numbers of sequence reads … more
 than you would ever have time to examine one-by-one. So, how can we
 download a whole set of sequence reads?
-
   
-  As you can see, clicking on the “Download” tab does not help much. To download data from the SRA you need to use a software package called the SRA Toolkit.      ![](./media/image13.png){width="2.716398731408574in" height="1.8295374015748032in"}
+As you can see, clicking on the “Download” tab does not help much. To download data from the SRA you need to use a software package called the SRA Toolkit.      ![](./media/image13.png){width="2.716398731408574in" height="1.8295374015748032in"}
                                                                                                                                                                    
   Rather than using the SRA Toolkit, we will use a simpler solution: downloading the same data from the ENA via European Bioinformatics Institute (EBI) website.   
                                                                                                                                                                    
