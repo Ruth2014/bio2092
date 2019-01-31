@@ -184,7 +184,7 @@ Which encoding was used? See paper at back of this document.
 Here is a summary of the ASCII code, which you will need to decode the
 quality scores:
 
-![](./media/image17.tiff){
+![](./media/image17.tiff)
 
 You can check your answer here:
 <https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR1515238>
