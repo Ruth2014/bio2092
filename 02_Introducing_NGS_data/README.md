@@ -233,11 +233,9 @@ towards the end of the read. You can see that at 250 bases the quality
 is still very good. We could simply trim the sequence reads down to 250
 bp to eliminate most of the poor-quality data.
 
-Note that what we are looking at “box and whiskers” plots of the quality scores at each position.
-  
-![](./media/image23.tiff)
-  
-http://www.bbc.co.uk/schools/gcsebitesize/maths/statistics/representingdata3hirev6.shtml
+Note that what we are looking at [“box and whiskers” plots]
+(http://www.bbc.co.uk/schools/gcsebitesize/maths/statistics/representingdata3hirev6.shtml)
+of the quality scores at each position.  
                                                              
 ### Per-tile sequence quality
 This is a purely technical view on the sequencing run, it is more
