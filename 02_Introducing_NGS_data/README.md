@@ -174,10 +174,9 @@ GTGCTCACCGCCCCGGATGCCTTCGCCCAGGTCAGGGACGCCCTGGCCGC
 CBCFFFFFHHHHHJIJJJJJJFEIIJIJJJICHIJJJJJJHHFFFDEEDD
 ```                                              
 
-G | T | G | C | T | C | A | C | C | G | C | C | C | C | G | G | A | T | G | C | C | T | T | C | G | C | C | C | A | G | G | T | C | A | G | G | G | A | C | G | C | C | C | T | G | G | C | C | G | C
-| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |- - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
-|||||||||||||||||||||||||||||||||||||||||||||||||
-|||||||||||||||||||||||||||||||||||||||||||||||||
+G | T | G | C | T | C | A | C | C | G 
+ -- | -- | -- | -- | -- | -- | -- | -- | -- | --
+G | T | G | C | T | C | A | C | C | G 
 
 
 
