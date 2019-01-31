@@ -63,7 +63,7 @@ In the case of this human palaeosequencing project, the BioProject contains only
 Click on the links to the BioProject and the BioSample to find answers to the questions below.
 
 
-Question                                                                          | Answer
+Question                                                                          | Answer (You can write in here or on a separate sheet of paper)
 --------------------------------------------------------------------------------  | ------------------------
 How many base-pairs of data, in total, were generated in this research project?   |
 Which DNA sequencing method(s) did the researcher use?                            |
@@ -97,12 +97,12 @@ score is usually between 0 and 40 and denotes how confident we are in
 that particular base having been called correctly. The scores use the
 Phred system (Ewing and Green, 1998; Ewing *et al.*, 1998):
 
------------------ | ---------------------------------------- | --------------
 Phred score       | Probability that the base is wrong       | Accuracy
-  10              |  1 in 10                                 | 90 %
-  20              |  1 in 100                                | 99 %
-  30              |  1 in 1000                               | 99.9 %
-  40              |  1 in 10000                              | 99.99 %
+----------------- | ---------------------------------------- | --------------
+10                |  1 in 10                                 | 90 %
+20                |  1 in 100                                | 99 %
+30                |  1 in 1000                               | 99.9 %
+40                |  1 in 10000                              | 99.99 %
 
 What do you think about the quality/accuracy of the DNA sequencing in this research study? 
 What factors do you think might have contributed to this? 
