@@ -176,7 +176,8 @@ CBCFFFFFHHHHHJIJJJJJJFEIIJIJJJICHIJJJJJJHHFFFDEEDD
 G|T|G|C|T|C|A|C|C|G|C|C|C|C|G|G|A|T|G|C|C|T|T|C|G|C|C|C|A|G|G|T|C|A|G|G|G|A|C|G|C|C|C|T|G|G|C|C|G|C
  -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
 C|B|C|F|F|F|F|F|H|H|H|H|H|J|I|J|J|J|J|J|J|F|E|I|I|J|I|J|J|J|I|C|H|I|J|J|J|J|J|J|H|H|F|F|F|D|E|E|D|D
-
+   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   
+   
 
 
 
