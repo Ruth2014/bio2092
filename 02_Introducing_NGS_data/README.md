@@ -233,16 +233,12 @@ towards the end of the read. You can see that at 250 bases the quality
 is still very good. We could simply trim the sequence reads down to 250
 bp to eliminate most of the poor-quality data.
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Note that what we are looking at “box and whiskers” plots of the quality scores at each position.
+Note that what we are looking at “box and whiskers” plots of the quality scores at each position.
   
-  ![](./media/image23.tiff)
-                                                                                                      
-                                                                                                      <http://www.bbc.co.uk/schools/gcsebitesize/maths/statistics/representingdata3hirev6.shtml>
-                                                                                                      
-                                                                                                      
-
-
+![](./media/image23.tiff)
+  
+http://www.bbc.co.uk/schools/gcsebitesize/maths/statistics/representingdata3hirev6.shtml
+                                                             
 ### Per-tile sequence quality
 This is a purely technical view on the sequencing run, it is more
 important for the team running the sequencer. The sequencing flowcell is
@@ -279,7 +275,7 @@ Finally, please gather the following information about your downloaded
 dataset. Some of this information can be found on the websites and some
 can be found using the FastQC software.
 
-                           | You can write your answer in here on a separate sheet of paper
+Question  | You can write your answer in here on a separate sheet of paper
 -------------------------  | ---------------------------------------------
 Filename of the FastQ file |                                                                            
 Accession number of the sequencing run. This will likely begin with “SRR”. |                             
