@@ -173,23 +173,18 @@ GTGCTCACCGCCCCGGATGCCTTCGCCCAGGTCAGGGACGCCCTGGCCGC
 +
 CBCFFFFFHHHHHJIJJJJJJFEIIJIJJJICHIJJJJJJHHFFFDEEDD
 ```                                              
-G|T|G|C|T|C|A|C|C|G|C|C|C|C|G|G|A|T|G|C|C|T|T|C|G|C|C|C|A|G|G|T|C|A|G|G|G|A|C|G|C|C|C|T|G|G|C|C|G|C
- -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
-C|B|C|F|F|F|F|F|H|H|H|H|H|J|I|J|J|J|J|J|J|F|E|I|I|J|I|J|J|J|I|C|H|I|J|J|J|J|J|J|H|H|F|F|F|D|E|E|D|D
-   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   
+Sequence |G|T|G|C|T|C|A|C|C|G|C|C|C|C|G|G|A|T|G|C|C|T|T|C|G|C|C|C|A|G|G|T|C|A|G|G|G|A|C|G|C|C|C|T|G|G|C|C|G|C
+ -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
+ Symbol |C|B|C|F|F|F|F|F|H|H|H|H|H|J|I|J|J|J|J|J|J|F|E|I|I|J|I|J|J|J|I|C|H|I|J|J|J|J|J|J|H|H|F|F|F|D|E|E|D|D
+ Score |  |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   
    
 
-
-
-
 Which encoding was used? See paper at back of this document.   
-
 
 Here is a summary of the ASCII code, which you will need to decode the
 quality scores:
 
-![](./media/image17.tiff){width="4.585416666666666in"
-height="2.737208005249344in"}
+![](./media/image17.tiff){
 
 You can check your answer here:
 <https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR1515238>
