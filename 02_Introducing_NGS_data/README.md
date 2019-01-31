@@ -35,21 +35,23 @@ Navigate to the research paper at <https://www.ncbi.nlm.nih.gov/pubmed/?term=201
 
 ![](./media/image4.png)
    
-
-If you follow the hyperlink or search the NCBI portal for this accession
+If you [follow the hyperlink](https://www.ncbi.nlm.nih.gov/sra?LinkName=pubmed_sra&from_uid=20148029)
+or search the NCBI portal for this accession
 number, you will arrive a page like this, describing the data from this
 study that is held in the SRA:
 
 ![](./media/image5.png)
 
 This is telling us that there are 59 datasets associated with this
-project. Click on the link to the Run Selector to explore these in a bit
-more detail:
-
+project. Click on the link "[Send results to Run selector](https://www.ncbi.nlm.nih.gov/Traces/study/?WebEnv=NCID_1_111035670_130.14.18.48_5555_1548934073_662260917_0MetA0_S_HStore&query_key=10)" to explore these in a bit
+more detail ...
   
-Note that sequence data are organised into BioProjects and each sequence dataset is linked to a BioSample.   
+Note that sequence data are organised into BioProjects and each sequence dataset is linked to a BioSample:   
+
 ![](./media/image6.png) 
+
 In this case the project contains only one sample.  
+
 Click on the links to find out more about the BioProject and the BioSample and answer the questions below.   
                                                                                                                    
                                                                                                                    
