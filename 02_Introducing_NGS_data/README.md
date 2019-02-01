@@ -227,22 +227,23 @@ anything above Q30 is regarded as 'good'.
 
 ![](./media/image22.png)
 
-In this case this check is red - and it is true that the quality drops
+In this case, this check is red - and it is true that the quality drops
 off at the end of the reads. It is normal for read quality to get worse
 towards the end of the read. You can see that at 250 bases the quality
 is still very good. We could simply trim the sequence reads down to 250
 bp to eliminate most of the poor-quality data.
 
-Note that what we are looking at [“box and whiskers” plots]
+Note that what we are looking at is [“box and whiskers” plots]
 (http://www.bbc.co.uk/schools/gcsebitesize/maths/statistics/representingdata3hirev6.shtml)
 of the quality scores at each position.  
                                                              
 ### Per-tile sequence quality
-This is a purely technical view on the sequencing run, it is more
-important for the team running the sequencer. The sequencing flowcell is
+This is a purely technical view on the sequencing run; it is more
+important for the team running the sequencer than for the biologist end-user of the data.
+The sequencing flowcell is
 divided up into areas called cells. You can see that the read quality
 drops off in some cells faster than others. This maybe because of the
-way the sample flowed over the flowcell or a mark or smear on the lens
+way the sample flowed over the flowcell, a bubble, or a mark/smear on the lens
 of the optics.
 
 ![](./media/image24.png)
@@ -253,13 +254,13 @@ expects that at any given position within a read there will be a 25%
 chance of finding an A, C, T or G base. Here we can see that our library
 satisfies these criteria, although there appears to be some minor bias
 at the beginning of the read. This may be due to PCR duplicates during
-amplification or during library preparation. It is unlikely that one
-will ever see a perfectly uniform distribution.
+amplification or during library preparation. 
+A perfectly uniform distribution is unlikely.
 
-![](./media/image25.png)
+![](./media/image25.png) 
 
 ### Sequence duplication levels
-In a library that covers a whole genome uniformly most sequences will
+In a library that covers a whole genome uniformly, most sequences will
 occur only once in the final set. A low level of duplication may
 indicate a very high level of coverage of the target sequence, but a
 high level of duplication is more likely to indicate some kind of
@@ -282,8 +283,15 @@ What is the length of the sequence reads?   |
 Would you recommend trimming the ends of the reads before further analysis? If so, then by how much?   |
 Are there any other problems with the quality of the data? If so, what are they?  |                    
 
-Well done; you made it to the end. In subsequent computer practicals, we
+**Well done!** you made it to the end. In subsequent computer practicals, we
 will look at the main approaches to utilising NGS data (following
 quality control); that is alignment to a reference sequence and *de
 novo* assembly. For alignment to a reference sequence, we will explore
 the use of a genome browser software.
+
+If you have spare time and are curious, you may wish to take a look at the sequence data associated with the
+Oxford *Candida auris* outbreak that we discussed in the lecture and [described in this paper](https://doi.org/10.1136/bmj.k4133).
+You can browse the data here: https://www.ncbi.nlm.nih.gov/bioproject/415955.
+
+OR, if you have spare time, you may wish to begin the next computer practical, here: https://github.com/davidjstudholme/bio2092/tree/master/03_Genomic_NGS_alignment
+
