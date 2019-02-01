@@ -216,6 +216,16 @@ organism it may fail the per sequence GC content. If you have any
 barcodes or low complexity libraries (e.g. small RNA libraries) they may
 also fail some of the sequence complexity tests.
 
+If for any reason FastQC is not installed on your PC, you can obtain it from here:
+https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+After unzipping the downloaded file, click on the file called ```run_fastqc.bat```
+to execute the program.
+
+IF you cannot get FastQC to work, then you can find some example output here:
+https://universityofexeteruk-my.sharepoint.com/:f:/g/personal/d_j_studholme_exeter_ac_uk/ElG8e7OFrDtNmoz3IgHakJQBILMypp48-QqLcFWtQ412Wg?e=ERhTaa
+
+
+
 Now let’s take a tour through the more important information provided by
 FastQC about our sequence dataset.
 
