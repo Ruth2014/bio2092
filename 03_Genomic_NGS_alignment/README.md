@@ -271,6 +271,15 @@ Now, you should apply the skills you have learned in these practicals to the *C.
 
 Below we work through an example.
 
+By [searching the NCBI Entrez web portal](https://www.ncbi.nlm.nih.gov/assembly/?term=candida+fabianii), you can see that there are several genome assemblies available for this species:
+
+
+Strain name | Assembly accession number                                                | SRA accession number  
+----------- | ------------------------------------------------------------------------ | -------------------- 
+YJS4271     | [GCA_003205855.1](https://www.ncbi.nlm.nih.gov/assembly/GCA_003205855.1) | n/a                 
+65          | [GCA_001983305.1](https://www.ncbi.nlm.nih.gov/assembly/GCA_001983305.1) | [SRR5047278](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR5047278) 
+JCM 3601    | [GCA_001599195.1](https://www.ncbi.nlm.nih.gov/assembly/GCA_001599195.1) | [DRR032607](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=DRR032607) and [DRR032482](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=DRR032482)
+
 
 
 
