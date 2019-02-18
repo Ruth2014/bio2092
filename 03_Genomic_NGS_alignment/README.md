@@ -64,11 +64,14 @@ We will use these data again in a later practical to look at genetic basis of an
 To interactively browse the genome, and the NGS sequence data aligned
 against the genome, we are going to us the [Integrative Genomics Viewer
 (IGV)](https://www.ncbi.nlm.nih.gov/pubmed/?term=10.1093%2Fbib%2Fbbs017)
-installed on the Windows PCs in Hatherly; alternatively you can access
-the software from the authors’ website here:
-<https://software.broadinstitute.org/software/igv/download>
+installed on the Windows PCs in Hatherly.
 
- ### If you want to find out more:
+However, you may get a better experience if you can access
+the software from the authors’ website here:
+<https://software.broadinstitute.org/software/igv/download> and look for the section entitled "Launch IGV using Java Web Start".
+Depending on which version of Java is installed on your computer, the 2Gb and 10Gb versions might not work.
+
+### If you want to find out more:
 An online tutorial for IGV is available from here: https://software.broadinstitute.org/software/igv/UserGuide
 A tutorial video is available here: https://youtu.be/uez19GcqHF0,
 which uses some human genome data. 
@@ -279,6 +282,52 @@ Strain name | Assembly accession number                                         
 YJS4271     | [GCA_003205855.1](https://www.ncbi.nlm.nih.gov/assembly/GCA_003205855.1) | n/a                 
 65          | [GCA_001983305.1](https://www.ncbi.nlm.nih.gov/assembly/GCA_001983305.1) | [SRR5047278](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR5047278) 
 JCM 3601    | [GCA_001599195.1](https://www.ncbi.nlm.nih.gov/assembly/GCA_001599195.1) | [DRR032607](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=DRR032607) and [DRR032482](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=DRR032482)
+Ex2         | n/a *                                                                    | n/a *
+
+* Note that the Ex2 genomic data may not yet available in the public databases, but is provided to you via the OneDrive.
+
+Can you find out any information about these genome sequencing projects?
+For example, are there any published papers describing these genome?
+try to fill the missing information in this table:
+
+Strain    | Source                      | Genome annotated? | Published paper  
+--------- | --------------------------- | ----------------- | ----------------
+YJS4271   |                             |  Yes              | 
+65        |                             |                   |  
+JCM 3601  |                             |                   | Shen *et al*. (2018) Tempo and Mode of Genome Evolution in the Budding Yeast Subphylum. *Cell*. **175**:1533-1545.e20. 
+Ex2       | Clinical sample, Exeter     | No                | None     
+
+
+
+Let's load the genome of *C. fabianii* YJS4271 into the IGV viewer. First we load the genome sequence file
+```GCA_003205855.1_ASM320585v1_genomic.fna``` (using the 'Genome' menu)  and then the annotation file ```GCA_003205855.1_ASM320585v1_genomic.gff``` (using the 'File' menu). Expand the annotation view, zoom into a
+specific place in the genome and it should look something like this:
+
+![](./media/image21.png)
+
+Now, let's load the files containing alignments of sequence reads against the YJS4271 reference genome sequence.
+Using the 'File' menu, we will load the following files: 
+```DRR032482.versus.YJS4271.bam```,
+```DRR032607.versus.YJS4271.bam```,
+```Ex2.versus.YJS4271.bam```,
+```SRR5047278.versus.YJS4271.bam```
+
+
+Remember that for each ```.bam``` file you need to have the corresponding ```.bam.bai``` file also in the same directory.
+
+After loading the ```.bam``` files, your IGV should now look something like this:
+
+![](./media/image21.png)
+
+... and after zooming in, it might look something like this:
+
+![](./media/image22.png)
+
+And after right-clicking to rename the tracks and change font sizes, etc., it might look like this:
+
+![](./media/image24.png)
+
+
 
 
 
