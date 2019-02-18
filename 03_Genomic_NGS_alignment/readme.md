@@ -356,7 +356,14 @@ And we can access the protein sequence here: https://www.ncbi.nlm.nih.gov/protei
 
 ![](./media/image29.png)
 
-
+Finally, some possible questions that you might consider tackling:
+* How different is the Ex2 clinical isolate from previously sequenced non-clinical isolates?
+* Can you find any genes that are unusually variable between strains of *C. fabianii*?
+* Are any *C. fabianii* genes absent from any of the strains? 
+* Apart from single-nucleotide polymorphisms, can you find any other types of variation?
+* Is variation more common in some parts of the genome than others?
+* Can you find any loss-of-function mutations?
+* To which of the previously sequenced strains is the clinical isolate Ex2 most closely related?
 
 
 
