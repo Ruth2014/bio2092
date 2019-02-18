@@ -1,18 +1,8 @@
-  ![](./media/image1.gif){width="1.6895833333333334in" height="0.6256944444444444in"}   ![](./media/image2.jpeg){width="0.9991797900262467in" height="0.5826126421697287in"}
-  ------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------
+![](./media/image1.gif)
+  
+# Handling “next-generation” sequencing data: alignments against a reference genome
 
-BIO2092 Computer Practical
-==========================
-
-Handling “next-generation” sequencing data: alignments against a reference genome
-=================================================================================
-
-Tuesday 30^th^ January 2018
-===========================
-
-Introduction
-------------
-
+## Introduction
 In the previous practical, you saw the raw data output from
 ‘next-generation’ sequencing (NGS) and explored some databases from
 which such data can be obtained. You saw that NGS data from shotgun
@@ -21,20 +11,15 @@ sequence reads. Today, we are going to see how we can make some sense of
 the data, by viewing the reads aligned against a reference genome
 sequence.
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](./media/image3.jpg){width="3.0208333333333335in" height="2.091346237970254in"}   Making sense of short sequence reads is something akin to piecing together scraps of text from a shredder. There are two main approaches:
+![](./media/image3.jpg)
+Making sense of short sequence reads is something like piecing together scraps of text from a shredder. There are two main approaches:
                                                                                        
-                                                                                       -   Alignment against a reference and
+* Alignment against a reference and
+* de novo assembly
                                                                                        
-                                                                                       -   de novo assembly
-                                                                                       
-                                                                                       Today we will look at the former. The latter will be covered in a future practical.
-  ------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Today we will look at the former. The latter will be covered in a future practical.
 
-The data
---------
-
+## The data
 The sequence data that we are using today comes from the genome (and
 transcriptome) of the bacterium *Mycobacterium tuberculosis*, a
 bacterial pathogen that infects about 2 billion people (a third of the
@@ -56,20 +41,18 @@ alignment files were generated for you: the sequence reads were aligned
 against H37Rv reference genome sequence using a software package called
 BWA (Li and Durbin, 2009).
 
-  SRA accession number   Genome / transcriptome   Strain of *M. tuberculosis*   Sequencing method
-  ---------------------- ------------------------ ----------------------------- -------------------
-  ERR400344              Genome                   OxTb-6                        Illumina HiSeq
-  ERR400311              Genome                   OxTb-321                      Illumina HiSeq
-  SRR3667790             Genome                   SB24                          PacBio SMRT
-  SRR5061507             Transcriptome            H37Rv                         Illumina HiSeq
-  SRR5061515             Transcriptome            H37Rv                         Illumina HiSeq
+  SRA accession number  | Genome / transcriptome |  Strain of *M. tuberculosis* |  Sequencing method
+  --------------------- | ---------------------- | ---------------------------- | -------------------
+  ERR400344              | Genome                 |  OxTb-6                     |   Illumina HiSeq
+  ERR400311              | Genome                 |  OxTb-321                   |   Illumina HiSeq
+  SRR3667790             | Genome                 |  SB24                       |   PacBio SMRT
+  SRR5061507             | Transcriptome          |  H37Rv                      |   Illumina HiSeq
+  SRR5061515             | Transcriptome          |  H37Rv                      |   Illumina HiSeq
 
 Please download all of the data files from
 <https://tinyurl.com/yde9ojy7> onto your Windows PC.
 
-The software: IGV
------------------
-
+## The software: IGV
 To interactively browse the genome, and the NGS sequence data aligned
 against the genome, we are going to us the Integrative Genomics Viewer
 (IGV) (Thorvaldsdottir *et al.*, 2013). This software should already be
@@ -77,21 +60,16 @@ installed on the Windows PCs in Hatherly; alternatively you can access
 the software from the authors’ website here:
 <https://software.broadinstitute.org/software/igv/download>
 
-What you need to do
--------------------
-
+## What you need to do
 You need to follow the steps described below. These will lead you
 through how to load the reference genome the aligned NGS reads into IGV.
 You then need to play around with IGV and learn to drive it. Try to
 answer the questions below.
 
-Loading the reference genome into IGV
--------------------------------------
-
+## Loading the reference genome into IGV
 When you first start IGV, it will look something like this:
 
-![](./media/image4.png){width="4.218581583552056in"
-height="2.1752132545931757in"}
+![](./media/image4.png)
 
 To load the nucleotide sequence of the reference genome, locate the
 “Genomes” menu item. Choose “Genomes -&gt; Load genome from file” and
@@ -103,8 +81,7 @@ near the top right corner of the IGV window to zoom in as far as you
 can. Then you should be able to see the nucleotide sequence of the
 reference genome along the bottom:
 
-![](./media/image5.png){width="5.4487182852143485in"
-height="2.809504593175853in"}
+![](./media/image5.png)
 
 Next, we need to load the genome annotation. Use the menu item called
 “File -&gt; Load from file” to select the annotation file that you
@@ -112,54 +89,45 @@ downloaded earlier. This should be called
 “GCA\_000195955.2\_ASM19595v2\_genomic.gff”. After loading the
 annotation and zooming out a bit, you should see something like this:
 
-![](./media/image6.png){width="5.670940507436571in"
-height="2.9240879265091864in"}
+![](./media/image6.png)
 
 Now, to improve clarity, right-click on the genes track and select the
 “Expanded” option. Now you can see the individual genes more clearly on
 the reference genome:
 
-![](./media/image7.png){width="5.3457469378827644in"
-height="2.7564096675415573in"}
+![](./media/image7.png)
 
 Now spend at least a few minutes learning how to navigate around the
 genome, zooming in on specific regions and finding information about
 specific genes:
 
-![](./media/image8.png){width="5.387340332458443in"
-height="2.7190135608048993in"}
+![](./media/image8.png)
 
 Note that you can navigate to specific sites on the genome or search for
 specific genes, using the search field near the top:
 
-![](./media/image9.png){width="2.1196576990376204in"
-height="1.423419728783902in"}
-
+![](./media/image9.png)
 You might wish to locate genes of particular interest that are involved
 in virulence of this pathogen, *e.g.* *katG*, *hspX* (*acr*), *erp*,
 *hma*, *pcaA*. Once you are confident that you understand what you are
 looking at and are reasonably adept at navigating around the genome,
 then please proceed to loading the alignment data into IGV.
 
-Loading the alignments into IGV
--------------------------------
-
+## Loading the alignments into IGV
 Use the “File -&gt; Load from file” menu item to load the alignment
 files that you downloaded earlier. The names of these files should end
 in “.bam”. Please note that you also need to have the index files
 (“.bai”) present in the same folder. In the screenshot below, I am
 loading two alignment files:
 
-![](./media/image10.png){width="4.542735126859142in"
-height="2.7736865704286964in"}
+![](./media/image10.png)
 
 After loading these two alignments of genomic reads, we see something
 like the following screenshot. Please note that right-clicking on
 various parts of the window brings up menus that allow you to configure
 and rename tracks.
 
-![](./media/image11.png){width="5.348877952755905in"
-height="2.6325021872265966in"}
+![](./media/image11.png)
 
 So, now we can see individual sequence reads aligned against the
 reference genome. We can also see plots of coverage depth.
@@ -169,8 +137,7 @@ pairs”. Now we can see pairs of reads joined by a thin horizontal line.
 This pairing arises from the fact that sequencing was performed at both
 ends of the genomic fragments.
 
-![](./media/image12.png){width="6.4215277777777775in"
-height="3.160416666666667in"}
+![](./media/image12.png)
 
   What size, approximately, were the fragments of genomic DNA in these two samples?   
   ----------------------------------------------------------------------------------- --
