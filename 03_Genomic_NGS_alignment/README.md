@@ -56,16 +56,23 @@ BWA (Li and Durbin, 2009).
   SRR5061507             | Transcriptome          |  H37Rv                      |   Illumina HiSeq
   SRR5061515             | Transcriptome          |  H37Rv                      |   Illumina HiSeq
 
-Please download all of the data files from
-<https://tinyurl.com/yde9ojy7> onto your Windows PC.
+All of the files that you need are available on the University's OneDrive, here:
+<https://tinyurl.com/yde9ojy7>. This link is also provided on the ELE page.
 
 ## The software: IGV
 To interactively browse the genome, and the NGS sequence data aligned
-against the genome, we are going to us the Integrative Genomics Viewer
-(IGV) (Thorvaldsdottir *et al.*, 2013). This software should already be
+against the genome, we are going to us the [Integrative Genomics Viewer
+(IGV)](https://www.ncbi.nlm.nih.gov/pubmed/?term=10.1093%2Fbib%2Fbbs017)
 installed on the Windows PCs in Hatherly; alternatively you can access
 the software from the authors’ website here:
 <https://software.broadinstitute.org/software/igv/download>
+
+ ### If you want to find out more:
+An online tutorial for IGV is available from here: https://software.broadinstitute.org/software/igv/UserGuide
+A tutorial video is available here: https://youtu.be/uez19GcqHF0,
+which uses some human genome data. 
+However, by using this document and a bit of trial and error you should be able to quickly learn how to use IGV without
+needing to access those tutorial materials.
 
 ## What you need to do
 You need to follow the steps described below. These will lead you
@@ -81,7 +88,7 @@ When you first start IGV, it will look something like this:
 To load the nucleotide sequence of the reference genome, locate the
 “Genomes” menu item. Choose “Genomes -&gt; Load genome from file” and
 locate the reference genome sequence file that you downloaded earlier.
-This file should be called “GCA\_000195955.2\_ASM19595v2\_genomic.fna”.
+This file should be called ```GCA_000195955.2_ASM19595v2_genomic.fna```.
 
 Once you have loaded this reference genome sequence, use the control
 near the top right corner of the IGV window to zoom in as far as you
@@ -93,7 +100,7 @@ reference genome along the bottom:
 Next, we need to load the genome annotation. Use the menu item called
 “File -&gt; Load from file” to select the annotation file that you
 downloaded earlier. This should be called
-“GCA\_000195955.2\_ASM19595v2\_genomic.gff”. After loading the
+```GCA_000195955.2_ASM19595v2_genomic.gff```. After loading the
 annotation and zooming out a bit, you should see something like this:
 
 ![](./media/image6.png)
@@ -124,8 +131,8 @@ then please proceed to loading the alignment data into IGV.
 ## Loading the alignments into IGV
 Use the “File -&gt; Load from file” menu item to load the alignment
 files that you downloaded earlier. The names of these files should end
-in “.bam”. Please note that you also need to have the index files
-(“.bai”) present in the same folder. In the screenshot below, I am
+in ```.bam```. Please note that you also need to have the index files
+(```.bam.bai```) present in the same folder. In the screenshot below, I am
 loading two alignment files:
 
 ![](./media/image10.png)
@@ -180,18 +187,18 @@ missing from OxTb-6 and/or OxTb-321?
 
 Now let’s take a look at the genomic data generated using the PacBio
 method. This is in file
-“SRR3667790.versus.GCA\_000195955.2\_ASM19595v2\_genomic.aln.sorted.bam”.
+```SRR3667790.versus.GCA_000195955.2_ASM19595v2_genomic.aln.sorted.bam```.
 Notice how the reads are much longer but contain numerous errors:
 
 ![](./media/image15.png)
 
 Now, let’s take a look at some transcriptomic data. Use “File -&gt; Load
 from file” to load alignment files
-“SRR5061507.versus.GCA\_000195955.2\_ASM19595v2\_genomic.aln.sorted.bam”
-and
-“SRR5061515.versus.GCA\_000195955.2\_ASM19595v2\_genomic.aln.sorted.bam”.
+```SRR5061507.versus.GCA_000195955.2_ASM19595v2_genomic.aln.sorted.bam```
+and ```SRR5061515.versus.GCA_000195955.2_ASM19595v2_genomic.aln.sorted.bam```.
+
 You will learn more about transcriptomics during Dr Santos’ lectures
-later in the course. For now, understand that this RNA-seq data consists
+during this course. For now, understand that this RNA-seq data consists
 of paired-read Illumina sequencing of fragments if cDNA. It therefore
 presents a survey of the transcripts present in the bacterial cell. The
 two samples were prepared from the same bacterial strain but under
@@ -217,8 +224,8 @@ more expressed (transcribed) in one sample than in the other. Can you
 find any more examples of such differentially expressed genes?
 
 ## Qualimap: QC and summary statistics for alignments
-Qualimap (García-Alcalde *et al.*, 2012; Okonechnikov *et al.*, 2015)
-(<http://qualimap.bioinfo.cipf.es/>) is a program that summarises the
+[Qualimap](https://www.ncbi.nlm.nih.gov/pubmed/?term=10.1093%2Fbioinformatics%2Fbts503)
+is a program that summarises the
 alignment in much more detail than the mapping stats file we produced.
 It’s primarily a technical tool which allows you to assess the
 sequencing for any problems and biases in the sequencing and the
@@ -253,32 +260,3 @@ between the reads that was not sequenced.
 Have a look at some of the other graphs produced with your alignment
 files and try to figure out their meaning and significance.
 
-## References
-
-Cole, S.T., Brosch, R., Parkhill, J., Garnier, T., Churcher, C., Harris,
-D., et al. (1998) Deciphering the biology of Mycobacterium tuberculosis
-from the complete genome sequence. *Nature* **393**: 537–544.
-
-García-Alcalde, F., Okonechnikov, K., Carbonell, J., Cruz, L.M., Götz,
-S., Tarazona, S., et al. (2012) Qualimap: evaluating next-generation
-sequencing alignment data. *Bioinformatics* **28**: 2678–9.
-
-Li, H. and Durbin, R. (2009) Fast and accurate short read alignment with
-Burrows-Wheeler transform. *Bioinformatics* **25**: 1754–60.
-
-Okonechnikov, K., Conesa, A., and García-Alcalde, F. (2015) Qualimap 2:
-Advanced multi-sample quality control for high-throughput sequencing
-data. *Bioinformatics* **32**:.
-
-Philip, N., Rodrigues, K.F., William, T., and John, D.V. (2016) Whole
-genome sequencing of Mycobacterium tuberculosis SB24 isolated from
-Sabah, Malaysia. *Genomics Data* **9**: 137–139.
-
-Thorvaldsdottir, H., Robinson, J.T., and Mesirov, J.P. (2013)
-Integrative Genomics Viewer (IGV): high-performance genomics data
-visualization and exploration. *Brief. Bioinform.* **14**: 178–192.
-
-Walker, T.M., Lalor, M.K., Broda, A., Ortega, L.S., Morgan, M., Parker,
-L., et al. (2014) Assessment of Mycobacterium tuberculosis transmission
-in Oxfordshire, UK, 2007-12, with whole pathogen genome sequences: An
-observational study. *Lancet Respir. Med.* **2**: 285–292.
