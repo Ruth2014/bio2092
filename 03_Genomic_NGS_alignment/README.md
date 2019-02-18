@@ -317,11 +317,11 @@ Remember that for each ```.bam``` file you need to have the corresponding ```.ba
 
 After loading the ```.bam``` files, your IGV should now look something like this:
 
-![](./media/image21.png)
+![](./media/image22.png)
 
 ... and after zooming in, it might look something like this:
 
-![](./media/image22.png)
+![](./media/image23.png)
 
 And after right-clicking to rename the tracks and change font sizes, etc., it might look like this:
 
