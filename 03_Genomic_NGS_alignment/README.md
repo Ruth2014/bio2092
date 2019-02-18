@@ -157,13 +157,12 @@ strain OxTb-6 has an A.
 
 Now, try to find a few more SNPs:
 
-  Genomic position   |  Reference base  |   Alternative base |  Effect on protein
-  ------------------ | ---------------- | ------------------ | -------------------
-  .................. | ................ | .................. | ...................
-  
-                                                         
-                                                         
-
+Genomic position                |  Reference base  |   Alternative base |  Effect on protein
+------------------------------- | ---------------- | ------------------ | -------------------
+_______________________________ | ________________ | __________________ | __________________________________
+_______________________________ | ________________ | __________________ | __________________________________
+_______________________________ | ________________ | __________________ | __________________________________
+                                                                                                                 
 Now, take a look at this genomic region: AL123456.3:2,232,639-2,244,376.
 
 ![](./media/image14.png)
@@ -178,8 +177,7 @@ method. This is in file
 “SRR3667790.versus.GCA\_000195955.2\_ASM19595v2\_genomic.aln.sorted.bam”.
 Notice how the reads are much longer but contain numerous errors:
 
-![](./media/image15.png){width="4.971014873140858in"
-height="2.4465310586176727in"}
+![](./media/image15.png)
 
 Now, let’s take a look at some transcriptomic data. Use “File -&gt; Load
 from file” to load alignment files
@@ -193,29 +191,26 @@ presents a survey of the transcripts present in the bacterial cell. The
 two samples were prepared from the same bacterial strain but under
 different growth conditions.
 
-![](./media/image16.png){width="4.976589020122485in"
-height="2.4492760279965005in"}
+![](./media/image16.png)
 
 Note that the transcriptomics data looks quite different from the
 genomic data in at a few respects. Make sure you understand the reason
 for each of these:
 
--   The depth of coverage by genomic sequence is more uniform than by
+* The depth of coverage by genomic sequence is more uniform than by
     transcriptomic sequence.
 
--   There are many “gaps” on the reference genome with little or no
+* There are many “gaps” on the reference genome with little or no
     coverage by transcriptomic sequence.
 
--   There tend to be fewer mismatches between the RNA-seq sequences and
+* There tend to be fewer mismatches between the RNA-seq sequences and
     the reference genome than is the case for these genomic datasets.
 
 Also note in the image above, it seems that gene *glmS* is significantly
 more expressed (transcribed) in one sample than in the other. Can you
 find any more examples of such differentially expressed genes?
 
-Qualimap: QC and summary statistics for alignments
---------------------------------------------------
-
+## Qualimap: QC and summary statistics for alignments
 Qualimap (García-Alcalde *et al.*, 2012; Okonechnikov *et al.*, 2015)
 (<http://qualimap.bioinfo.cipf.es/>) is a program that summarises the
 alignment in much more detail than the mapping stats file we produced.
@@ -224,17 +219,13 @@ sequencing for any problems and biases in the sequencing and the
 alignment rather than a tool to deduce biological features. There is a
 lot of information in the report so here are just a few highlights:
 
-Loading a BAM file into Qualimap software:
-------------------------------------------
+## Loading a BAM file into Qualimap software:
 
-![](./media/image17.png){width="3.9397583114610675in"
-height="2.363856080489939in"}
+![](./media/image17.png)
 
-![](./media/image18.png){width="3.8569499125109363in"
-height="2.852564523184602in"}
+![](./media/image18.png)
 
-![](./media/image19.png){width="4.667233158355206in"
-height="3.5213681102362204in"}
+![](./media/image19.png)
 
 This shows the number of reads that 'cover' each section of the genome.
 The red line shows a rolling average around 50x - this means that on
@@ -243,8 +234,7 @@ have sufficient depth of coverage in order to be confident that any
 features you find in your data are real and not a result of sequencing
 errors.
 
-![](./media/image20.png){width="4.125955818022748in"
-height="3.401709317585302in"}
+![](./media/image20.png)
 
 The Insert Size Histogram displays the range of sizes of the DNA
 fragments. It shows how well your DNA was size selected before
@@ -257,8 +247,7 @@ between the reads that was not sequenced.
 Have a look at some of the other graphs produced with your alignment
 files and try to figure out their meaning and significance.
 
-References
-----------
+## References
 
 Cole, S.T., Brosch, R., Parkhill, J., Garnier, T., Churcher, C., Harris,
 D., et al. (1998) Deciphering the biology of Mycobacterium tuberculosis
