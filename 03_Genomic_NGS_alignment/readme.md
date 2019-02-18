@@ -329,7 +329,7 @@ And after right-clicking to rename the tracks and change font sizes, etc., it mi
 
 Now, let's zoom-in on one of the sequence discrepancies:
 
-![](./media/image25.png)
+![](./media/image26.png)
 
 Here we can see a single-nucleotide polymorphism at position LK052894.1:26,672. In strain JCM 3601 there is a
 C while in genomic reads from strains Ex2 and 65, the reads all agree with the T found in the strain YJS4271
@@ -344,14 +344,13 @@ bases on the reverse strand of the DNA (because this gene happens to be on the r
 
 By clicking on the protein sequence, we can obtain a pop-up window with some information about the mutated gene:
 
-![](./media/image26.png)
+![](./media/image27.png)
 
 Remember that we can access public sequences via the NCBI Entrez web portal and that we can even access sub-sequences
 from a larger sequence. So, we could access the sequence of the region that we are looking at here: https://www.ncbi.nlm.nih.gov/nuccore/LK052894.1
 
-![](./media/image27.png)
-
 ![](./media/image28.png)
+
 
 And we can access the protein sequence here: https://www.ncbi.nlm.nih.gov/protein/663445730
 
