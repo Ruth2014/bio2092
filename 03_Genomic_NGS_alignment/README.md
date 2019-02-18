@@ -13,10 +13,11 @@ sequence.
 
 ![](./media/image3.jpg)
 
-Making sense of short sequence reads is something like piecing together scraps of text from a shredder. There are two main approaches:
+Making sense of short sequence reads is something like piecing together scraps of text from a shredder.
+There are two main approaches:
                                                                                        
-* Alignment against a reference and
-* de novo assembly
+* alignment against a reference genome sequence and
+* *de novo* assembly.
                                                                                        
 Today we will look at the former. The latter will be covered in a future practical.
 
@@ -24,20 +25,25 @@ Today we will look at the former. The latter will be covered in a future practic
 The sequence data that we are using today comes from the genome (and
 transcriptome) of the bacterium *Mycobacterium tuberculosis*, a
 bacterial pathogen that infects about 2 billion people (a third of the
-world’s population) and is the causative agent of tuberculosis. Its
-genome is small and therefore convenient for handling in a short
+world’s population) and is the causative agent of tuberculosis.
+
+Its genome is small and therefore convenient for handling in a short
 educational workshop. The same principles that we learn about today are
 mostly applicable for larger genomes too but would require more time and
 computer resource to analyse. Specifically, we will be using genomic
-sequence data from a survey of tuberculosis transmission in Oxfordshire,
-UK (Walker *et al.*, 2014) and transcriptomic data from another as-yet
-unpublished study. Both these datasets consist of pairs of short reads,
-generated using Illumina sequencing. We will also take a look at a
-genomic sequence dataset generated using PacBio longer reads (Philip *et
-al.*, 2016).
+sequence data from a
+[survey of tuberculosis transmission in Oxfordshire,UK](https://www.ncbi.nlm.nih.gov/pubmed/24717625)
+and transcriptomic data from another as-yet
+unpublished study.
 
-As the reference genome sequence, we will use the completely assembled
-sequence of strain H37Rv (Cole *et al.*, 1998). Prior to this practical,
+Both these datasets consist of pairs of short reads,
+generated using Illumina sequencing. We will also take a look at a
+[genomic sequence dataset generated using
+PacBio longer reads](https://www.ncbi.nlm.nih.gov/pubmed/?term=10.1016%2Fj.gdata.2016.08.007) 
+
+As the reference genome sequence, we will use the [completely assembled
+sequence of strain H37Rv](https://www.ncbi.nlm.nih.gov/pubmed/9634230).
+Prior to this practical,
 alignment files were generated for you: the sequence reads were aligned
 against H37Rv reference genome sequence using a software package called
 BWA (Li and Durbin, 2009).
