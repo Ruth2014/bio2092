@@ -329,7 +329,7 @@ And after right-clicking to rename the tracks and change font sizes, etc., it mi
 
 Now, let's zoom-in on one of the sequence discrepancies:
 
-![](./media/image24.png)
+![](./media/image25.png)
 
 Here we can see a single-nucleotide polymorphism at position LK052894.1:26,672. In strain JCM 3601 there is a
 C while in genomic reads from strains Ex2 and 65, the reads all agree with the T found in the strain YJS4271
