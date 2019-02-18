@@ -12,6 +12,7 @@ the data, by viewing the reads aligned against a reference genome
 sequence.
 
 ![](./media/image3.jpg)
+
 Making sense of short sequence reads is something like piecing together scraps of text from a shredder. There are two main approaches:
                                                                                        
 * Alignment against a reference and
@@ -107,6 +108,7 @@ Note that you can navigate to specific sites on the genome or search for
 specific genes, using the search field near the top:
 
 ![](./media/image9.png)
+
 You might wish to locate genes of particular interest that are involved
 in virulence of this pathogen, *e.g.* *katG*, *hspX* (*acr*), *erp*,
 *hma*, *pcaA*. Once you are confident that you understand what you are
@@ -145,28 +147,26 @@ ends of the genomic fragments.
 
 Now let’s zoom in on position AL123456.3:2,213,265:
 
-![](./media/image13.png){width="4.9146708223972in"
-height="2.4188024934383203in"}
+![](./media/image13.png)
 
 Here we can see a single-nucleotide polymorphism (SNP). Both the
 reference genome and strain OxTb-321 have a G at this position; but
 strain OxTb-6 has an A.
 
-  Do you think this G/A SNP will have any impact on an encoded protein? Why?   
-  ---------------------------------------------------------------------------- --
+> Do you think this G/A SNP will have any impact on an encoded protein? Why?   
 
 Now, try to find a few more SNPs:
 
-  Genomic position   Reference base   Alternative base   Effect on protein
-  ------------------ ---------------- ------------------ -------------------
-                                                         
+  Genomic position   |  Reference base  |   Alternative base |  Effect on protein
+  ------------------ | ---------------- | ------------------ | -------------------
+  .................. | ................ | .................. | ...................
+  
                                                          
                                                          
 
 Now, take a look at this genomic region: AL123456.3:2,232,639-2,244,376.
 
-![](./media/image14.png){width="5.028985126859142in"
-height="2.4750634295713034in"}
+![](./media/image14.png)
 
 Here, strain OxTb-6 appears to lack a genomic region comprising 4 genes
 that are present in the reference and in OxTb-321. Notice how the read
