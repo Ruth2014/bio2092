@@ -58,6 +58,7 @@ BWA (Li and Durbin, 2009).
 
 All of the files that you need are available on the University's OneDrive, here:
 <https://tinyurl.com/yde9ojy7>. This link is also provided on the ELE page.
+We will use these data again in a later practical to look at genetic basis of antibimicrobial resistance.
 
 ## The software: IGV
 To interactively browse the genome, and the NGS sequence data aligned
@@ -259,4 +260,20 @@ between the reads that was not sequenced.
 
 Have a look at some of the other graphs produced with your alignment
 files and try to figure out their meaning and significance.
+
+## What next? Comparative genomics of *Cyberlindnera fabianii*
+In your coursework assignment, you are asked to perform genomic comparisons between
+different sequenced strains of the yeast *Cyberlindnera fabianii*.
+You will see from the [published literature](https://www.ncbi.nlm.nih.gov/pubmed/?term=candida+fabianii)
+that this yeast can cause [fungaemia](https://www.ncbi.nlm.nih.gov/books/NBK436012/) in human patients, albeit rarely.
+
+Now, you should apply the skills you have learned in these practicals to the *C. fabianii* data to find some interesting features of its genome and/or differences between different strains.
+
+Below we work through an example.
+
+
+
+
+
+
 
