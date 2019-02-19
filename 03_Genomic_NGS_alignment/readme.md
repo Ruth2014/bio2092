@@ -364,6 +364,7 @@ Finally, some possible questions that you might consider tackling:
 * Is variation more common in some parts of the genome than others?
 * Can you find any loss-of-function mutations?
 * To which of the previously sequenced strains is the clinical isolate Ex2 most closely related?
+* Are there any genes missing from the annotations?
 
 
 
