@@ -257,9 +257,11 @@ The Insert Size Histogram displays the range of sizes of the DNA
 fragments. It shows how well your DNA was size selected before
 sequencing. Note that the 'insert' refers to the DNA that was inserted
 between the sequencing adaptors, so equates to the size range of the DNA
-that was used. In this case we have 300 paired end reads and our insert
-size varies around 600 bases - so there should only be a small gap
-between the reads that was not sequenced.
+that was used.
+
+In this case we have paired 300-base reads and our insert
+size varies around 600 base; so there should only be a small unsequenced gap
+between the pair of reads.
 
 Have a look at some of the other graphs produced with your alignment
 files and try to figure out their meaning and significance.
