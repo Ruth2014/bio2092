@@ -337,8 +337,8 @@ Here we can see a single-nucleotide polymorphism at position LK052894.1:26,672. 
 C while in genomic reads from strains Ex2 and 65, the reads all agree with the T found in the strain YJS4271
 reference sequence.
 
-This polymorphism falls within a GAA codon that encodes Glutamate (=E = Glu); in strain JCM 3601,
-the GAA is changed to GAC, which encodes Aspartate (=D =Asp). So, this is a non-synonymous change that affects
+This polymorphism falls within a GAA codon that encodes glutamate (=E = Glu); in strain JCM 3601,
+the GAA is changed to GAG, which also encodes glutamate. So, this is a synonymous change that does **not** affect
 the amino-acid sequence of the protein.
 
 Note that I have clicked the small arrow at the bottom left to reveal the
