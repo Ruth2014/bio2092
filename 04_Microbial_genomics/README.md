@@ -100,7 +100,6 @@ Now, gather some quality-control information about these datasets. Use the FastQ
 
 ## Task 3. Predict the antibiotic susceptibility profiles of each bacterial isolate using Mykrobe Predictor.
 
-
 You have already downloaded the compressed FastQ files for each genome
 (.fastq.gz files). Now, for each genome, use the Mykrobe Predictor
 software (Bradley *et al.*, 2015) to predict to which antibiotics these
@@ -121,29 +120,32 @@ height="2.6835444006999123in"}
 Repeat this process for some or all of the samples and record your
 results:
 
-  FastQ files             Sample name   *M. tb*. lineage    Resistant                           Susceptible
-  ----------------------- ------------- ------------------- ----------------------------------- ------------------------------------------------------------
-  ERR1679585.1.fastq.gz   NG1           European/American   Isoniazid, Rifampicin, Ethambutol   Quinolones, Streptomycin, Amikacin, Capreomycin, Kanamycin
-  ERR1679586.1.fastq.gz                                                                         
-  ERR1679587.1.fastq.gz                                                                         
-  ERR987695.1.fastq.gz                                                                          
-  ERR987696.1.fastq.gz                                                                          
-  ERR987696.1.fastq.gz                                                                          
-  ERR987697.1.fastq.gz                                                                          
+  FastQ files            | Sample name  | *M. tb*. lineage   |  Resistant                        | Susceptible
+ ----------------------- | -----------  | ----------------   | -----------------------------     | ------------
+  ERR1679585.1.fastq.gz  |  NG1         |  European/American | Isoniazid, Rifampicin, Ethambutol | Quinolones, Streptomycin, Amikacin, Capreomycin, Kanamycin
+  ERR1679586.1.fastq.gz  |              |                    |                                   |
+  ERR1679587.1.fastq.gz  |              |                    |                                   |
+  ERR987695.1.fastq.gz   |              |                    |                                   |
+  ERR987696.1.fastq.gz   |              |                    |                                   |
+  ERR987696.1.fastq.gz   |              |                    |                                   |
+  ERR987697.1.fastq.gz   |              |                    |                                   |
 
-Now let’s take a look at the evidence on which the software predictions
-are based.
+Now let’s take a look at the evidence on which the software predictions are based.
 
-![](./media/image9.png){width="5.7088604549431325in"
-height="3.7778576115485563in"}
+![](./media/image9.png)
 
 For example, note that the software predicts that this bacterial strain
 is resistant to rifampicin, based on detection of a mutation in the
-*rpoB* gene. Numerous studies (Casali *et al.*, 2016; Coll *et al.*,
-2017; Grandjean *et al.*, 2017; Naidoo and Pillay, 2017; Senghore *et
-al.*, 2017) have reported correlations between particular mutations in
+*rpoB* gene. Numerous studies (
+[Casali *et al.*, 2016](https://www.ncbi.nlm.nih.gov/pubmed/?term=27701423);
+[Coll *et al.*, 2017](https://www.ncbi.nlm.nih.gov/pubmed/29358649);
+[Grandjean *et al.*, 2017](https://www.ncbi.nlm.nih.gov/pubmed/?term=29281674);
+[Naidoo and Pillay, 2017](https://www.ncbi.nlm.nih.gov/pubmed/?term=28947708);
+[Senghore *et al.*, 2017](https://www.ncbi.nlm.nih.gov/pubmed/?term=28926571)
+) have reported correlations between particular mutations in
 *rpoB* (and a few other genes) and resistance to antibiotics in M.
-tuberculosis. These mutations alter the structure of the encoded protein
+tuberculosis.
+These mutations alter the structure of the encoded protein
 such that they are no longer effectively targeted by the antibiotic.
 Several naturally occurring mutations in *rpoB* are known to confer
 rifampicin resistance. See for example this figure (Ramaswamy and
@@ -151,11 +153,9 @@ Musser, 1998) listing known mutations in the *rpoB* gene associated with
 rifampicin resistance. **Let’s see whether we can find the
 resistance-conferring mutations** in our data in the next task …
 
-![](./media/image10.png){width="4.753424103237095in"
-height="3.4254811898512685in"}
+![](./media/image10.png)
 
-Task 4. View the raw data using the Integrated Genome Viewer (IGV) software
----------------------------------------------------------------------------
+## Task 4. View the raw data using the Integrated Genome Viewer (IGV) software
 
 We are going to use the IGV software (Thorvaldsdottir *et al.*, 2013) to
 view the genome sequence reads aligned against a reference genome (as
