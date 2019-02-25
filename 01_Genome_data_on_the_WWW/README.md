@@ -1,8 +1,6 @@
 ![](./media/image1.gif)
 
 # BIO2092 Practical 1: Bioinformatics resources on the WWW
-Instructor: d.j.studholme@exeter.ac.uk
-Friday 25th January 2019
 
 ## Introduction
 
