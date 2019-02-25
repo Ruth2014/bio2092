@@ -8,28 +8,27 @@ The objective of this practical is to gain some further hands-on
 experience of next-generation sequencing data. Specifically, we will use
 whole-genome shotgun sequence data, generated using the Illumina
 sequencing platforms (HiSeq and MiSeq). We will use data from pathogenic
-bacteria, including the same data as in the previous practical session.
+bacteria, including some of the same data as in the previous practical session.
 This has the advantage that the genomes are quite small (a few
 megabases) and so it is feasible to perform the tasks on a standard PC.
-Much of what you will learn can also be applied to larger genomes (such
+Some of what you will learn can also be applied to larger genomes (such
 as human genomes) but we would need a lot more compute power, disk space
 and RAM. In particular today we are going to focus on predicting
 antibiotic resistance (phenotype) from genomic sequence (genotype),
 which of course is of particular relevance in microbial pathogens.
 
-The data
---------
+## The data
 
 For your convenience, all of the data that you need has been collected
 together on the University’s One Drive here. You can access the data via
-a link on the ELE page
-(http://vle.exeter.ac.uk/mod/url/view.php?id=722134).
+a link on the ELE page (http://vle.exeter.ac.uk/mod/url/view.php?id=722134).
 
-![](./media/image3.png){width="6.4215277777777775in"
-height="2.2139173228346456in"}
+![](./media/image3.png)
 
-As a **reference genome sequence**, we will use that of *Mycobacterium
-tuberculosis* H37Rv (Cole *et al.*, 1998). You can download it from the
+As the **reference genome sequence**, we will use the [completely assembled
+sequence of strain H37Rv](https://www.ncbi.nlm.nih.gov/pubmed/9634230).
+
+You can download it from the
 “*Mycobacterium reference genome*” folder on the One Drive (see above).
 This is the same reference genome that we used in the previous
 practical. You will find a .fna file that contains the genomic sequence
@@ -37,8 +36,7 @@ in FastA format and you will find a .gff file that contains the
 annotation of the genome, including predicted genes, in General Feature
 Format (GFF).
 
-![](./media/image4.png){width="6.4215277777777775in"
-height="1.5971489501312337in"}
+![](./media/image4.png)
 
 In addition to the reference genome, for today’s practical you also need
 some FastQ files containing genomic sequence reads of various strains of
@@ -48,21 +46,18 @@ You can find all of these files in the “*Data for Mycobacterium
 resistance prediction”* folder. You can download the whole set of files
 by selecting all and hitting the Download button:
 
-![](./media/image5.png){width="6.4215277777777775in"
-height="3.52292104111986in"}
+![](./media/image5.png)
 
 This should result in a .zip file being downloaded into your Downloads
 folder. You must then extract the files from this .zip file by
 right-clicking and selecting “Extract All”. This will generate a new
 folder in which you will find your files.
 
-![](./media/image6.png){width="3.3744291338582677in"
-height="1.83918416447944in"}
-![](./media/image7.png){width="2.602739501312336in"
-height="1.8527854330708662in"}
+![](./media/image6.png)
 
-Task 1. Obtain background information about the data.
------------------------------------------------------
+![](./media/image7.png)
+
+## Task 1. Obtain background information about the data.
 
 Try to find some background information about these datasets and fill in
 the table. The filenames indicate the Sequence Read Archive (SRA)
@@ -77,34 +72,34 @@ accession PRJEB15857 and clicking the link to this BioProject reveals
 some information about the project. In fact this project has been
 published (Senghore *et al.*, 2017).
 
-  **FastQ file name**     **Sample name**   **Sequencing platform **   **Brief description of research project**
-  ----------------------- ----------------- -------------------------- -----------------------------------------------------------------------------------------------------------------------
-  ERR1679585.1.fastq.gz   NG1               Illumina MiSeq             Whole-genome sequencing illuminates the evolution and spread of multidrug-resistant tuberculosis in Southwest Nigeria
-  ERR1679586.1.fastq.gz                                                
-  ERR1679587.1.fastq.gz                                                
-  ERR987695.1.fastq.gz                                                 
-  ERR987696.1.fastq.gz                                                 
-  ERR987696.1.fastq.gz                                                 
-  ERR987697.1.fastq.gz                                                 
+  FastQ file name | Sample name | Sequencing platform | Brief description of research project
+----------------- | ----------- | ------------------- | --------------------------------------
+ERR1679585.1.fastq.gz | NG1     | Illumina MiSeq      | Whole-genome sequencing illuminates the evolution and spread of multidrug-resistant tuberculosis in Southwest Nigeria
+ERR1679586.1.fastq.gz |         |                     | 
+ERR1679587.1.fastq.gz |         |                     |  
+ERR987695.1.fastq.gz  |         |                     | 
+ERR987696.1.fastq.gz  |         |                     |     
+ERR987696.1.fastq.gz  |         |                     |         
+ERR987697.1.fastq.gz  |         |                     | 
 
-Task 2 (optional). Check the quality of your data using the FastQC software
----------------------------------------------------------------------------
 
-Now, gather some quality-control information about these datasets. Use
-the FastQC software to find out how many sequence reads.
 
-  FastQ file name         Number of reads   Any comments on the quality of these data
-  ----------------------- ----------------- -------------------------------------------
-  ERR1679585.1.fastq.gz                     
-  ERR1679586.1.fastq.gz                     
-  ERR1679587.1.fastq.gz                     
-  ERR987695.1.fastq.gz                      
-  ERR987696.1.fastq.gz                      
-  ERR987696.1.fastq.gz                      
-  ERR987697.1.fastq.gz                      
+## Task 2 (optional). Check the quality of your data using the FastQC software.
 
-Task 3. Predict the antibiotic susceptibility profiles of each bacterial isolate using Mykrobe Predictor. 
-----------------------------------------------------------------------------------------------------------
+Now, gather some quality-control information about these datasets. Use the FastQC software to find out how many sequence reads.
+
+  FastQ file name          | Number of reads   | Any comments on the quality of these data
+  -----------------------  | ----------------- | -------------------------------------------
+  ERR1679585.1.fastq.gz    |                   |  
+  ERR1679586.1.fastq.gz    |                   |
+  ERR1679587.1.fastq.gz    |                   | 
+  ERR987695.1.fastq.gz     |                   | 
+  ERR987696.1.fastq.gz     |                   |
+  ERR987696.1.fastq.gz     |                   |
+  ERR987697.1.fastq.gz       |                   |
+
+## Task 3. Predict the antibiotic susceptibility profiles of each bacterial isolate using Mykrobe Predictor.
+
 
 You have already downloaded the compressed FastQ files for each genome
 (.fastq.gz files). Now, for each genome, use the Mykrobe Predictor
