@@ -1,6 +1,6 @@
 ![](./media/image1.gif)
   
-# Handling “next-generation” sequencing data: alignments against a reference genome
+# Practical 3: Handling “next-generation” sequencing data: alignments against a reference genome
 
 ## Introduction
 In the previous practical, you saw the raw data output from
