@@ -1,6 +1,6 @@
   ![](./media/image1.gif)
    
-# Introduction to handling “next-generation” sequencing data
+# Computer practical 2: Introduction to handling “next-generation” sequencing data
 
 ## Introduction
 During the first few lectures on this course, you have heard a lot about
