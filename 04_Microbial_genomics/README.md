@@ -1,6 +1,6 @@
 ![](./media/image1.gif)
 
-# BIO2092 Computer Practical 4 – Microbial Genomics and antimicrobial resistance
+# BIO2092 Practical 4 – Microbial genomics and antimicrobial resistance
 
 ## Introduction
 
