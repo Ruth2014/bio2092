@@ -29,7 +29,7 @@ As the **reference genome sequence**, we will use the [completely assembled
 sequence of strain H37Rv](https://www.ncbi.nlm.nih.gov/pubmed/9634230).
 
 You can download it from the
-“*Mycobacterium reference genome*” folder on the One Drive (see above).
+“`Mycobacterium reference genome`” folder on the One Drive (see above).
 This is the same reference genome that we used in the previous
 practical. You will find a .fna file that contains the genomic sequence
 in FastA format and you will find a .gff file that contains the
@@ -42,8 +42,8 @@ In addition to the reference genome, for today’s practical you also need
 some FastQ files containing genomic sequence reads of various strains of
 *M. tuberculosis*. You also need some .bam and .bai files that contain
 alignments of these genomic reads aligned against the reference genome.
-You can find all of these files in the “*Data for Mycobacterium
-resistance prediction”* folder. You can download the whole set of files
+You can find all of these files in the “`Data for Mycobacterium
+resistance prediction`” folder. You can download the whole set of files
 by selecting all and hitting the Download button:
 
 ![](./media/image5.png)
@@ -82,8 +82,6 @@ ERR987696.1.fastq.gz  |         |                     |
 ERR987696.1.fastq.gz  |         |                     |         
 ERR987697.1.fastq.gz  |         |                     | 
 
-
-
 ## Task 2 (optional). Check the quality of your data using the FastQC software.
 
 Now, gather some quality-control information about these datasets. Use the FastQC software to find out how many sequence reads.
@@ -96,7 +94,7 @@ Now, gather some quality-control information about these datasets. Use the FastQ
   ERR987695.1.fastq.gz     |                   | 
   ERR987696.1.fastq.gz     |                   |
   ERR987696.1.fastq.gz     |                   |
-  ERR987697.1.fastq.gz       |                   |
+  ERR987697.1.fastq.gz     |                   |
 
 ## Task 3. Predict the antibiotic susceptibility profiles of each bacterial isolate using Mykrobe Predictor.
 
@@ -108,14 +106,12 @@ bacteria will be susceptible or resistant. Pay attention to the
 decision and we will follow up on this later in the practical. The
 Mykrobe predictor software should already be installed, but if you
 encounter any problems, then you can download it from this location:
-
--   <http://www.mykrobe.com/products/predictor/#download-license-agreement-tb>
+<http://www.mykrobe.com/products/predictor/#download-license-agreement-tb>
 
 Simply drag your compressed FastQ file into the Mykrobe Predictor window
 and wait … You should soon see results something like this:
 
-![](./media/image8.png){width="4.055213254593176in"
-height="2.6835444006999123in"}
+![](./media/image8.png)
 
 Repeat this process for some or all of the samples and record your
 results:
@@ -136,20 +132,21 @@ Now let’s take a look at the evidence on which the software predictions are ba
 
 For example, note that the software predicts that this bacterial strain
 is resistant to rifampicin, based on detection of a mutation in the
-*rpoB* gene. Numerous studies (
-[Casali *et al.*, 2016](https://www.ncbi.nlm.nih.gov/pubmed/?term=27701423);
+*rpoB* gene. Numerous studies
+([Casali *et al.*, 2016](https://www.ncbi.nlm.nih.gov/pubmed/?term=27701423);
 [Coll *et al.*, 2017](https://www.ncbi.nlm.nih.gov/pubmed/29358649);
 [Grandjean *et al.*, 2017](https://www.ncbi.nlm.nih.gov/pubmed/?term=29281674);
 [Naidoo and Pillay, 2017](https://www.ncbi.nlm.nih.gov/pubmed/?term=28947708);
-[Senghore *et al.*, 2017](https://www.ncbi.nlm.nih.gov/pubmed/?term=28926571)
-) have reported correlations between particular mutations in
+[Senghore *et al.*, 2017](https://www.ncbi.nlm.nih.gov/pubmed/?term=28926571))
+have reported correlations between particular mutations in
 *rpoB* (and a few other genes) and resistance to antibiotics in M.
 tuberculosis.
 These mutations alter the structure of the encoded protein
 such that they are no longer effectively targeted by the antibiotic.
 Several naturally occurring mutations in *rpoB* are known to confer
-rifampicin resistance. See for example this figure (Ramaswamy and
-Musser, 1998) listing known mutations in the *rpoB* gene associated with
+rifampicin resistance. See for example this figure ([Ramaswamy and
+Musser, 1998](https://www.ncbi.nlm.nih.gov/pubmed/?term=10645439))
+listing known mutations in the *rpoB* gene associated with
 rifampicin resistance. **Let’s see whether we can find the
 resistance-conferring mutations** in our data in the next task …
 
@@ -162,40 +159,38 @@ view the genome sequence reads aligned against a reference genome (as
 discussed in previous lectures and as you have used previously in
 practicals). It will look something like the images below:
 
-![](./media/image11.png){width="3.0026432633420823in"
-height="1.8205129046369204in"}
-![](./media/image12.png){width="3.0051290463692037in"
-height="1.822020997375328in"}
+![](./media/image11.png)
+
+![](./media/image12.png)
 
 In preparation for this session, I have aligned each of the sequence
 datasets against the reference genome sequence. You have already
-downloaded these as .bam and .bam.bai files.
+downloaded these as `.bam` and `.bam.bai` files.
 
-![](./media/image13.png){width="5.555967847769029in"
-height="3.0379746281714786in"}
+![](./media/image13.png)
 
 Please follow these steps to view the data:
 
--   You need to download both the ‘.bam’ files and the ‘.bai’ files to
+* You need to download both the ‘`.bam`’ files and the ‘`.bai`’ files to
     your local PC.
 
--   Make sure that you have downloaded the reference genome files
+* Make sure that you have downloaded the reference genome files
 
--   Launch the IGV software. Spend a little bit of time familiarising
+* Launch the IGV software. Spend a little bit of time familiarising
     yourself with zooming in and out and navigating around the genome if
     you have not already mastered this.
 
--   In the IGV software, load the reference genome ‘.fna’ file, using
-    the **Genomes-&gt;Load Genome from File** menu.
+* In the IGV software, load the reference genome ‘.fna’ file, using
+    the `Genomes-&gt;Load Genome from File` menu.
 
--   Load the ‘.gff’ annotation (gene predictions *etc*.) for the
-    reference genome, using the **File-&gt;Load from File** menu.
+* Load the ‘`.gff`’ annotation (gene predictions *etc*.) file for the
+    reference genome, using the `File-&gt;Load from File` menu.
 
--   Load the ‘.bam’ files using the **File-&gt;Load from File** menu.
-    The corresponding ‘.bai’ files must be present in the same folder as
-    the ‘.bam’ files.
+* Load the ‘`.bam`’ files using the `File-&gt;Load from File` menu.
+    The corresponding ‘`.bai`’ files must be present in the same folder as
+    the ‘`.bam`’ files.
 
--   Navigate to this position on the genome: 759807-763325. You should
+* Navigate to this position on the genome: 759807-763325. You should
     be able to see *rpoB* gene. What is the relevance of this gene to
     antibiotic resistance? What sequence variation do you observe in
     this gene?
@@ -203,18 +198,16 @@ Please follow these steps to view the data:
 Here is an overview of the data for the *rpoB* gene in our several
 samples:
 
-![](./media/image14.png){width="6.4215277777777775in"
-height="3.89339457567804in"}
+![](./media/image14.png)
 
 Here, we zoom in on the S40X mutation in *rpoB*:
 
-![](./media/image15.png){width="6.4215277777777775in"
-height="3.89339457567804in"}
+![](./media/image15.png)
 
 What about the mutation in the His residue in the second sample? Will
 this have any impact on drug resistance? You can find a full list of the
 mutations that Mykrobe predictor uses in Supplementary Table 15 of the
-published paper (Bradley *et al.*, 2015); see the back of this document.
+published paper (Bradley *et al.*, 2015).
 
 Now, if you still have some time left, have a look at some other
 antibiotic-resistance-associated loci and check whether the genomic
@@ -222,17 +215,19 @@ sequence data are consistent with the Mykrobe Predictor results that you
 generated and tabulated earlier. Try to summarise your findings in the
 table below.
 
-  Locus     Genomic position   Any resistance-associated mutations?   Relevant resistance prediction (from Mykrobe predictor)
-  --------- ------------------ -------------------------------------- ---------------------------------------------------------
-  *rpoB*    759807-763325                                             
-  *katG*    2153889-2156111                                           
-  *fabG1*   1673440-1674183                                           
-  *gyrA*    7302-9818                                                 
-  *embB*    4246514-4249810                                           
-  *rpsL*    781560-781934                                             
+  Locus     | Genomic position  | Any resistance-associated mutations? |  Relevant resistance prediction (from Mykrobe predictor)
+  --------- | ----------------- | ------------------------------------ | ---------------------------------------------------------
+  *rpoB*    | 759807-763325     |                                      |   
+  *katG*    | 2153889-2156111   |                                      |  
+  *fabG1*   | 1673440-1674183   |                                      |  
+  *gyrA*    | 7302-9818         |                                      |  
+  *embB*    | 4246514-4249810   |                                      |  
+  *rpsL*    | 781560-781934     |                                      |  
 
-References
-----------
+
+Finally, if you still have time, 
+
+## References
 
 Bradley, P., Gordon, N.C., Walker, T.M., Dunn, L., Heys, S., Huang, B.,
 et al. (2015) Rapid antibiotic-resistance predictions from genome
