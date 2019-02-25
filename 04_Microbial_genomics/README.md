@@ -42,14 +42,14 @@ In addition to the reference genome, for today’s practical you also need
 some FastQ files containing genomic sequence reads of various strains of
 *M. tuberculosis*. You also need some .bam and .bai files that contain
 alignments of these genomic reads aligned against the reference genome.
-You can find all of these files in the “`Data for Mycobacterium
-resistance prediction`” folder. You can download the whole set of files
+You can find all of these files in the `Data for Mycobacterium
+resistance prediction` folder. You can download the whole set of files
 by selecting all and hitting the Download button:
 
 ![](./media/image5.png)
 
 This should result in a .zip file being downloaded into your Downloads
-folder. You must then extract the files from this .zip file by
+folder. You must then extract the files from this `.zip` file by
 right-clicking and selecting “Extract All”. This will generate a new
 folder in which you will find your files.
 
@@ -70,7 +70,7 @@ Clicking on the SAMEA4501278 link brings us to a page that says the
 sample name is NG1. On the other hand, there is a link to BioProject
 accession PRJEB15857 and clicking the link to this BioProject reveals
 some information about the project. In fact this project has been
-published (Senghore *et al.*, 2017).
+published ([Senghore *et al.*, 2017](https://www.ncbi.nlm.nih.gov/pubmed/?term=28926571)).
 
   FastQ file name | Sample name | Sequencing platform | Brief description of research project
 ----------------- | ----------- | ------------------- | --------------------------------------
@@ -99,7 +99,7 @@ Now, gather some quality-control information about these datasets. Use the FastQ
 ## Task 3. Predict the antibiotic susceptibility profiles of each bacterial isolate using Mykrobe Predictor.
 
 You have already downloaded the compressed FastQ files for each genome
-(.fastq.gz files). Now, for each genome, use the Mykrobe Predictor
+(`.fastq.gz` files). Now, for each genome, use the Mykrobe Predictor
 software (Bradley *et al.*, 2015) to predict to which antibiotics these
 bacteria will be susceptible or resistant. Pay attention to the
 ‘Evidence’ section, because this tells you how the software came to the
@@ -171,7 +171,7 @@ downloaded these as `.bam` and `.bam.bai` files.
 
 Please follow these steps to view the data:
 
-* You need to download both the ‘`.bam`’ files and the ‘`.bai`’ files to
+* You need to download both the `.bam` files and the `.bai` files to
     your local PC.
 
 * Make sure that you have downloaded the reference genome files
@@ -180,17 +180,17 @@ Please follow these steps to view the data:
     yourself with zooming in and out and navigating around the genome if
     you have not already mastered this.
 
-* In the IGV software, load the reference genome ‘.fna’ file, using
-    the `Genomes-&gt;Load Genome from File` menu.
+* In the IGV software, load the reference genome `.fna` file, using
+    the `Genomes ->Load Genome from File` menu.
 
-* Load the ‘`.gff`’ annotation (gene predictions *etc*.) file for the
-    reference genome, using the `File-&gt;Load from File` menu.
+* Load the `.gff` annotation (gene predictions *etc*.) file for the
+    reference genome, using the `File -> Load from File` menu.
 
-* Load the ‘`.bam`’ files using the `File-&gt;Load from File` menu.
-    The corresponding ‘`.bai`’ files must be present in the same folder as
-    the ‘`.bam`’ files.
+* Load the `.bam` files using the `File -> Load from File` menu.
+    The corresponding `.bai` files must be present in the same folder as
+    the `.bam` files.
 
-* Navigate to this position on the genome: 759807-763325. You should
+* Navigate to this position on the genome: 759807 - 763325. You should
     be able to see *rpoB* gene. What is the relevance of this gene to
     antibiotic resistance? What sequence variation do you observe in
     this gene?
@@ -225,7 +225,7 @@ table below.
   *rpsL*    | 781560-781934     |                                      |  
 
 
-Finally, if you still have time, 
+
 
 ## References
 
