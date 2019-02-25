@@ -1,14 +1,8 @@
-  ![](./media/image1.gif){width="1.6895833333333334in" height="0.6256944444444444in"}   ![](./media/image2.jpeg){width="0.9991797900262467in" height="0.5826126421697287in"}
-  ------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------
+![](./media/image1.gif)
 
-BIO2092 Computer Practical – Microbial Genomics
-===============================================
+# BIO2092 Computer Practical – Microbial Genomics and antimicrobial resistance
 
-Tuesday 13^th^ February 2018
-============================
-
-Introduction
-------------
+## Introduction
 
 The objective of this practical is to gain some further hands-on
 experience of next-generation sequencing data. Specifically, we will use
