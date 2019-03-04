@@ -1,15 +1,9 @@
-<span id="_Toc196798724" class="anchor"><span id="_Toc221355440"
-class="anchor"></span></span>![](./media/image1.gif){width="2.25in"
-height="0.8333333333333334in"}
+![](./media/image1.gif)
 
-BIO2092 Practical:
+BIO2092 Computer Practical 5. Sequence assembly
 
-Sequence assembly
 
-Tuesday 20^th^ February 2018
-
-![](./media/image2.jpeg){width="2.2866666666666666in"
-height="1.3333333333333333in"}
+![](./media/image2.jpeg)
 
 You should be able to complete this easily within the three-hour session
 so there is plenty of time to ask questions to the instructor(s) and to
