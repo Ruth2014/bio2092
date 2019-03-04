@@ -35,14 +35,23 @@ of a virus isolated from a dragonfly. Try to assemble these 10 sequence
 reads into a single contiguous sequence (contig):
 
 `5’ TTCTATATAGGTGCCACTGCCACTGCTCCACCGTA 3’`
+
 `5’ GATAGCCTTCTATATAGATGCCACTGCCACTGCTC 3’`
+
 `5’ AGCGGTGGCAGTGGCACCTATATAGAAGGCTATCG 3’`
+
 `5’ CCTATATAGAAGGCTATCGGAGATAAGACTACTTA 3’`
+
 `5’ TATGGGAGATAAGACTACTTAATATTATTCTCTAC 3’`
+
 `5’ GAGCAGTGGCAGTGGCACCTATATAGAAGGCTATC 3’`
+
 `5’ AGAAGAATATTAAGTAGTCTTATCTCCGATAGCCT 3’`
+
 `5’ CGATAGCCTTCTATATAGGTGGCACTGCCACTGCT 3’`
+
 `5’ CGGAGATAAGACTACTTAATATTATTCTCTACGGT 3’`
+
 `5’ CCGTAGAGAATAATATTAAGTAGTCTTATCTCCGA 3’`
 
 Note: in the practical, you will be provided with a card and scissors from which you
@@ -71,7 +80,7 @@ from the pages at the end of this document.
 
 First, try assembling these 34 (unpaired or singleton) reads:
 
-  `TATATATATATATATA`   TATATATATATATATA
+  `TATATATATATATATA   TATATATATATATATA
   CGCATATATATATATA   TATATATATATATATA
   ATATATATATATATAT   ATATATATATATATAT
   TATATATATATATATA   TATATATATATATATG
@@ -87,7 +96,7 @@ First, try assembling these 34 (unpaired or singleton) reads:
   ATATATATATATATAT   ATATATATATATGCCG
   ATATATATATATATAT   ATATATATATGCCGAT
   TATATATATATATATA   TATATATATGCCGATT
-  TATATATATATATATA   TATATATATATATGCC
+  TATATATATATATATA   TATATATATATATGCC`
   
 Note: in the practical, you will be provided with a card and scissors from which you
 can cut-out these sequences and arrange them on your desk.
@@ -95,7 +104,7 @@ can cut-out these sequences and arrange them on your desk.
 
 Now, try assembling these 17 paired reads:
 
-TATATATATATATATAnnnnnnnnnnnnnnnnnnnnTATATATATATATATA
+`TATATATATATATATAnnnnnnnnnnnnnnnnnnnnTATATATATATATATA
 
 CGCATATATATATATAnnnnnnnnnnnnnnnnnnnnTATATATATATATATA
 
@@ -127,7 +136,7 @@ ATATATATATATATATnnnnnnnnnnnnnnnnnnnnATATATATATGCCGAT
 
 TATATATATATATATAnnnnnnnnnnnnnnnnnnnnTATATATATGCCGATT
 
-TATATATATATATATAnnnnnnnnnnnnnnnnnnnnTATATATATATATGCC
+TATATATATATATATAnnnnnnnnnnnnnnnnnnnnTATATATATATATGCC`
 
 Note: in the practical, you will be provided with scissors and a card from which you
 can cut-out these sequences and arrange them on your desk.
