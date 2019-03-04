@@ -45,7 +45,7 @@ reads into a single contiguous sequence (contig):
 5’ CGGAGATAAGACTACTTAATATTATTCTCTACGGT 3’
 5’ CCGTAGAGAATAATATTAAGTAGTCTTATCTCCGA 3’
 
-Note: in the practical, you will be provided with a card from which you
+Note: in the practical, you will be provided with a card and scissors from which you
 can cut-out these sequences and arrange them on your desk.
 
 You could try using the greedy algorithm, OLC or k-mer graph methods
@@ -89,7 +89,7 @@ First, try assembling these 34 (unpaired or singleton) reads:
   TATATATATATATATA   TATATATATGCCGATT
   TATATATATATATATA   TATATATATATATGCC
   
-Note: in the practical, you will be provided with a card from which you
+Note: in the practical, you will be provided with a card and scissors from which you
 can cut-out these sequences and arrange them on your desk.
   
 
@@ -129,7 +129,7 @@ TATATATATATATATAnnnnnnnnnnnnnnnnnnnnTATATATATGCCGATT
 
 TATATATATATATATAnnnnnnnnnnnnnnnnnnnnTATATATATATATGCC
 
-Note: in the practical, you will be provided with a card from which you
+Note: in the practical, you will be provided with scissors and a card from which you
 can cut-out these sequences and arrange them on your desk.
 
 You should find assembly using paired reads is much more accurate than
