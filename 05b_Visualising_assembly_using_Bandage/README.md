@@ -1,6 +1,8 @@
 ![](./media/image1.gif)
 
-BIO2092 Practical 5 Part B. Sequence assembly
+BIO2092 Practical 5. Sequence assembly
+
+## Excercise 3. Exploring an assembly graph using Bandage software
 
 In case you finish the main assembly tasks with lots of time to spare,
 you may wish to explore some real genome assembly results using the
