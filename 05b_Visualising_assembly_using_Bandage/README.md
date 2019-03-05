@@ -62,12 +62,18 @@ the nodes in the graph with their names, sequence depths, and lengths.
 You can select nodes (contigs) and perform BLAST searches with the
 selected contigs (using the Output menu item).
 
-Use BLAST to figure out what genomic element is represented by this structure in the assembly graph:
+What genomic feature do you think is represented by this region of the graph?
+Can you draw a diagram of the genomic region that it represents? Clue: it involves
+repeated sequences.
 
-![](./media/image6.png)
+![](./media/bandage1.png)
 
-What can infer about the number of copies of this genomic element
-(compared with the rest of the genome)?
+The sequences of the two contigs are:
+
+`>2359056 (180bp) TAATCAATAAATTGATAACTGATAAGCGGAACGCCTGAGCTAAAGCTCATTGACGCAGTGGTTGACTGGTCATCCAATGGAGAATTGCCTGACCTAGTCAACTTTGCGGGGGAAATTCTAAGCAACCTAGATAAGGTTCGAGAATTTCTCCCTAAGAAACACTAATCAATAAATTGATAA`
+and
+`>2345186 (236 bp)
+GGTTGCTTAGAATTTCCCCCGCAAAGTTGACTAGGTCAGGCAATTCTCCATTGGATGACCAGTCAACCACTGCGTCAATGAGCTTTAGCTCAGGCGTTCCGCTTATCAGTTATCAATTTATTGATTAGTGTTTCTTAGGGAGAAATTCTCGAACCTTATCTAGGTTGCTTAGAATTTCCCCCGCAAAGTTGACTAGGTCAGGCAATTCTCCATTGGATGACCAGTCAACCACTGCG`
 
 
 ### References
