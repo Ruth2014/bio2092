@@ -22,10 +22,10 @@ Navigate to the folder containing data for genome assembly:
 Once you have downloaded these files, first take a look at the contents
 of the `contigs.fasta` and the `scaffolds.fasta` files. These files contains the final results of
 the assembly process; this is the nucleotide sequences of the assembled
-contigs and scaffolds. Incidentally, this genome assembly is from a strain of Staphylococcus
-aureus isolated from a patient in Exeter. The assembly is publicly available in the GenBank database
+contigs and scaffolds. Incidentally, this genome assembly is from a strain of *Staphylococcus
+aureus* isolated from a patient in Exeter. The assembly is publicly available in the GenBank database
 here: https://www.ncbi.nlm.nih.gov/assembly/GCF_003149295.1/ and described in a research paper published
-here: https://www.ncbi.nlm.nih.gov/pubmed/29954915
+here: https://www.ncbi.nlm.nih.gov/pubmed/29954915.
 
 Next, take a look at the `assembly statistics` folder. In particular,
 download and open  the `report.html` file, which contains a summary of several measures
