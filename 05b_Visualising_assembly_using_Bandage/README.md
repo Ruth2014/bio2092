@@ -57,12 +57,12 @@ Now, use the `Draw graph` button to display the graph:
 
 ![](./media/image.5.png)
 
-Use the controls to zoom and move around the graph. You can also label
-the nodes in the graph with their names, sequence depths, and lengths.
-You can select nodes (contigs) and perform BLAST searches with the
-selected contigs (using the Output menu item).
+It is kind of fun to explore this assembly graph. Some things you can do:
+* Use the controls to zoom-in, zoom-out and move around the graph.
+* You can also label the nodes in the graph with their names, sequence depths, and lengths.
+* You can select nodes (contigs) and perform BLAST searches with the selected contigs (using the `Output` menu item).
 
-What genomic feature do you think is represented by this region of the graph?
+What genomic feature do you think is represented by this region of the graph (See image below)?
 Can you draw a diagram of the genomic region that it represents? Clue: it involves
 repeated sequences.
 
