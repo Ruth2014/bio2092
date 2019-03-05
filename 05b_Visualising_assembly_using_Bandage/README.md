@@ -1,21 +1,10 @@
-<span id="_Toc196798724" class="anchor"><span id="_Toc221355440"
-class="anchor"></span></span>![](./media/image1.gif){width="2.25in"
-height="0.8333333333333334in"}
+![](./media/image1.gif)
 
-BIO2092 Practical:
-
-Sequence assembly
-
-Tuesday 20^th^ February 2018
-
-![](./media/image2.jpeg){width="2.2866666666666666in"
-height="1.3333333333333333in"}
+BIO2092 Practical 5 Part B. Sequence assembly
 
 In case you finish the main assembly tasks with lots of time to spare,
 you may wish to explore some real genome assembly results using the
 Bandage software (Wick *et al.*, 2015).
-
-### \
 
 During the lectures and outside reading, you have learned about the
 k-mer (de Bruijn) graph approach to assembling a genome sequence from
@@ -50,15 +39,18 @@ ambiguities in the assembly graph (forks, loops, branches, *etc*.)
 remain.
 
 Run the Bandage software, which should already be installed on your PC.
+IF it is not installed or not working, you can download the latest version
+from here: https://github.com/rrwick/Bandage/releases/https://github.com/rrwick/Bandage/releases/
+and run it without needing to install it.
+
 Use the File -&gt; Load graph menu item to load the graph file
 (assembly\_graph.gfa):
 
-![](./media/image4.png){width="6.40882217847769in"
-height="3.7188265529308837in"}
+![](./media/image4.png)
 
 Now, use the “Draw graph” button to display the graph:
 
-![](./media/image5.png){width="6.5in" height="3.9409722222222223in"}
+![](./media/image5.png)
 
 Use the controls to zoom and move around the graph. You can also label
 the nodes in the graph with their names, sequence depths, and lengths.
@@ -68,8 +60,7 @@ selected contigs (using the Output menu item).
 Use BLAST to figure out what genomic element is represented by this
 circular structure in the assembly graph:
 
-![](./media/image6.png){width="6.284191819772529in"
-height="3.810126859142607in"}
+![](./media/image6.png)
 
 What can infer about the number of copies of this genomic element
 (compared with the rest of the genome)?
@@ -78,11 +69,9 @@ Can you explain what is happening in these parts of the assembly graph?
 
 ![](./media/image7.png){width="6.5in" height="3.9409722222222223in"}
 
-![](./media/image8.png){width="6.253164916885389in"
-height="3.7913145231846017in"}
+![](./media/image8.png)
 
-![](./media/image9.png){width="6.409457567804025in"
-height="3.886075021872266in"}
+![](./media/image9.png)
 
 ### References
 
