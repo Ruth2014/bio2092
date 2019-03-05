@@ -50,7 +50,7 @@ Use the File -&gt; Load graph menu item to load the graph file
 
 Now, use the “Draw graph” button to display the graph:
 
-![](./media/image5.png)
+![](./media/image.5.png)
 
 Use the controls to zoom and move around the graph. You can also label
 the nodes in the graph with their names, sequence depths, and lengths.
