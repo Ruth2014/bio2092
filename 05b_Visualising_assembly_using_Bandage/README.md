@@ -15,6 +15,11 @@ such as Illumina MiSeq. Now, you are going to take a look at the end
 results of assembling a bacterial genome sequence.
 
 The data are available here:
+
+https://universityofexeteruk-my.sharepoint.com/:f:/g/personal/d_j_studholme_exeter_ac_uk/EmaG2Iu5eKxHu-VkA-txFIEBzUXP5vfu2RPSSJ51UDMvEA?e=QYXiKr
+
+or, via ELE, here:
+
 https://vle.exeter.ac.uk/mod/url/view.php?id=722134
 
 Navigate to the folder containing data for genome assembly:
