@@ -69,7 +69,7 @@ The sequence alignment table tells us which haplogroup this sequence belongs (J1
 In this case there are 41 variants detected. For example, one of them is A73G, which means that the A at position 73 in the reference genome has instead a G in our query genome. Clicking on `Alignment Details` will provide further information.
 
 
-![Upload file to Mitomap](media/mitomap1.png)
+![Upload file to Mitomap](media/mitomap2.png)
 
 ![Upload file to Mitomap](media/mitomap3.png)
 
