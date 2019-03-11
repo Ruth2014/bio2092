@@ -1,8 +1,7 @@
   ![](./media/image1.gif)
    
-# BIO2092 Practical 2: Introduction to handling “next-generation” sequencing data
+# BIO2092 Practical 6: Human genomics
 
-# Human genomics
 In this computer practical, we will take a look at several web-based resources to support what we have learned in
 lectures and outside reading about applying genomics to human health and anthropology. We will try solve some of the web-based problems
 (Weblems) posed by the author of our primary course textbook; see: https://global.oup.com/uk/orc/biosciences/evolution/leskgenomics3e/student/weblems/.
