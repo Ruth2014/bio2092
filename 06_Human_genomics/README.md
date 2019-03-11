@@ -47,12 +47,12 @@ Now, take a look at the mitochondrial genetic code here: https://www.mitomap.org
 Uou can also reach this via a link on the front page (https://www.mitomap.org/foswiki/bin/view/MITOMAP/WebHome).
 Can you find any differences between the mitochondrial genetic code and the standard genetic code?
 
-Codon | Standard genetic code | Mitochcondrial genetic code
+Codon | Standard genetic code | Mitochondrial genetic code
 ----- | --------------------- | ---------------------------
 `TGA`   |                       |
-``   |                       | 
+`   `   |                       | 
 `AGA`   |                       | Stop 
-``   | Isoleucine            | Methionine
+`   `   | Isoleucine            | Methionine
 
 ## Analysing a mitochondrial genome sequence using Mitomap
 We are going to analyse the mitochondrial genome of an individual. The sequence data can be found here:
