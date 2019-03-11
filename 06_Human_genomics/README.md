@@ -6,7 +6,7 @@ In this computer practical, we will take a look at several web-based resources t
 lectures and outside reading about applying genomics to human health and anthropology. We will try solve some of the web-based problems
 (Weblems) posed by the author of our primary course textbook; see: https://global.oup.com/uk/orc/biosciences/evolution/leskgenomics3e/student/weblems/.
 
-If you have not dones so already, you should complete the Labster virtual lab about sequencing ancient human DNA.
+If you have not done so already, you should complete the Labster virtual lab about sequencing ancient human DNA.
 You can access this simulation via the link on the Labster section of the BIO2092 ELE page:
 https://vle.exeter.ac.uk/mod/lti/view.php?id=684279.
 
@@ -49,16 +49,16 @@ Can you find any differences between the mitochondrial genetic code and the stan
 
 Codon | Standard genetic code | Mitochcondrial genetic code
 ----- | --------------------- | ---------------------------
-TGA   |                       |
-___   |                       | 
-AGA   |                       | Stop 
-___   | Isoleucine            | Methionine
+`TGA`   |                       |
+``   |                       | 
+`AGA`   |                       | Stop 
+``   | Isoleucine            | Methionine
 
 ## Analysing a mitochondrial genome sequence using Mitomap
 We are going to analyse the mitochondrial genome of an individual. The sequence data can be found here:
 https://www.ncbi.nlm.nih.gov/nuccore/eu915478.
 
-Download this genome sequence as a FastA-formatted file (`Using the Send to file` link):
+Download this genome sequence as a FastA-formatted file (Using the `Send to file` link):
 
 ![Download page](media/download.png)
 
@@ -80,7 +80,7 @@ In this case, we have complete coverage; that's expected because we are analysin
 
 ![Upload file to Mitomap](media/mitomap2.png)
 
-The sequence alignment table tells us which haplogroup this sequence belongs (J1b in this case) and lists the variants detected.
+The sequence alignment table tells us which haplogroup this sequence belongs (J1b in this case; you can read about haplogroup J here: https://www.eupedia.com/europe/Haplogroup_J_mtDNA.shtml) and lists the variants detected.
 In this case there are 41 variants detected. For example, one of them is A73G, which means that the A at position 73 in the reference genome has instead a G in our query genome. 
 
 ![Upload file to Mitomap](media/mitomap3.png)
@@ -93,8 +93,8 @@ Try to solve this problem ([Weblem 9.1 from Lesk's Introduction to Genomics](htt
 
 Position         | 16147 | 16172 | 16189 | 16223 | 16248 | 16320 | 16355
 ---------------- | ----- | ----- | ----- | ----- | ----- | ----- | -----
-Reference genome | C     | T     | T     | C     | C     | C     | C
-Query genome     |A      | C     | C     | T     | T     | T     | T
+Reference genome | `C`     | `T`     | `T`     | `C`     | `C`     | `C`     | `C`
+Query genome     | `A`      | `C`     | `C`     | `T`     | `T`     | `T`     | `T`
 
 ### To what mitochondrial haplogroup does the sequence belong?
 
