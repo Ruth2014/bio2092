@@ -1,5 +1,15 @@
+# Human genomics
+In this computer practical, we will take a look at several web-based resources to support what we have learned in
+lectures and outside reading about applying genomics to human health and anthropology. We will try solve some of the web-based problems
+(Weblems) posed by the author of our primary course textbook; see: https://global.oup.com/uk/orc/biosciences/evolution/leskgenomics3e/student/weblems/.
 
-# Human mitochondrial variation and Mitomap/Mitomaster
+If you have not dones so already, you should complete the Labster virtual lab about sequencing ancient human DNA.
+You can access this simulation via the link on the Labster section of the BIO2092 ELE page:
+https://vle.exeter.ac.uk/mod/lti/view.php?id=684279.
+
+Now is also a good opportunity to ask questions to the instructors and catch-up on any of the previous practicals.
+
+## Human mitochondrial variation and Mitomap/Mitomaster
 During the lectures and in your outside reading, you will have come across human mitochondrial halpogroups. 
 
 The major mitochondrial haplogroups are named with letters (A, B, C ...) and their relationships with each other can be represtented by a phylogenetic tree:
@@ -171,8 +181,23 @@ The result of abnormal mitochondrial DNA              |
 The result of abnormal copy-number expansion          |
 The result of a deletion of a region longer than 1kb  |
 
+Hint: the summary table at https://www.omim.org/statistics/entry is helpful for the first six categories.
+The final two are going to require broader web searching.
 
+## Genome-wide association studies (GWAS)
+We are going to tackle [Weblem 8.8 from Lesk's Introduction to Genomics](https://global.oup.com/uk/orc/biosciences/evolution/leskgenomics3e/student/weblems/).
 
+Find SNPs that are associated with foetal haemoglobin measurement.
+Which SNP has the smallest p-value?
+In what chromosome band does it appear?
+
+To solve this, first navigate to the EBI-NHGRI GWAS catalogue (https://www.ebi.ac.uk/gwas/diagram). You have seen this previously
+in a lecture. Select Haematological measurement:
+
+![EBI-NHGRI GWAS catalogue](media/gwas.png)
+
+Well done! You reached the end! 
+If you still have time left, you may wish to attempt any of the other Weblems(https://global.oup.com/uk/orc/biosciences/evolution/leskgenomics3e/student/weblems/) that pique your interest.
 
 
 
