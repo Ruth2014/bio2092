@@ -119,13 +119,59 @@ You might also wish to try the same task using the UCSC browser instead of Ensem
 
 Let's use these to try to solve [Weblem 8.4 from Lesk's Introduction to Genomics](https://global.oup.com/uk/orc/biosciences/evolution/leskgenomics3e/student/weblems/).
 
-### Find three examples of mutations in the CFTR gene (associated with syctic fibrosis) that produce reduced but not entirely  absent chloride channel function. What are the clinical symptoms of these mutations?
+### Find three examples of mutations in the CFTR gene (associated with cystic fibrosis) that produce reduced but not entirely absent chloride channel function. What are the clinical symptoms of these mutations?
 
 
 We can see the sites of phenotype-associated short variants in the Ensembl browser 
 [here](https://jan2019.archive.ensembl.org/Homo_sapiens/Share/42f814fd3e13a3bb1d081fdce9c375c7?redirect=no;mobileredirect=no):
 
-![Genome browser showing part of CFTR gene](media/ensembl3.png)
+![Genome browser showing part of CFTR gene](media/ensembl4.png)
+
+Notice that you can click on any of these variants and it will take you to the database entry for that variant, including some
+information about the phenotype(s) associated with that variant.
+
+![summary info for a variant in the CFTR gene](media/ensembl5.png)
+
+What you are looking at above is still within the Ensembl database. However, (most of) these variants are drawn from a
+database called SNPdb and we can follow the link to take us directly to that SNP in SNPdb:
+
+![summary info for a variant in the CFTR gene](media/ensembl6.png)
+
+From the SNPdb web page, we can follow a link to (yet another database) ClinVar, which will tell us what is known about
+the clinical significance of this particular variant. However, the degree of detail recorded in this database does not
+distinguish between reduced function versus completely absent function. I presume that what Lesk is getting at here is that some
+mutations are nonsense mutations leading to premature stop codons whilst others are missense mutations leading to a
+slightly altered amin-acid sequence but not complete loss of function.
+
+
+## Online Mendelian Inheritance in Man
+Recall that during the lectures, we briefly discussed the OMIM (Online Mendelian Inheritance in Man) database.
+OMIM is a comprehensive, authoritative compendium of human genes and genetic phenotypes that is freely available
+and updated daily. The full-text, referenced overviews in OMIM contain information on all known mendelian disorders
+and over 15,000 genes. OMIM focuses on the relationship between phenotype and genotype. It is updated daily,
+and the entries contain copious links to other genetics resources (https://www.omim.org/about).
+
+Let's use OMIM to try to solve [Weblem 8.5 from Lesk's Introduction to Genomics](https://global.oup.com/uk/orc/biosciences/evolution/leskgenomics3e/student/weblems/).
+
+Weblem 8.5 asks us to find (a) Autosomal dominant (b) Autosomal
+recessive (other than cystic fibrosis) (c) X-linked dominant (d) X-linked recessive (e) Y-linked (f)
+The result of abnormal mitochondrial DNA (g) the result of abnormal copy-number expansion (h)
+the result of a deletion of a region longer than 1kb.
+
+Your answers:
+
+Disease characteristics                               | Example of disease with these characteristics
+----------------------------------------------------- | ----------------------------------------------
+Autosomal dominant                                    |
+Autosomal recessive (other than cystic fibrosis)      |
+X-linked dominant                                     |  
+X-linked recessive                                    |
+Y-linked                                              |  
+The result of abnormal mitochondrial DNA              |
+The result of abnormal copy-number expansion          |
+The result of a deletion of a region longer than 1kb  |
+
+
 
 
 
