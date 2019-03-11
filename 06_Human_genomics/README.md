@@ -204,6 +204,41 @@ in a lecture. Select Haematological measurement:
 
 ![EBI-NHGRI GWAS catalogue](media/gwas.PNG)
 
+
+
+## Cancer genomics
+During the lectures, we learned that a large number of cancer genomes have been sequenced and compared against
+matched healthy genomes from the same patients. This produces catalogues of genes implicated in cancer
+and catalogues of driver mutations. Let's explore some freely available web-based databases that curate these
+data. The go-to web portal is: https://cancer.sanger.ac.uk/cosmic.
+
+Let's investigate a specific cancer-associated gene, IDH1. In which types of cancer (which tissues) is its
+mutation most prevalent? See: https://cancer.sanger.ac.uk/cosmic/gene/analysis?ln=IDH1#tissue
+
+
+Using the census of cancer genes at https://cancer.sanger.ac.uk/census, which of the hallmarks of cancer
+are promoted by mutations in the genes VHL, PIK3CA, IDH1, RB1? How many genes are known to be implicated
+in cancer?
+
+You should be able to find a summary for each gene that looks something like this:
+
+![Gene census pages](media/census.png)
+
+Take a look at the VHL gene in the Cosmic3D viewer (https://cancer.sanger.ac.uk/cosmic3d/protein/VHL?pdb=6BVB). Look
+at the profile of cancer-associated somatic mutations found in this gene. BAsed on this profile, do you think it is
+a tumour-suppressor? Or an oncogene?
+
+![VHL gene](media/VHL.png)
+
+And how about gene PIK3CA? Oncogene or tumpur-suppressor gene?
+
+![PIK3CA gene](media/PIK3CA.png)
+
+How about genes IDH1 and RB1?
+
+If you want to learn more about the Cosmic database, see: https://cancer.sanger.ac.uk/cosmic/help/tutorials
+
+
 Well done! You reached the end! 
 If you still have time left, you may wish to attempt any of the other Weblems(https://global.oup.com/uk/orc/biosciences/evolution/leskgenomics3e/student/weblems/) that pique your interest.
 
