@@ -34,10 +34,10 @@ Can you find any differences between the mitochondrial genetic code and the stan
 
 Codon | Standard genetic code | Mitochcondrial genetic code
 ----- | --------------------- | ---------------------------
-AGA   | Arginine              | Stop 
-      | Isoleucine            | Methionine
       |                       |
       |                       | 
+AGA   | Arginine              | Stop 
+      | Isoleucine            | Methionine
 
 
 
