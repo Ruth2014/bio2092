@@ -22,5 +22,25 @@ Here, you should see a page something like this:
 
 ![Mitobank webpage](media/mitobank1.png)
 
+Now click on `To search for complete or near-complete sequences, click: Execute Search` and you 
+
+Question                                                                                   | Answer
+------------------------------------------------------------------------------------------ | -------
+How many complete (or nearly complete) human mitochondrial genome sequences are available? |
+
+## The mitochondrial genetic code
+Now, take a look at the mitochondrial genetic code here: https://www.mitomap.org/foswiki/bin/view/MITOMAP/HumanMitoCode.
+Can you find any differences between the mitochondrial genetic code and the standard genetic code?
+
+Codon | Standard genetic code | Mitochcondrial genetic code
+----- | --------------------- | ---------------------------
+AGA   | Arginine              | Stop 
+      | Isoleucine            | Methionine
+      |                       |
+      |                       | 
+
+
+
+
 
 
