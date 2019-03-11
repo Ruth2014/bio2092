@@ -222,7 +222,7 @@ You should be able to find a summary for each gene that looks something like thi
 ![Gene census pages](media/hallmarks.png)
 
 Take a look at the VHL gene in the Cosmic3D viewer (https://cancer.sanger.ac.uk/cosmic3d/protein/VHL?pdb=6BVB). Look
-at the profile of cancer-associated somatic mutations found in this gene. BAsed on this profile, do you think it is
+at the profile of cancer-associated somatic mutations found in this gene. Based on this profile, do you think it is
 a tumour-suppressor? Or an oncogene?
 
 ![VHL gene](media/VHL.png)
