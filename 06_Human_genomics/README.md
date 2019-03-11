@@ -122,6 +122,13 @@ Let's use these to try to solve [Weblem 8.4 from Lesk's Introduction to Genomics
 ### Find three examples of mutations in the CFTR gene (associated with syctic fibrosis) that produce reduced but not entirely  absent chloride channel function. What are the clinical symptoms of these mutations?
 
 
+We can see the sites of phenotype-associated short variants in the Ensembl browser 
+[here](https://jan2019.archive.ensembl.org/Homo_sapiens/Share/42f814fd3e13a3bb1d081fdce9c375c7?redirect=no;mobileredirect=no):
+
+![Genome browser showing part of CFTR gene](media/ensembl3.png)
+
+
+
 
 
 
