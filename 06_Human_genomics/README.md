@@ -98,6 +98,11 @@ Query genome     |A      | C     | C     | T     | T     | T     | T
 
 ### To what mitochondrial haplogroup does the sequence belong?
 
+You can now take a look at an interative phylogenetic tree of all available human mitochondrial genome
+sequences here: http://www.phylotree.org/tree/index.htm. You can click on the bottom row of the tree to find example sequences from
+various haplogroups.
+
+
 # Browsing the human genome
 In previous practicals, you have downloaded small microbial genomes onto your local computer and browsed them using the IGV
 software. We can, in principal, do the same thing with the human genome. However, it is usually more convenient to use one of the
@@ -197,7 +202,7 @@ In what chromosome band does it appear?
 To solve this, first navigate to the EBI-NHGRI GWAS catalogue (https://www.ebi.ac.uk/gwas/diagram). You have seen this previously
 in a lecture. Select Haematological measurement:
 
-![EBI-NHGRI GWAS catalogue](media/gwas.png)
+![EBI-NHGRI GWAS catalogue](media/gwas.PNG)
 
 Well done! You reached the end! 
 If you still have time left, you may wish to attempt any of the other Weblems(https://global.oup.com/uk/orc/biosciences/evolution/leskgenomics3e/student/weblems/) that pique your interest.
