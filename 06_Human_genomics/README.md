@@ -58,6 +58,25 @@ For now, we are going to skip Step 1. Please proceed to `Step 2, Option 1` and u
 
 ![Upload file to Mitomap](media/mitomap1.png)
 
+The analysis results contain two main sections:
+1. The rCRS track view and
+2. The sequence alignment table.
+
+The rCRS track simply tells us which part(s) of the reference mitochondrial genome sequence are covered by our query sequence.
+In this case, we have complete coverage; that's expected because we are analysing a complete mitochondrial genome sequence.
+
+The sequence alignment table tells us which haplogroup this sequence belongs (J1b in this case) and lists the variants detected.
+In this case there are 41 variants detected. For example, one of them is A73G, which means that the A at position 73 in the reference genome has instead a G in our query genome. Clicking on `Alignment Details` will provide further information.
+
+
+![Upload file to Mitomap](media/mitomap1.png)
+
+![Upload file to Mitomap](media/mitomap3.png)
+
+
+
+
+
 
 
 
