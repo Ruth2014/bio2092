@@ -96,6 +96,8 @@ Position         | 16147 | 16172 | 16189 | 16223 | 16248 | 16320 | 16355
 Reference genome | `C`     | `T`     | `T`     | `C`     | `C`     | `C`     | `C`
 Query genome     | `A`      | `C`     | `C`     | `T`     | `T`     | `T`     | `T`
 
+**Note: I tried to solve this and it is not as straightforwward as I had expected! I recommend skipping this task!**
+
 ### To what mitochondrial haplogroup does the sequence belong?
 
 You can now take a look at an interative phylogenetic tree of all available human mitochondrial genome
