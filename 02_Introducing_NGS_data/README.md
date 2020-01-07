@@ -52,12 +52,10 @@ The 'Run selecter' looks like this:
 Note that in the public databases, sequence data are organised into projects (BioProjects) and samples (BioSamples).
 One sample of biological material might have been sequenced once or several times. And one project might involve 
 sequencing of several different biological samples.
-This diagram might be helpful for understanding how BioProjects,
-BioSamples, experiments and runs are related to each other:
 
-<img src="./media/image8.tiff" height="300"/>
 
-It comes from the DDBJ Sequence Read Archive Handbook (<http://trace.ddbj.nig.ac.jp/book/sra_e.html>). 
+(If you want to know more about the details of how the data are organised,
+you can consult [the DDBJ Sequence Read Archive Handbook](http://trace.ddbj.nig.ac.jp/book/sra_e.html).) 
 
 In the case of this human palaeosequencing project, the BioProject contains only one BioSample. 
 
