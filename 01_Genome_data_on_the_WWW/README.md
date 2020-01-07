@@ -48,7 +48,7 @@ something new. Examples include some microbial genome sequences and a
 wealth of metagenomics sequences. These are a good place to go ‘fishing’
 for new genes. In fact there is a name for this: ‘bioprospecting’.
 
-<img src="./media/image3.png" height="200"/>
+<img src="./media/image3.png" height="300"/>
 
 A genome (or metagenome) sequence typically contains segments called
 *genes* that encode a *protein* (or a functional RNA), separated by
@@ -68,7 +68,7 @@ the various metagenomics studies of microbiomes. Try searching for a
 suitable example at the NCBI Nucleotide web portal:
 https://www.ncbi.nlm.nih.gov/nucleotide/
 
-<img src="./media/image4.png" height="200" />
+<img src="./media/image4.png" height="300" />
 
 At the NCBI website you could simply search for ‘metagenome’ or something more specific like
 ‘coral metagenome’, ‘alkali sediment metagenome’; use your imagination!
@@ -84,7 +84,7 @@ Do you know what a **metagenome** is? If not, then "Google" it and/or ask!
 See an example of a candidate DNA sequence for analysis in the image
 below:
 
-<img src="./media/image5.png" height="200" />
+<img src="./media/image5.png" height="300" />
 
 *I recommend that you work through this using the illustrated example before choosing your own sequence.*
 
@@ -122,7 +122,7 @@ shares some sequence similarity with already-known proteins. So we are going to 
 of sequence similarity between our naked DNA sequence and a database of amino-acid sequences from
 known proteins.
 
-<img src="./media/gene_discovery.PNG" height="200" />
+<img src="./media/gene_discovery.PNG" height="300" />
 
 To acheive this, we will perform a BLAST search using your
 chosen DNA sequence as the query against the databases of protein amino
@@ -133,7 +133,7 @@ You can perform your BLAST search at
 https://blast.ncbi.nlm.nih.gov/Blast.cgi as in the example in the
 image below.
 
-<img src="./media/image6.png" height="200" />
+<img src="./media/image6.png" height="300" />
 
 Notice that for the query you can insert either the actual DNA
 sequence or just the accession number. When you are ready, hit the
@@ -150,11 +150,11 @@ between the product of our query sequence and
 previously described proteins in
 the SwissProt database. Since these previously-known proteins are homologous to our query protein, it is likely that they share similar structure and function.
 
-<img src="./media/image7.png" height="200" />
+<img src="./media/image7.png" height="300" />
 
 Let’s choose one of these for further investigation (click on one of the four red blocks that each represent a block of sequence similarity):
 
-<img src="./media/image8.png" height="200" />
+<img src="./media/image8.png" height="300" />
 
 We are now going to perform a series of steps in order to extract the DNA
 sequence of our newly discovered gene. Note that this gene sequence is a
@@ -188,11 +188,11 @@ can see the sequence alignment:
 Note the “Download” icon (in the figure above). This allows us to obtain
 the sequence of our new gene:
 
-<img src="./media/image12.png" height="200" />
+<img src="./media/image12.png" height="300" />
 
 Here is the resulting nucleotide sequence of our new gene:
 
-<img src="./media/image13.png" height="200" />
+<img src="./media/image13.png" height="300" />
 
 Notice that this contains just the sequence of the actual gene and we have discarded the non-coding DNA sequence 
 from usptream and downstream of the gene. We can now perform analyses on this gene without confusing or confounding
@@ -248,13 +248,13 @@ generate a phylogenetic tree.
 
 Here is the BLASTP search form:
 
-<img src="./media/image14.png" height="200" />
+<img src="./media/image14.png" height="300" />
 
 Here is the BLASTP result page. Note the graphical representation of
 **protein domain structure**. Also note hyperlinks to “Multiple alignment” and
 “Distance tree of results”:
 
-<img src="./media/image15.png" height="200" />
+<img src="./media/image15.png" height="300" />
 
 Here is the tree showing the relationships between our query
 protein sequence and the BLASTP hits.
@@ -265,12 +265,12 @@ and, more distantly, to other epsiolon-proteobacteria such as
 sequence originates from a bacterium of that group. Can you think of a
 way to investigate or check this further, using BLAST searches?
 
-<img src="./media/image16.png" height="200" />
+<img src="./media/image16.png" height="300" />
 
 Here we can see the details of the amino-acid sequence alignment of our
 query sequence against the BLASTP hits:
 
-<img src="./media/image17.png" height="200" />
+<img src="./media/image17.png" height="300" />
 
 ## Predicting protein function with the STRING database (http://string.embl.de/)
 
@@ -296,7 +296,7 @@ it with your newly discovered gene/protein.
 First, enter the terms into the search box and press the “Search”
 button:
 
-<img src="./media/image18.png" height="200" />
+<img src="./media/image18.png" height="300" />
 
 (Note that you can also search “by sequence” rather than “by name”;
 therefore, you could paste-in the sequence of your newly discovered
@@ -305,7 +305,7 @@ protein.)
 This yields a network of interactions, inferred from genome sequence
 data, between the *otsA* gene and some others:
 
-<img src="./media/image19.png" height="200" />
+<img src="./media/image19.png" height="300" />
 
 Note that this network is represented as a ‘graph’ consisting of nodes
 (*a.k.a.* ‘vertices’) and connections (‘edges’). We will encounter
@@ -315,7 +315,7 @@ graphs again in other contexts of bioinformatics, especially in
 Note that some of these genes, associated via genome sequence data, also
 happen to have related functions (trehalose biosynthesis):
 
-<img src="./media/image20.png" height="200" />
+<img src="./media/image20.png" height="300" />
 
 Try to understand the meaning of the realtionships that link the genes
 in this network. Here we can see that *otsA* and *tpp* are adjacent to
@@ -324,9 +324,9 @@ each other in many genomes, suggesting a functional link
 into a single protein (“Gene Fusion”). Furthemore, most genomes either
 contain both genes or neither gene (“Cooccurrence”):
 
-<img src="./media/image21.png" height="200" />
-<img src="./media/image22.png" height="200" />
-<img src="./media/image23.png" height="200" />
+<img src="./media/image21.png" height="300" />
+<img src="./media/image22.png" height="300" />
+<img src="./media/image23.png" height="300" />
 
 Now, explore some of the other associations, some of which are less
 obvious, such as the link with *katF* or *osmY*.
@@ -342,12 +342,12 @@ in most genomes).
 
 For this task, you will use the NCBI ORF Finder at http://www.ncbi.nlm.nih.gov/gorf/gorf.html
 
-<img src="./media/image24.png" height="200" />
+<img src="./media/image24.png" height="300" />
 
 Exercise: Use this tool to find the ORfs in the human opsin-5 transcript
 sequence (accession number NM\_181744) or in your newly discovered gene.
 
-<img src="./media/image25.png" height="200" />
+<img src="./media/image25.png" height="300" />
 
 Exercise: Can you find which ORF encodes the protein product of this
 transcript? Hint: the predicted amino acid sequence of opsin-5
