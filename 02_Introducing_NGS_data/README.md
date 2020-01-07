@@ -19,7 +19,7 @@ analysing such data.
 * Please work through this Labster simulation. This will take approximately 30 - 50 minutes.
 (This simulation covers material that has appeared in exam previous questions!)  
  
-![](./media/image3.png)
+<img src="./media/image3.png" height="300"/>
  
 It is based on a real published research study involving the sequencing of ancient DNA from remains of a man who lived about 4000 years ago (Rasmussen *et al.*, 2010).   
 You can access this simulation via the link on the Labster section of the BIO2092 ELE page: https://vle.exeter.ac.uk/mod/lti/view.php?id=684279
@@ -32,14 +32,14 @@ Sequence Archive (ENA) in Europe.
 
 Navigate to the research paper at <https://www.ncbi.nlm.nih.gov/pubmed/?term=20148029> and try to find a hyperlink to the sequence data. Alternatively, if you look at the text of the paper in *Nature*, you will read that “Sequences have been deposited to the short read archive with accession number SRA010102”.   
 
-![](./media/image4.png)
+<img src="./media/image4.png" height="300"/>
    
 If you [follow the "SRA" hyperlink](https://www.ncbi.nlm.nih.gov/sra?LinkName=pubmed_sra&from_uid=20148029)
 or search the NCBI portal for this accession
 number, you will arrive a page like this, describing the data from this
 study that is held in the SRA:
 
-![](./media/image5.png)
+<img src="./media/image5.png" height="300"/>
 
 This is telling us that there are 59 datasets associated with this
 project. Click on the link "[Send results to Run selector](https://www.ncbi.nlm.nih.gov/Traces/study/?WebEnv=NCID_1_111035670_130.14.18.48_5555_1548934073_662260917_0MetA0_S_HStore&query_key=10)" to explore these in a bit
@@ -47,7 +47,7 @@ more detail ...
 
 The 'Run selecter' looks like this:
 
-![](./media/image6.png) 
+<img src="./media/image6.png" height="300"/>
 
 Note that in the public databases, sequence data are organised into projects (BioProjects) and samples (BioSamples).
 One sample of biological material might have been sequenced once or several times. And one project might involve 
@@ -55,7 +55,7 @@ sequencing of several different biological samples.
 This diagram might be helpful for understanding how BioProjects,
 BioSamples, experiments and runs are related to each other:
 
-![](./media/image8.tiff)
+<img src="./media/image8.tiff" height="300"/>
 
 It comes from the DDBJ Sequence Read Archive Handbook (<http://trace.ddbj.nig.ac.jp/book/sra_e.html>). 
 
@@ -82,22 +82,22 @@ them just in case you were wondering. The important thing is that we want to nav
 
 Here is our [list of "experiments" belonging to this project](https://www.ncbi.nlm.nih.gov/sra?LinkName=pubmed_sra&from_uid=20148029):
 
-![](./media/image9.png) 
+<img src="./media/image9.png" height="300"/>
 
 Click on one of the links to an “experiment". That will take you to the details of one experiment.
 It will look something like this:
 
-![](./media/image10.png)
+<img src="./media/image10.png" height="300"/>
 
 Next, click on a link to a “run”. You will see the details of one run, which will look something like this:
 
-![](./media/image11.png)
+<img src="./media/image11.png" height="300"/>
                                                                                                                                          
 Now, we are ready to look at the actual sequence data, i.e. the sequence reads.
 If you click on the “Reads” tab within the run, you can start
 browsing the actual sequence reads:
 
-![](./media/image12.png)
+<img src="./media/image12.png" height="300"/>
 
 Note that each base in the sequence read is given a quality score. 
 (You might need to click on the tickbox labelled "quality scores" to ensure that the scores are visible.
@@ -128,7 +128,7 @@ To download data from the SRA you need to use a software package called the SRA 
 This is a really useful suite of software tools for a skilled bioinformatician, but is not very
 user-friendly for a novice.
 
-![](./media/image13.png)
+<img src="./media/image13.png" height="300"/>
 
 Rather than using the SRA Toolkit, we will use a simpler solution instead. We will download the same data from the European
 Bioinformatics Institute (EBI) website. Essentially the same data are mirrored at the USA site (NCBI) and the European site (EBI)
@@ -137,7 +137,7 @@ but the web interfaces for the two sites are quite different.
 Try to navigate to the palaeo-eskimo sequencing data on [the EBI website](https://www.ebi.ac.uk/),
 using the search tool.
 
-![](./media/image14.png)
+<img src="./media/image14.png" height="300"/>
                                                                                                                                      
 Alternatively, we can go directly to the relevant BioProject via this link: <https://www.ebi.ac.uk/ena/data/view/PRJNA46213>   
                                                                                                                                      
@@ -162,7 +162,7 @@ also the quality scores for each base in the sequence.
 
 The FastQ format looks like this:
 
-![](./media/image16.png)
+<img src="./media/image16.png" height="300"/>
 
 Can you think of any advantage of representing the quality scores in this manner rather than what we saw on the NCBI website?
 
@@ -193,17 +193,17 @@ below. You can find out more about FastQC at its website
 
 ### Launching the FastQC software in Windows:
 
-![](./media/image18.png)
+<img src="./media/image18.png" height="300"/>
 
-![](./media/image19.png)
+<img src="./media/image19.png" height="300"/>
 
 ### Opening a FastQ file in the FastQC software:
 
-![](./media/image20.png)
+<img src="./media/image20.png" height="300"/>
 
 ### Now wait a minute while the FastQC software analyses the FastQ file:
 
-![](./media/image21.png)
+<img src="./media/image21.png" height="300"/>
 
 The FastQC program performs a number of tests which determines whether a
 green tick (pass), exclamation mark (warning) or red cross (fail) is
@@ -235,7 +235,7 @@ across all bases at each position in the FASTQ file. Generally anything
 with a median quality score greater than Q20 is regarded as acceptable;
 anything above Q30 is regarded as 'good'.
 
-![](./media/image22.png)
+<img src="./media/image22.png" height="300"/>
 
 In this case, this check is red - and it is true that the quality drops
 off at the end of the reads. It is normal for read quality to get worse
@@ -256,7 +256,7 @@ drops off in some cells faster than others. This maybe because of the
 way the sample flowed over the flowcell, a bubble, or a mark/smear on the lens
 of the optics.
 
-![](./media/image24.png)
+<img src="./media/image24.png" height="300"/>
 
 ### Per-base sequence content
 For a completely randomly generated library with a GC content of 50% one
@@ -267,7 +267,7 @@ at the beginning of the read. This may be due to PCR duplicates during
 amplification or during library preparation. 
 A perfectly uniform distribution is unlikely.
 
-![](./media/image25.png) 
+<img src="./media/image25.png" height="300"/>
 
 ### Sequence duplication levels
 In a library that covers a whole genome uniformly, most sequences will
@@ -278,7 +278,7 @@ enrichment bias (e.g. PCR over-amplification). FastQC counts the degree
 of duplication for every sequence in the set and creates a plot showing
 the relative number of sequences with different degrees of duplication.
 
-![](./media/image26.png)
+<img src="./media/image26.png" height="300"/>
 
 Finally, please gather the following information about your downloaded
 dataset. Some of this information can be found on the websites and some
