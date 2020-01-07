@@ -98,6 +98,8 @@ Here are some good examples that you could use:
 
 * [Genome of the ash-dieback fungus](https://www.ncbi.nlm.nih.gov/nuccore?LinkName=assembly_nuccore_insdc&from_uid=560381)
 
+* [A sequence from a metagenome](https://www.ncbi.nlm.nih.gov/nuccore/PDVJ01000001.1)
+
 Choose one specific DNA sequence.
 
 For the DNA sequence that you have chosen to study, can you find the
@@ -143,25 +145,27 @@ against the smaller, less-comprehensive database might yield less
 information. So, you could try both simultaneously (in different tabs in your web browser).
 
 In the example BLAST result below, we can see four regions of the DNA
-sequence that show clear similarity. This strongly suggests there is homology [homology](https://www.ncbi.nlm.nih.gov/pubmed/3621342)
+sequence that show clear similarity. This strongly suggests there is [homology](https://www.ncbi.nlm.nih.gov/pubmed/3621342)
 between the product of our query sequence and 
 previously described proteins in
 the SwissProt database. Since these previously-known proteins are homologous to our query protein, it is likely that they share similar structure and function.
 
 <img src="./media/image7.png" height="200" />
 
-Let’s choose one of these for further investigation:
+Let’s choose one of these for further investigation (click on one of the four red blocks that each represent a block of sequence similarity):
 
 <img src="./media/image8.png" height="200" />
 
 We are now going to perform a series of steps in order to extract the DNA
 sequence of our newly discovered gene. Note that this gene sequence is a
-substring of the original DNA sequence that we started with. In the
+substring of the original query DNA sequence that we started with. In other words,
+the protein-coding gene sequence occupies only a small part of the genomic DNA sequence. In the
 example above, our gene lies around positions 76,476 and 77,696 in the
-original 188,848-bp sequence. We could try to manually copy and paste this substring
+original 188,848-bp sequence. There is more than one way to do this.
+For example, we could try to manually copy and paste this substring
 onto the clipboard. However, the steps below are probably easier and less error-prone.
 
-In the example above, we know that protein accession P07323.2 is
+In the example above, we can see that protein accession P07323.2 is
 homologous with our new gene. So, let’s use TBLASTN to get the sequence
 of our new gene by aligning the protein against the DNA sequence.
 This time we will use the “Align two or more sequences”
@@ -169,17 +173,17 @@ option and we will use previously described protein P07323.2 as the
 query and metagenomic DNA sequence accession PDVJ01000001.1 as the
 ‘subject sequence’ against which we will search the query:
 
-<img src="./media/image9.png" height="200" />
+<img src="./media/image9.png" height="300" />
 
 The result of this example looks like this:
 
-<img src="./media/image10.png" height="200" />
+<img src="./media/image10.png" height="300" />
 
 This clearly shows that about 85% of the query protein’s length has
-detectable sequence similarity with the metagenomics DNA sequence. Now if we scroll down we
+detectable sequence similarity with our query DNA sequence. Now if we scroll down we
 can see the sequence alignment:
 
-<img src="./media/image11.png" height="200" />
+<img src="./media/image11.png" height="300" />
 
 Note the “Download” icon (in the figure above). This allows us to obtain
 the sequence of our new gene:
@@ -233,9 +237,13 @@ Suggested tool | Web address
 
 
 ## Generating a sequence alignment and phylogenetic tree
-Placing a novel protein/gene into a phylogenetic tree can reveal insights into its evolutionary origins and possibly its function.
+Placing a novel protein/gene into a phylogenetic tree can reveal insights into its evolutionary origins and possibly its function. 
+Remember that the example query sequence [GenBank: PDVJ01000001.1](https://www.ncbi.nlm.nih.gov/nuccore/PDVJ01000001.1)
+came from a metagenome. A metagenome is basically a mixture of many individual genomes potentially from many different species.
+How do we know which species this sequence originated from? A phylogenetic analysis can help here ...
+
 Please see the following series of screenshots illustrating how to use
-BLAST to gather homologues of our query sequence, align them and
+BLAST to gather homologues (*i.e.* related sequences) of our query sequence, align them and
 generate a phylogenetic tree.
 
 Here is the BLASTP search form:
@@ -243,16 +251,16 @@ Here is the BLASTP search form:
 <img src="./media/image14.png" height="200" />
 
 Here is the BLASTP result page. Note the graphical representation of
-domain structure. Also note hyperlinks to “Multiple alignment” and
+**protein domain structure**. Also note hyperlinks to “Multiple alignment” and
 “Distance tree of results”:
 
 <img src="./media/image15.png" height="200" />
 
-Here is the distance tree showing the relationships between our query
-protein sequence and the BLASTP hits. This tree approximates to the
-phylogenetic relationships. Note that our query protein seems to cluster
+Here is the tree showing the relationships between our query
+protein sequence and the BLASTP hits.
+Note that our query protein seems to cluster
 with a protein from the epsilon-proteobacterial order Campylobacterales
-and , more distantly, to other epsiolon-proteobacteria such as
+and, more distantly, to other epsiolon-proteobacteria such as
 *Sulfuricurvum* spp.; this strongly suggests that this metagenomics
 sequence originates from a bacterium of that group. Can you think of a
 way to investigate or check this further, using BLAST searches?
@@ -270,6 +278,7 @@ Many microbial genomics databases are available that, rather than just
 presenting raw data, have some “added value”, such as tools for
 predicting the function of genes. One such example is the [STRING
 database](https://www.ncbi.nlm.nih.gov/pubmed/25352553).
+
 This database aims to provide
 clues about the functions of poorly characterised genes by identifying
 associations with genes of better-understood function. These
