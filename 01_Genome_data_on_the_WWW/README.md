@@ -362,15 +362,17 @@ does the ORF fall? If not, then why not? (You may wish to draw a diagram
 here)
 
 By now, I hope that you are now convinced that it is possible to make
-new discoveries in biology fairly easily by exploring freely available
-data and using freely available analysis tools.
-This can lead to insights that are worthy of publication in a quality peer reviewed scientific journal.
-As an example, [here is a research paper](https://www.ncbi.nlm.nih.gov/pubmed/14641908) 
-that is based entirely on a systematic, yet
+new discoveries in biology surprisingly easily by exploring freely available
+data and using freely available analysis tools. This is thanks to the efforts
+of software developers, curators and database managers as well as the researchers
+who deposit their data into these public repositories.
+The techniques that you explored today can even lead to insights that are worthy of publication in a scientific journal.
+As an example, [here is one of my research papers](https://www.ncbi.nlm.nih.gov/pubmed/14641908) 
+based entirely on a systematic, yet
 quite simple, analysis of publicly available DNA and protein sequence
 data.  It didn’t require any expensive
 equipment or specialised laboratory, just a computer with an internet
-connection!
+connection and some curiosity!
 
 :+1:
 
