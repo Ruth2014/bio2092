@@ -46,21 +46,18 @@ of human chromosomes. However, many DNA sequences in the database have
 hardly been studied at all and present an opportunity for us to discover
 something new. Examples include some microbial genome sequences and a
 wealth of metagenomics sequences. These are a good place to go ‘fishing’
-for new genes. In fact there is a name for this: ‘bioprospecting’
-(https://www.ncbi.nlm.nih.gov/pubmed/24124406,
-https://www.ncbi.nlm.nih.gov/pubmed/26204808, 
-https://www.ncbi.nlm.nih.gov/pubmed/28815469)
+for new genes. In fact there is a name for this: ‘bioprospecting’.
 
 <img src="./media/image3.png" height="200"/>
 
 A genome (or metagenome) sequence typically contains segments called
-genes that encode a protein (or a functional RNA), separated by
-intergenic regions. Generally, the genes evolve relatively slowly, so
+*genes* that encode a *protein* (or a functional RNA), separated by
+*intergenic regions*. Generally, the genes evolve relatively slowly, so
 they will share sequence similarity with genes from other organisms,
 even if that similarity is limited. On the other hand, intergenic
 regions often evolve relatively quickly and may share little or no
 sequence similarity with any other organisms. So, we are going to look
-for islands of relatively conserved sequence to help identify new genes.
+for **islands of relatively conserved sequence** to help identify new genes.
 
 ### Choose a previously uncharacterised DNA sequence
 
@@ -73,7 +70,7 @@ https://www.ncbi.nlm.nih.gov/nucleotide/
 
 <img src="./media/image4.png" height="200" />
 
-You could simply search for ‘metagenome’ or something more specific like
+At the NCBI website you could simply search for ‘metagenome’ or something more specific like
 ‘coral metagenome’, ‘alkali sediment metagenome’; use your imagination!
 Then choose a specific DNA sequence from this metagenome/genome to work on,
 from among those returned by the search. You might need to use some
@@ -82,7 +79,7 @@ links before you get to a specific sequence. Do spend some time trying
 to figure out the logic of how the data are organised in these web
 pages.
 
-Do you know what a **metagenome** is? If not, then Google it and/or ask!
+Do you know what a **metagenome** is? If not, then "Google" it and/or ask!
 
 See an example of a candidate DNA sequence for analysis in the image
 below:
@@ -95,8 +92,11 @@ The example used in the remainder of this document comes from a metagenome. Howe
 This would be a good idea; analysis of an unannonated microbial genome fits well with subsequent Computer Practical sessions
 and the coursework assignment. 
 Here are some good examples that you could use:
-https://www.ncbi.nlm.nih.gov/nuccore?LinkName=biosample_nuccore&from_uid=6011375
-https://www.ncbi.nlm.nih.gov/nuccore?LinkName=assembly_nuccore_insdc&from_uid=560381
+
+* [Genome of *Candida fabianii*](https://www.ncbi.nlm.nih.gov/nuccore/SETG01000004.1)
+
+* [That one](https://www.ncbi.nlm.nih.gov/nuccore?LinkName=assembly_nuccore_insdc&from_uid=560381)
+
 Choose one specific sequence from among the sets of sequences included in these genomes.
 
 For the DNA sequence that you have chosen to study, can you find the
