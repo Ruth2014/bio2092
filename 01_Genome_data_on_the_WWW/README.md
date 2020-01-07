@@ -91,13 +91,14 @@ below:
 The example used in the remainder of this document comes from a metagenome. However, instead you could use an unanotated genome. 
 This would be a good idea; analysis of an unannonated microbial genome fits well with subsequent Computer Practical sessions
 and the coursework assignment. 
+
 Here are some good examples that you could use:
 
 * [Genome of *Candida fabianii*](https://www.ncbi.nlm.nih.gov/nuccore/SETG01000004.1)
 
-* [That one](https://www.ncbi.nlm.nih.gov/nuccore?LinkName=assembly_nuccore_insdc&from_uid=560381)
+* [Genome of the ash-dieback fungus](https://www.ncbi.nlm.nih.gov/nuccore?LinkName=assembly_nuccore_insdc&from_uid=560381)
 
-Choose one specific sequence from among the sets of sequences included in these genomes.
+Choose one specific DNA sequence.
 
 For the DNA sequence that you have chosen to study, can you find the
 following information?
@@ -139,7 +140,7 @@ limited, you might wish to search against the [Swiss-Prot](https://www.ncbi.nlm.
 database rather than the default database because searching this smaller database will be a bit
 quicker than searching the much larger one. On the other hand, searching
 against the smaller, less-comprehensive database might yield less
-information. So, you could try both simultaneously (in different tabs in your browser).
+information. So, you could try both simultaneously (in different tabs in your web browser).
 
 In the example BLAST result below, we can see four regions of the DNA
 sequence that show clear similarity. This strongly suggests there is homology [homology](https://www.ncbi.nlm.nih.gov/pubmed/3621342)
