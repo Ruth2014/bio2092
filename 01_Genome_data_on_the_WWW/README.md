@@ -48,7 +48,7 @@ something new. Examples include some microbial genome sequences and a
 wealth of metagenomics sequences. These are a good place to go ‘fishing’
 for new genes. In fact there is a name for this: ‘bioprospecting’.
 
-<img src="./media/image3.png" height="300"/>
+<img src="./media/image3.png" height="200"/>
 
 A genome (or metagenome) sequence typically contains segments called
 *genes* that encode a *protein* (or a functional RNA), separated by
