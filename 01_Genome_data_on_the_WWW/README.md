@@ -51,7 +51,7 @@ for new genes. In fact there is a name for this: ‘bioprospecting’
 https://www.ncbi.nlm.nih.gov/pubmed/26204808, 
 https://www.ncbi.nlm.nih.gov/pubmed/28815469)
 
-<img src="./media/image3.png" height="200" align="middle"/>
+<img src="./media/image3.png" height="200"/>
 
 A genome (or metagenome) sequence typically contains segments called
 genes that encode a protein (or a functional RNA), separated by
@@ -151,7 +151,6 @@ the SwissProt database. Since these previously-known proteins are homologous to 
 
 Let’s choose one of these for further investigation:
 
-![](./media/image8.png)
 <img src="./media/image8.png" height="200" />
 
 We are now going to perform a series of steps in order to extract the DNA
@@ -169,26 +168,26 @@ option and we will use previously described protein P07323.2 as the
 query and metagenomic DNA sequence accession PDVJ01000001.1 as the
 ‘subject sequence’ against which we will search the query:
 
-![](./media/image9.png)
+<img src="./media/image9.png" height="200" />
 
 The result of this example looks like this:
 
-![](./media/image10.png)
+<img src="./media/image10.png" height="200" />
 
 This clearly shows that about 85% of the query protein’s length has
 detectable sequence similarity with the metagenomics DNA sequence. Now if we scroll down we
 can see the sequence alignment:
 
-![](./media/image11.png)
+<img src="./media/image11.png" height="200" />
 
 Note the “Download” icon (in the figure above). This allows us to obtain
 the sequence of our new gene:
 
-![](./media/image12.png)
+<img src="./media/image12.png" height="200" />
 
 Here is the resulting nucleotide sequence of our new gene:
 
-![](./media/image13.png)
+<img src="./media/image13.png" height="200" />
 
 Notice that this contains just the sequence of the actual gene and we have discarded the non-coding DNA sequence 
 from usptream and downstream of the gene. We can now perform analyses on this gene without confusing or confounding
@@ -240,13 +239,13 @@ generate a phylogenetic tree.
 
 Here is the BLASTP search form:
 
-![](./media/image14.png)
+<img src="./media/image14.png" height="200" />
 
 Here is the BLASTP result page. Note the graphical representation of
 domain structure. Also note hyperlinks to “Multiple alignment” and
 “Distance tree of results”:
 
-![](./media/image15.png)
+<img src="./media/image15.png" height="200" />
 
 Here is the distance tree showing the relationships between our query
 protein sequence and the BLASTP hits. This tree approximates to the
@@ -257,12 +256,12 @@ and , more distantly, to other epsiolon-proteobacteria such as
 sequence originates from a bacterium of that group. Can you think of a
 way to investigate or check this further, using BLAST searches?
 
-![](./media/image16.png)
+<img src="./media/image16.png" height="200" />
 
 Here we can see the details of the amino-acid sequence alignment of our
 query sequence against the BLASTP hits:
 
-![](./media/image17.png)
+<img src="./media/image17.png" height="200" />
 
 ## Predicting protein function with the STRING database (http://string.embl.de/)
 
@@ -287,7 +286,7 @@ it with your newly discovered gene/protein.
 First, enter the terms into the search box and press the “Search”
 button:
 
-![](./media/image18.png)
+<img src="./media/image18.png" height="200" />
 
 (Note that you can also search “by sequence” rather than “by name”;
 therefore, you could paste-in the sequence of your newly discovered
@@ -296,7 +295,7 @@ protein.)
 This yields a network of interactions, inferred from genome sequence
 data, between the *otsA* gene and some others:
 
-![](./media/image19.png)
+<img src="./media/image19.png" height="200" />
 
 Note that this network is represented as a ‘graph’ consisting of nodes
 (*a.k.a.* ‘vertices’) and connections (‘edges’). We will encounter
@@ -306,7 +305,7 @@ graphs again in other contexts of bioinformatics, especially in
 Note that some of these genes, associated via genome sequence data, also
 happen to have related functions (trehalose biosynthesis):
 
-![](./media/image20.png)
+<img src="./media/image20.png" height="200" />
 
 Try to understand the meaning of the realtionships that link the genes
 in this network. Here we can see that *otsA* and *tpp* are adjacent to
@@ -315,9 +314,9 @@ each other in many genomes, suggesting a functional link
 into a single protein (“Gene Fusion”). Furthemore, most genomes either
 contain both genes or neither gene (“Cooccurrence”):
 
-![](./media/image21.png)
-![](./media/image22.png)
-![](./media/image23.png)
+<img src="./media/image21.png" height="200" />
+<img src="./media/image22.png" height="200" />
+<img src="./media/image23.png" height="200" />
 
 Now, explore some of the other associations, some of which are less
 obvious, such as the link with *katF* or *osmY*.
@@ -333,12 +332,12 @@ in most genomes).
 
 For this task, you will use the NCBI ORF Finder at http://www.ncbi.nlm.nih.gov/gorf/gorf.html
 
-![](./media/image24.png)
+<img src="./media/image24.png" height="200" />
 
 Exercise: Use this tool to find the ORfs in the human opsin-5 transcript
 sequence (accession number NM\_181744) or in your newly discovered gene.
 
-![](./media/image25.png)
+<img src="./media/image25.png" height="200" />
 
 Exercise: Can you find which ORF encodes the protein product of this
 transcript? Hint: the predicted amino acid sequence of opsin-5
