@@ -19,7 +19,7 @@ analysing such data.
 * Please work through this Labster simulation. This will take approximately 30 - 50 minutes.
 (This simulation covers material that has appeared in exam previous questions!)  
  
-<img src="./media/image3.png" height="100"/>
+<img src="./media/image3.png" height="300"/>
  
 It is based on a real published research study involving the sequencing of ancient DNA from remains of a man who lived about 4000 years ago (Rasmussen *et al.*, 2010).   
 You can access this simulation via the link on the Labster section of the BIO2092 ELE page: https://vle.exeter.ac.uk/course/view.php?id=4041#section-8
