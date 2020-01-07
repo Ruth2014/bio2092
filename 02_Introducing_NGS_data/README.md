@@ -22,7 +22,7 @@ analysing such data.
 <img src="./media/image3.png" height="200"/>
  
 It is based on a real published research study involving the sequencing of ancient DNA from remains of a man who lived about 4000 years ago (Rasmussen *et al.*, 2010).   
-You can access this simulation via the link on the Labster section of the BIO2092 ELE page: https://vle.exeter.ac.uk/course/view.php?id=4041#section-8
+You can access this simulation via the link on the [Labster section of the BIO2092 ELE page](https://vle.exeter.ac.uk/course/view.php?id=4041#section-8)
 
 ## Accessing the sequence data from study of a 4000-year-old human
 All the sequencing data from this study are available through the public
