@@ -6,22 +6,23 @@
 
 A huge volume and range of biological data are available via the World
 Wide Web (WWW). In this course, we are mainly concerned with
-macromolecular sequence data: nucleotide sequences of genomic DNA,
-transcripts and amino acid sequences of proteins. These data are the
-product of decades of research, countless millions of £s of investment;
+macromolecular sequence data, in other words: **nucleotide sequences** of genomic DNA,
+transcripts and **amino acid sequences** of proteins. These data are the
+product of decades of research and countless millions of £s of investment;
 this represents an invaluable yet freely available resource for
 clinicians, biotechnologists, academic researchers and even
-undergraduate students to make novel discoveries. One of the things you
-will do today is **to discover and characterise a novel gene!** You will
-use some basic bioinformatics resources such as the BLAST software and
+undergraduate students to make novel discoveries.
+
+One of the things you will do today is **to discover and characterise a novel gene!**
+You will use some basic bioinformatics resources such as the BLAST software and
 sequence databases to make your novel discovery. You can work
 individually or in small groups, if you prefer. Try to answer the
-questions in the boxes below (but this is not assessed).
+questions in the boxes below (don't worry! This will not be assessed).
 
 ## The data
 
 A good place to access DNA sequence data is the NCBI Nucleotide database
-(https://www.ncbi.nlm.nih.gov/nuccore/). You can do simple (and quite
+(https://www.ncbi.nlm.nih.gov/nuccore/). You can do simple (as well as quite
 sophisticated) searches for sequence data here. But perhaps the most
 useful way to access sequence data is via a BLAST search. You might
 already be familiar with BLAST from previous modules.
@@ -50,7 +51,7 @@ for new genes. In fact there is a name for this: ‘bioprospecting’
 https://www.ncbi.nlm.nih.gov/pubmed/26204808, 
 https://www.ncbi.nlm.nih.gov/pubmed/28815469)
 
-![](./media/image3.png)
+<img src="./media/image3.png" height="200" />
 
 A genome (or metagenome) sequence typically contains segments called
 genes that encode a protein (or a functional RNA), separated by
@@ -70,7 +71,7 @@ the various metagenomics studies of microbiomes. Try searching for a
 suitable example at the NCBI Nucleotide web portal:
 https://www.ncbi.nlm.nih.gov/nucleotide/
 
-![](./media/image4.png)
+<img src="./media/image4.png" height="200" />
 
 You could simply search for ‘metagenome’ or something more specific like
 ‘coral metagenome’, ‘alkali sediment metagenome’; use your imagination!
@@ -86,7 +87,7 @@ Do you know what a **metagenome** is? If not, then Google it and/or ask!
 See an example of a candidate DNA sequence for analysis in the image
 below:
 
-![](./media/image5.png)
+<img src="./media/image5.png" height="200" />
 
 *I recommend that you work through this using the illustrated example before choosing your own sequence.*
 
@@ -118,8 +119,7 @@ shares some sequence similarity with already-known proteins. So we are going to 
 of sequence similarity between our naked DNA sequence and a database of amino-acid sequences from
 known proteins.
 
-![cartoon of undiscovered gene](media/gene_discovery.PNG)
-
+<img src="./media/gene_discovery.PNG" height="200" />
 
 To acheive this, we will perform a BLAST search using your
 chosen DNA sequence as the query against the databases of protein amino
@@ -130,7 +130,7 @@ You can perform your BLAST search at
 https://blast.ncbi.nlm.nih.gov/Blast.cgi as in the example in the
 image below.
 
-![](./media/image6.png)
+<img src="./media/image6.png" height="200" />
 
 Notice that for the query you can insert either the actual DNA
 sequence or just the accession number. When you are ready, hit the
@@ -147,11 +147,12 @@ between the product of our query sequence and
 previously described proteins in
 the SwissProt database. Since these previously-known proteins are homologous to our query protein, it is likely that they share similar structure and function.
 
-![](./media/image7.png)
+<img src="./media/image7.png" height="200" />
 
 Let’s choose one of these for further investigation:
 
 ![](./media/image8.png)
+<img src="./media/image8.png" height="200" />
 
 We are now going to perform a series of steps in order to extract the DNA
 sequence of our newly discovered gene. Note that this gene sequence is a
