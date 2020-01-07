@@ -87,7 +87,7 @@ Next, click on a link to a “run”. You will see the details of one run, which
 
 <img src="./media/image11.png" height="300"/>
                                                                                                                                          
-Now, we are ready to look at the actual sequence data, i.e. the sequence reads.
+Now, we are ready to look at the actual sequence data, *i.e.* the sequence reads.
 If you click on the “Reads” tab within the run, you can start
 browsing the actual sequence reads:
 
@@ -248,7 +248,7 @@ The sequencing flowcell is
 divided up into areas called cells. You can see that the read quality
 drops off in some cells faster than others. This maybe because of the
 way the sample flowed over the flowcell, a bubble, or a mark/smear on the lens
-of the optics.
+of the sequencing instrument's optical system.
 
 <img src="./media/image24.png" height="300"/>
 
