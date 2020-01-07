@@ -51,7 +51,7 @@ for new genes. In fact there is a name for this: ‘bioprospecting’
 https://www.ncbi.nlm.nih.gov/pubmed/26204808, 
 https://www.ncbi.nlm.nih.gov/pubmed/28815469)
 
-<img src="./media/image3.png" height="200" />
+<img src="./media/image3.png" height="200" align="middle"/>
 
 A genome (or metagenome) sequence typically contains segments called
 genes that encode a protein (or a functional RNA), separated by
