@@ -53,10 +53,6 @@ Note that in the public databases, sequence data are organised into projects (Bi
 One sample of biological material might have been sequenced once or several times. And one project might involve 
 sequencing of several different biological samples.
 
-
-(If you want to know more about the details of how the data are organised,
-you can consult [the DDBJ Sequence Read Archive Handbook](http://trace.ddbj.nig.ac.jp/book/sra_e.html).) 
-
 In the case of this human palaeosequencing project, the BioProject contains only one BioSample. 
 
 Click on the links (in the Run selecter) to the BioProject and the BioSample to find answers to the questions below.
