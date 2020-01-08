@@ -73,7 +73,7 @@ From past experience, we know that there are sometimes issues with running the i
 
 ### If you want to find out more:
 * An online tutorial for the locally installed IGV is [available from here](https://software.broadinstitute.org/software/igv/UserGuide).
-* A tutorial video is available here: https://youtu.be/uez19GcqHF0, which uses some human genome data.
+* A tutorial video is available here: https://www.youtube.com/watch?v=YpNg0hNUuo8, which uses some human genome data.
 * For the web-based version of IGV, [help is available at this site, here](https://igvteam.github.io/igv-webapp/).
 
 However, by using this document and a bit of trial and error you should be able to quickly learn how to use IGV without
