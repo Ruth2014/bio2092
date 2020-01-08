@@ -1,4 +1,4 @@
-![](./media/image1.gif)
+![](./media/image1.gif) 
   
 # BIO2092 Practical 3: Handling “next-generation” sequencing data: alignments against a reference genome
 
@@ -11,7 +11,7 @@ sequence reads. Today, we are going to see how we can make some sense of
 the data, by viewing the reads aligned against a reference genome
 sequence.
 
-![](./media/image3.jpg)
+<img src="./media/image3.jpg" height="150"/>
 
 Making sense of short sequence reads is something like piecing together scraps of text from a shredder.
 There are two main approaches:
@@ -87,7 +87,7 @@ answer the questions below.
 ## Loading the reference genome into IGV
 When you first start IGV, it will look something like this:
 
-![](./media/image4.png)
+<img src="./media/image4.png" height="300"/>
 
 To load the nucleotide sequence of the reference genome, locate the
 “Genomes” menu item. Choose “Genomes -&gt; Load genome from file” and
@@ -99,7 +99,7 @@ near the top right corner of the IGV window to zoom in as far as you
 can. Then you should be able to see the nucleotide sequence of the
 reference genome along the bottom:
 
-![](./media/image5.png)
+<img src="./media/image5.png" height="300"/>
 
 Next, we need to load the genome annotation. Use the menu item called
 “File -&gt; Load from file” to select the annotation file that you
@@ -107,24 +107,24 @@ downloaded earlier. This should be called
 ```GCA_000195955.2_ASM19595v2_genomic.gff```. After loading the
 annotation and zooming out a bit, you should see something like this:
 
-![](./media/image6.png)
+<img src="./media/image6.png" height="300"/>
 
 Now, to improve clarity, right-click on the genes track and select the
 “Expanded” option. Now you can see the individual genes more clearly on
 the reference genome:
 
-![](./media/image7.png)
+<img src="./media/image7.png" height="300"/>
 
 Now spend at least a few minutes learning how to navigate around the
 genome, zooming in on specific regions and finding information about
 specific genes:
 
-![](./media/image8.png)
+<img src="./media/image8.png" height="300"/>
 
 Note that you can navigate to specific sites on the genome or search for
 specific genes, using the search field near the top:
 
-![](./media/image9.png)
+<img src="./media/image9.png" height="300"/>
 
 You might wish to locate genes of particular interest that are involved
 in virulence of this pathogen, *e.g.* *katG*, *hspX* (*acr*), *erp*,
@@ -139,14 +139,14 @@ in ```.bam```. Please note that you also need to have the index files
 (```.bam.bai```) present in the same folder. In the screenshot below, I am
 loading two alignment files:
 
-![](./media/image10.png)
+<img src="./media/image10.png" height="300"/>
 
 After loading these two alignments of genomic reads, we see something
 like the following screenshot. Please note that right-clicking on
 various parts of the window brings up menus that allow you to configure
 and rename tracks.
 
-![](./media/image11.png)
+<img src="./media/image11.png" height="300"/>
 
 So, now we can see individual sequence reads aligned against the
 reference genome. We can also see plots of coverage depth.
@@ -156,7 +156,7 @@ pairs”. Now we can see pairs of reads joined by a thin horizontal line.
 This pairing arises from the fact that sequencing was performed at both
 ends of the genomic fragments.
 
-![](./media/image12.png)
+<img src="./media/image12.png" height="300"/>
 
   What size, approximately, were the fragments of genomic DNA in these two samples?   
   ----------------------------------------------------------------------------------- --
@@ -164,7 +164,7 @@ ends of the genomic fragments.
 
 Now let’s zoom in on position AL123456.3:2,213,265:
 
-![](./media/image13.png)
+<img src="./media/image13.png" height="300"/>
 
 Here we can see a single-nucleotide polymorphism (SNP). Both the
 reference genome and strain OxTb-321 have a G at this position; but
@@ -182,7 +182,7 @@ _______________________________ | ________________ | __________________ | ______
                                                                                                                  
 Now, take a look at this genomic region: AL123456.3:2,232,639-2,244,376.
 
-![](./media/image14.png)
+<img src="./media/image14.png" height="300"/>
 
 Here, strain OxTb-6 appears to lack a genomic region comprising 4 genes
 that are present in the reference and in OxTb-321. Notice how the read
@@ -194,7 +194,7 @@ method. This is in file
 ```SRR3667790.versus.GCA_000195955.2_ASM19595v2_genomic.aln.sorted.bam```.
 Notice how the reads are much longer but contain numerous errors:
 
-![](./media/image15.png)
+<img src="./media/image15.png" height="300"/>
 
 Now, let’s take a look at some transcriptomic data. Use “File -&gt; Load
 from file” to load alignment files
@@ -208,7 +208,7 @@ presents a survey of the transcripts present in the bacterial cell. The
 two samples were prepared from the same bacterial strain but under
 different growth conditions.
 
-![](./media/image16.png)
+<img src="./media/image16.png" height="300"/>
 
 Note that the transcriptomics data looks quite different from the
 genomic data in at a few respects. Make sure you understand the reason
@@ -238,11 +238,11 @@ lot of information in the report so here are just a few highlights:
 
 ## Loading a BAM file into Qualimap software:
 
-![](./media/image17.png)
+<img src="./media/image17.png" height="300"/>
 
-![](./media/image18.png)
+<img src="./media/image18.png" height="300"/>
 
-![](./media/image19.png)
+<img src="./media/image19.png" height="300"/>
 
 This shows the number of reads that 'cover' each section of the genome.
 The red line shows a rolling average around 50x - this means that on
@@ -251,7 +251,7 @@ have sufficient depth of coverage in order to be confident that any
 features you find in your data are real and not a result of sequencing
 errors.
 
-![](./media/image20.png)
+<img src="./media/image20.png" height="300"/>
 
 The Insert Size Histogram displays the range of sizes of the DNA
 fragments. It shows how well your DNA was size selected before
@@ -305,7 +305,7 @@ Let's load the genome of *C. fabianii* YJS4271 into the IGV viewer. First we loa
 ```GCA_003205855.1_ASM320585v1_genomic.fna``` (using the 'Genome' menu)  and then the annotation file ```GCA_003205855.1_ASM320585v1_genomic.gff``` (using the 'File' menu). Expand the annotation view, zoom into a
 specific place in the genome and it should look something like this:
 
-![](./media/image21.png)
+<img src="./media/image21.png" height="300"/>
 
 Now, let's load the files containing alignments of sequence reads against the YJS4271 reference genome sequence.
 Using the 'File' menu, we will load the following files: 
@@ -319,19 +319,19 @@ Remember that for each ```.bam``` file you need to have the corresponding ```.ba
 
 After loading the ```.bam``` files, your IGV should now look something like this:
 
-![](./media/image22.png)
+<img src="./media/image22.png" height="300"/>
 
 ... and after zooming in, it might look something like this:
 
-![](./media/image23.png)
+<img src="./media/image23.png" height="300"/>
 
 And after right-clicking to rename the tracks and change font sizes, etc., it might look like this:
 
-![](./media/image24.png)
+<img src="./media/image24.png" height="300"/>
 
 Now, let's zoom-in on one of the sequence discrepancies:
 
-![](./media/image26.png)
+<img src="./media/image26.png" height="300"/>
 
 Here we can see a single-nucleotide polymorphism at position LK052894.1:26,672. In strain JCM 3601 there is a
 C while in genomic reads from strains Ex2 and 65, the reads all agree with the T found in the strain YJS4271
@@ -346,17 +346,17 @@ bases on the reverse strand of the DNA (because this gene happens to be on the r
 
 By clicking on the protein sequence, we can obtain a pop-up window with some information about the mutated gene:
 
-![](./media/image27.png)
+<img src="./media/image27.png" height="300"/>
 
 Remember that we can access public sequences via the NCBI Entrez web portal and that we can even access sub-sequences
 from a larger sequence. So, we could access the sequence of the region that we are looking at here: https://www.ncbi.nlm.nih.gov/nuccore/LK052894.1
 
-![](./media/image28.png)
+<img src="./media/image28.png" height="300"/>
 
 
 And we can access the protein sequence here: https://www.ncbi.nlm.nih.gov/protein/663445730
 
-![](./media/image29.png)
+<img src="./media/image29.png" height="300"/>
 
 Finally, some possible questions that you might consider tackling:
 * How different is the Ex2 clinical isolate from previously sequenced non-clinical isolates?
