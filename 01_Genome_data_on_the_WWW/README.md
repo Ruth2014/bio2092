@@ -367,7 +367,7 @@ data and using freely available analysis tools. This is thanks to the efforts
 of software developers, curators and database managers as well as the researchers
 who deposit their data into these public repositories.
 The techniques that you explored today can even lead to insights that are worthy of publication in a scientific journal.
-As an example, [here is one of my research papers](https://www.ncbi.nlm.nih.gov/pubmed/14641908) 
+As an example, [here is one of my research papers](https://doi.org/10.1186/1471-2180-3-24) 
 based entirely on a systematic, yet
 quite simple, analysis of publicly available DNA and protein sequence
 data.  It didn’t require any expensive
