@@ -145,7 +145,7 @@ is resistant to rifampicin, based on detection of a mutation in the
 [Senghore *et al.*, 2017](https://www.ncbi.nlm.nih.gov/pubmed/?term=28926571))
 have reported correlations between particular mutations in
 *rpoB* (and a few other genes) and resistance to antibiotics in
-*M.tuberculosis*.
+*M. tuberculosis*.
 These mutations alter the structure of the encoded protein
 such that they are no longer effectively targeted by the antibiotic.
 Several naturally occurring mutations in *rpoB* are known to confer
