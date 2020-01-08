@@ -110,7 +110,7 @@ decision and we will follow up on this later in the practical. The
 Mykrobe predictor software may already be installed on the PC, but if you
 encounter any problems, then you can download it from the One Drive:
 
-<img src="./media/image20.png" height="300" />
+<img src="./media/image20.png" />
 
 
 Simply drag your compressed FastQ file into the Mykrobe Predictor window
@@ -150,12 +150,12 @@ These mutations alter the structure of the encoded protein
 such that they are no longer effectively targeted by the antibiotic.
 Several naturally occurring mutations in *rpoB* are known to confer
 rifampicin resistance. See for example this figure
-(from [this paper)](https://www.ncbi.nlm.nih.gov/pubmed/?term=10645439))
+(from [this paper)](http://dx.doi.org/10.1016/j.cmi.2016.09.006))
 listing known mutations in the *rpoB* gene associated with
 rifampicin resistance. **Let’s see whether we can find the
 resistance-conferring mutations** in our data in the next task …
 
-<img src="./media/image10.png" height="300" />
+<img src="./media/image10.png"/>
 
 ## Task 4. View the raw data using the Integrated Genome Viewer (IGV) software
 
@@ -166,7 +166,6 @@ practicals). It will look something like the images below:
 
 <img src="./media/image11.png" height="300" />
 
-<img src="./media/image12.png" height="300" />
 
 In preparation for this session, I have aligned each of the sequence
 datasets against the reference genome sequence. You have already
