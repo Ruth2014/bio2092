@@ -144,8 +144,8 @@ is resistant to rifampicin, based on detection of a mutation in the
 [Naidoo and Pillay, 2017](https://www.ncbi.nlm.nih.gov/pubmed/?term=28947708);
 [Senghore *et al.*, 2017](https://www.ncbi.nlm.nih.gov/pubmed/?term=28926571))
 have reported correlations between particular mutations in
-*rpoB* (and a few other genes) and resistance to antibiotics in M.
-tuberculosis.
+*rpoB* (and a few other genes) and resistance to antibiotics in
+*M.tuberculosis*.
 These mutations alter the structure of the encoded protein
 such that they are no longer effectively targeted by the antibiotic.
 Several naturally occurring mutations in *rpoB* are known to confer
@@ -212,7 +212,7 @@ Here, we zoom in on the S40X mutation in *rpoB*:
 
 What about the mutation in the His residue in the second sample? Will
 this have any impact on drug resistance? You can find a full list of the
-mutations that Mykrobe predictor uses in [Supplementary Table 15](https://media.nature.com/original/nature-assets/ncomms/2015/151221/ncomms10063/extref/ncomms10063-s1.pdf) of the
+mutations that Mykrobe Predictor uses in [Supplementary Table 15](https://media.nature.com/original/nature-assets/ncomms/2015/151221/ncomms10063/extref/ncomms10063-s1.pdf) of the
 [published paper](https://www.ncbi.nlm.nih.gov/pubmed/?term=26686880).
 
 Now, in what time you have left, have a look at some other
