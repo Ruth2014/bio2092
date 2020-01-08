@@ -399,11 +399,30 @@ Finally, some possible questions that you might consider tackling:
 # Using the web-based version of IGV
 If you encounter problems with the locally installed version of IGV, try the web-based version instead.
 
+First, in your web browser, navigate to https://igv.org/app/
+Then use the ```Genome -> Local File``` menu item to load your reference genome:
+
 <img src="./media/webappimage1.png" height="300"/>
+
+You need to select **both** of two files: the ```.fasta``` sequence file and the ```.fasta.fai``` index file:
+
 <img src="./media/webappimage2.png" height="300"/>
+
+Next, use the ```Tracks -> Local File``` menu item to load your annotation.
+
 <img src="./media/webappimage3.png" height="300"/>
+
+You need to to select the ```.gff``` file, which contains the annotation (positions of genes etc) of the reference genome:
+
 <img src="./media/webappimage4.png" height="300"/>
 
+Finally, you use the ```Tracks -> Local File``` to select your .bam files. Simultaneously, you also need to select the corrsponding ```.bam.bai``` file for each of your ```.bam``` files:
+
+<img src="./media/webappimage5.png" height="300"/>
+
+After zooming-in (using the tool in the top-right), you should see the aligned reads something like the image below. Note that you can configure various aspects of the display by clicking on the widgets at the right side of the window.
+
+<img src="./media/webappimage6.png" height="300"/>
 
 
 
