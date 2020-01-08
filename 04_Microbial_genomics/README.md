@@ -5,7 +5,11 @@
 ## Introduction
 
 The objective of this practical is to gain some further hands-on
-experience of next-generation sequencing data. Specifically, we will use
+experience of next-generation sequencing data and see how it can be analysed
+for a real-world application: we are going to focus on predicting
+antibiotic resistance (phenotype) from genomic sequence (genotype),
+which of course is of particular relevance in microbial pathogens.prediction of antibiotic susceptibility.
+Specifically, we will use
 whole-genome shotgun sequence data, generated using the Illumina
 sequencing platforms (HiSeq and MiSeq). We will use data from pathogenic
 bacteria, including some of the same data as in the previous practical session.
@@ -13,14 +17,12 @@ This has the advantage that the genomes are quite small (a few
 megabases) and so it is feasible to perform the tasks on a standard PC.
 Some of what you will learn can also be applied to larger genomes (such
 as human genomes) but we would need a lot more compute power, disk space
-and RAM. In particular today we are going to focus on predicting
-antibiotic resistance (phenotype) from genomic sequence (genotype),
-which of course is of particular relevance in microbial pathogens.
+and RAM. 
 
 ## The data
 
 For your convenience, all of the data that you need has been collected
-together on the University’s One Drive here. You can access the data via
+together on the University’s One Drive. You can access the data by following
 a link on the ELE page (http://vle.exeter.ac.uk/mod/url/view.php?id=722134).
 
 <img src="./media/image3.png" height="200" />
@@ -28,21 +30,22 @@ a link on the ELE page (http://vle.exeter.ac.uk/mod/url/view.php?id=722134).
 As the **reference genome sequence**, we will use the [completely assembled
 sequence of strain H37Rv](https://www.ncbi.nlm.nih.gov/pubmed/9634230).
 
-You can download it from the `Mycobacterium reference genome` folder on the One Drive (see above).
+You can download it from the `Practical 3 and 4 (Mycobacterium reference genome)` folder on the One Drive (see above).
 This is the same reference genome that we used in the previous
 practical. You will find a `.fna` file that contains the genomic sequence
 in FastA format and you will find a `.gff` file that contains the
 annotation of the genome, including predicted genes, in General Feature
-Format (GFF). 
+Format (GFF). (If you are using the web-based version of IGV, then use the `.fasta` and `.fasta.fai`
+files instead of the `.fna` file).
 
 <img src="./media/image4.png" height="200" />
 
 In addition to the reference genome, for today’s practical you also need
-some FastQ files containing genomic sequence reads of various strains of
+some FastQ files containing genomic **sequence reads** of various strains of
 *M. tuberculosis*. You also need some .bam and .bai files that contain
 alignments of these genomic reads aligned against the reference genome.
-You can find all of these files in the `Data for Mycobacterium
-resistance prediction` folder. You can download the whole set of files
+You can find all of these files in the `Practical 4 (data for Mycobacterium resistance prediction)`
+folder. You can download the whole set of files
 by selecting all and hitting the Download button:
 
 <img src="./media/image5.png" height="300" />
@@ -68,7 +71,7 @@ MiSeq and there is a link to BioSample accession number SAMEA4501278.
 Clicking on the SAMEA4501278 link brings us to a page that says the
 sample name is NG1. On the other hand, there is a link to BioProject
 accession PRJEB15857 and clicking the link to this BioProject reveals
-some information about the project. In fact this project [has been
+some information about the project. In fact a paper about this project [has been
 published](https://www.ncbi.nlm.nih.gov/pubmed/?term=28926571)).
 
   FastQ file name | Sample name | Sequencing platform | Brief description of research project
@@ -104,9 +107,11 @@ to predict to which antibiotics these
 bacteria will be susceptible or resistant. Pay attention to the
 ‘Evidence’ section, because this tells you how the software came to the
 decision and we will follow up on this later in the practical. The
-Mykrobe predictor software should already be installed, but if you
-encounter any problems, then you can download it from this location:
-<http://www.mykrobe.com/products/predictor/#download-license-agreement-tb>
+Mykrobe predictor software may already be installed on the PC, but if you
+encounter any problems, then you can download it from the One Drive:
+
+<img src="./media/image20.png" height="300" />
+
 
 Simply drag your compressed FastQ file into the Mykrobe Predictor window
 and wait … You should soon see results something like this:
