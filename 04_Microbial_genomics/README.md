@@ -23,7 +23,7 @@ For your convenience, all of the data that you need has been collected
 together on the University’s One Drive here. You can access the data via
 a link on the ELE page (http://vle.exeter.ac.uk/mod/url/view.php?id=722134).
 
-![](./media/image3.png)
+<img src="./media/image3.png" height="200" />
 
 As the **reference genome sequence**, we will use the [completely assembled
 sequence of strain H37Rv](https://www.ncbi.nlm.nih.gov/pubmed/9634230).
@@ -33,9 +33,9 @@ This is the same reference genome that we used in the previous
 practical. You will find a `.fna` file that contains the genomic sequence
 in FastA format and you will find a `.gff` file that contains the
 annotation of the genome, including predicted genes, in General Feature
-Format (GFF).
+Format (GFF). 
 
-![](./media/image4.png)
+<img src="./media/image4.png" height="200" />
 
 In addition to the reference genome, for today’s practical you also need
 some FastQ files containing genomic sequence reads of various strains of
@@ -45,16 +45,16 @@ You can find all of these files in the `Data for Mycobacterium
 resistance prediction` folder. You can download the whole set of files
 by selecting all and hitting the Download button:
 
-![](./media/image5.png)
+<img src="./media/image5.png" height="300" />
 
 This should result in a .zip file being downloaded into your Downloads
 folder. You must then extract the files from this `.zip` file by
 right-clicking and selecting “Extract All”. This will generate a new
 folder in which you will find your files.
 
-![](./media/image6.png)
+<img src="./media/image6.png" height="300" />
 
-![](./media/image7.png)
+<img src="./media/image7.png" height="300" />
 
 ## Task 1. Obtain background information about the data.
 
@@ -111,7 +111,7 @@ encounter any problems, then you can download it from this location:
 Simply drag your compressed FastQ file into the Mykrobe Predictor window
 and wait … You should soon see results something like this:
 
-![](./media/image8.png)
+<img src="./media/image8.png" height="300" />
 
 Repeat this process for some or all of the samples and record your
 results:
@@ -128,7 +128,7 @@ results:
 
 Now let’s take a look at the evidence on which the software predictions are based.
 
-![](./media/image9.png)
+<img src="./media/image9.png" height="300" />
 
 For example, note that the software predicts that this bacterial strain
 is resistant to rifampicin, based on detection of a mutation in the
@@ -150,7 +150,7 @@ listing known mutations in the *rpoB* gene associated with
 rifampicin resistance. **Let’s see whether we can find the
 resistance-conferring mutations** in our data in the next task …
 
-![](./media/image10.png)
+<img src="./media/image10.png" height="300" />
 
 ## Task 4. View the raw data using the Integrated Genome Viewer (IGV) software
 
@@ -159,15 +159,15 @@ view the genome sequence reads aligned against a reference genome (as
 discussed in previous lectures and as you have used previously in
 practicals). It will look something like the images below:
 
-![](./media/image11.png)
+<img src="./media/image11.png" height="300" />
 
-![](./media/image12.png)
+<img src="./media/image12.png" height="300" />
 
 In preparation for this session, I have aligned each of the sequence
 datasets against the reference genome sequence. You have already
 downloaded these as `.bam` and `.bam.bai` files.
 
-![](./media/image13.png)
+<img src="./media/image13.png" height="300" />
 
 Please follow these steps to view the data:
 
@@ -198,11 +198,11 @@ Please follow these steps to view the data:
 Here is an overview of the data for the *rpoB* gene in our several
 samples:
 
-![](./media/image14.png)
+<img src="./media/image14.png" height="300" />
 
 Here, we zoom in on the S40X mutation in *rpoB*:
 
-![](./media/image15.png)
+<img src="./media/image15.png" height="300" />
 
 What about the mutation in the His residue in the second sample? Will
 this have any impact on drug resistance? You can find a full list of the
