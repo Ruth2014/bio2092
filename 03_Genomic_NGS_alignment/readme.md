@@ -69,7 +69,7 @@ installed on the Windows PCs in Hatherly.
 ### If you have problems running the installed version of IGV ...
 From past experience, we know that there are sometimes issues with running the installed IGV software. Therefore we have a plan B:
 * You may get a better experience if you can access the software [from the authors’ website here](https://software.broadinstitute.org/software/igv/download) and look for the section entitled "Launch IGV using Java Web Start".Depending on which version of Java is installed on your computer, the 2Gb and 10Gb versions might not work.
-* There is a [web-based version of the IGV software, here](https://igv.org/app/), the web rather than on your local computer. Under some circumstances this version runs much more smoothly than the locally installed version. The disadvantage is that some of the details of the menus and functions etc. are slightly different than those in the locally installed version; so, you may need to ask for help if you get stuck with this.
+* There is a [web-based version of the IGV software, here](https://igv.org/app/), the web rather than on your local computer. Under some circumstances this version runs much more smoothly than the locally installed version. The disadvantage is that some of the details of the menus and functions etc. are slightly different than those in the locally installed version; so, you may need to ask for help if you get stuck with this. **Some guidance is provided at the end of this document on how to load the reference genome and alignment data into the web-based IGV**.
 
 ### If you want to find out more:
 * An online tutorial for the locally installed IGV is [available from here](https://software.broadinstitute.org/software/igv/UserGuide).
@@ -175,9 +175,10 @@ ends of the genomic fragments.
 
 <img src="./media/image12.png" height="300"/>
 
-  What size, approximately, were the fragments of genomic DNA in these two samples?   
-  ----------------------------------------------------------------------------------- --
-  What do you think is denoted by the different colours of the sequence reads?        
+Question                                                                            | Answer
+----------------------------------------------------------------------------------- | ----
+What size, approximately, were the fragments of genomic DNA in these two samples?   | ___________________________
+What do you think is denoted by the different colours of the sequence reads?        | ___________________________
 
 Now let’s zoom in on position AL123456.3:2,213,265:
 
@@ -394,6 +395,14 @@ Finally, some possible questions that you might consider tackling:
 * Can you find any loss-of-function mutations?
 * To which of the previously sequenced strains is the clinical isolate Ex2 most closely related?
 * Are there any genes missing from the annotations?
+
+# Using the web-based version of IGV
+If you encounter problems with the locally installed version of IGV, try the web-based version instead.
+
+<img src="./media/webappimage1.png" height="300"/>
+<img src="./media/webappimage2.png" height="300"/>
+<img src="./media/webappimage3.png" height="300"/>
+<img src="./media/webappimage4.png" height="300"/>
 
 
 
