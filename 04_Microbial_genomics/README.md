@@ -150,7 +150,7 @@ These mutations alter the structure of the encoded protein
 such that they are no longer effectively targeted by the antibiotic.
 Several naturally occurring mutations in *rpoB* are known to confer
 rifampicin resistance. See for example this figure
-(from [this paper)](http://dx.doi.org/10.1016/j.cmi.2016.09.006))
+(from [this paper](http://dx.doi.org/10.1016/j.cmi.2016.09.006))
 listing known mutations in the *rpoB* gene associated with
 rifampicin resistance. **Let’s see whether we can find the
 resistance-conferring mutations** in our data in the next task …
@@ -193,6 +193,8 @@ Please follow these steps to view the data:
 * Load the `.bam` files using the `File -> Load from File` menu.
     The corresponding `.bai` files must be present in the same folder as
     the `.bam` files.
+    
+* Remember, if you are using the web-based version of IGV, you need to simultaneously load the `.bam.bai` files along with the `.bam` files.    
 
 * Navigate to this position on the genome: 759807 - 763325. You should
     be able to see *rpoB* gene. What is the relevance of this gene to
