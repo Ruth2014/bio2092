@@ -13,13 +13,13 @@ sequence.
 
 <img src="./media/image3.jpg" height="150"/>
 
-Making sense of short sequence reads is something like piecing together scraps of text from a shredder.
+Making sense of short sequence reads is something like piecing together text on scraps of paper from a shredder.
 There are two main approaches:
                                                                                        
 * alignment against a reference genome sequence and
 * *de novo* assembly.
                                                                                        
-Today we will look at the former. The latter will be covered in a future practical.
+Today we will look at the former (alignment). The latter (*de novo* assembly) will be covered in a future practical.
 
 ## The data
 The sequence data that we are using today comes from the genome (and
@@ -27,12 +27,12 @@ transcriptome) of the bacterium *Mycobacterium tuberculosis*, a
 bacterial pathogen that infects about 2 billion people (a third of the
 world’s population) and is the causative agent of tuberculosis.
 
-Its genome is small and therefore convenient for handling in a short
-educational workshop. The same principles that we learn about today are
+Its genome is small and therefore convenient to work with.
+The same principles that we learn about today are
 mostly applicable for larger genomes too but would require more time and
 computer resource to analyse. Specifically, we will be using genomic
 sequence data from a
-[survey of tuberculosis transmission in Oxfordshire,UK](https://www.ncbi.nlm.nih.gov/pubmed/24717625)
+[survey of tuberculosis transmission in Oxfordshire,UK](https://doi.org/10.1016/S2213-2600(14)70027-X)
 and transcriptomic data from another as-yet
 unpublished study.
 
@@ -43,10 +43,10 @@ PacBio longer reads](https://www.ncbi.nlm.nih.gov/pubmed/?term=10.1016%2Fj.gdata
 
 As the reference genome sequence, we will use the [completely assembled
 sequence of strain H37Rv](https://www.ncbi.nlm.nih.gov/pubmed/9634230).
-Prior to this practical,
-alignment files were generated for you: the sequence reads were aligned
-against H37Rv reference genome sequence using a software package called
-BWA (Li and Durbin, 2009).
+Prior to this practical, I generated some
+alignment files for you: the sequence reads were aligned
+against H37Rv reference genome sequence using a
+[software package called BWA](http://bio-bwa.sourceforge.net/).
 
   SRA accession number  | Genome / transcriptome |  Strain of *M. tuberculosis* |  Sequencing method
   --------------------- | ---------------------- | ---------------------------- | -------------------
@@ -56,25 +56,26 @@ BWA (Li and Durbin, 2009).
   SRR5061507             | Transcriptome          |  H37Rv                      |   Illumina HiSeq
   SRR5061515             | Transcriptome          |  H37Rv                      |   Illumina HiSeq
 
-All of the files that you need are available on the University's OneDrive, here:
-<https://tinyurl.com/yde9ojy7>. This link is also provided on the ELE page.
-We will use these data again in a later practical to look at genetic basis of antibimicrobial resistance.
+All of the files that you need are available via the links
+[on the ELE page, here](https://vle.exeter.ac.uk/course/view.php?id=4041#section-6).
+We will use these datasets again in a later practical to look at genetic basis of antibimicrobial resistance.
 
 ## The software: IGV
 To interactively browse the genome, and the NGS sequence data aligned
 against the genome, we are going to us the [Integrative Genomics Viewer
-(IGV)](https://www.ncbi.nlm.nih.gov/pubmed/?term=10.1093%2Fbib%2Fbbs017)
+(IGV)](https://software.broadinstitute.org/software/igv/home), which should be already
 installed on the Windows PCs in Hatherly.
 
-However, you may get a better experience if you can access
-the software from the authors’ website here:
-<https://software.broadinstitute.org/software/igv/download> and look for the section entitled "Launch IGV using Java Web Start".
-Depending on which version of Java is installed on your computer, the 2Gb and 10Gb versions might not work.
+### If you have problems running the installed version of IGV ...
+From past experience, we know that there are sometimes issues with running the installed IGV software. Therefore we have a plan B:
+* You may get a better experience if you can access the software [from the authors’ website here](https://software.broadinstitute.org/software/igv/download) and look for the section entitled "Launch IGV using Java Web Start".Depending on which version of Java is installed on your computer, the 2Gb and 10Gb versions might not work.
+* There is a [web-based version of the IGV software, here](https://igv.org/app/), the web rather than on your local computer. Under some circumstances this version runs much more smoothly than the locally installed version. The disadvantage is that some of the details of the menus and functions etc. are slightly different than those in the locally installed version; so, you may need to ask for help if you get stuck with this.
 
 ### If you want to find out more:
-An online tutorial for IGV is available from here: https://software.broadinstitute.org/software/igv/UserGuide
-A tutorial video is available here: https://youtu.be/uez19GcqHF0,
-which uses some human genome data. 
+* An online tutorial for the locally installed IGV is [available from here](https://software.broadinstitute.org/software/igv/UserGuide).
+* A tutorial video is available here: https://youtu.be/uez19GcqHF0, which uses some human genome data.
+* For the web-based version of IGV, [help is available at this site, here](https://igvteam.github.io/igv-webapp/).
+
 However, by using this document and a bit of trial and error you should be able to quickly learn how to use IGV without
 needing to access those tutorial materials.
 
@@ -85,7 +86,7 @@ You then need to play around with IGV and learn to drive it. Try to
 answer the questions below.
 
 ## Loading the reference genome into IGV
-When you first start IGV, it will look something like this:
+When you first start (the locally installed version of) IGV, it will look something like this:
 
 <img src="./media/image4.png" height="300"/>
 
@@ -95,13 +96,13 @@ locate the reference genome sequence file that you downloaded earlier.
 This file should be called ```GCA_000195955.2_ASM19595v2_genomic.fna```.
 
 Once you have loaded this reference genome sequence, use the control
-near the top right corner of the IGV window to zoom in as far as you
+near the top right corner of the IGV window to zoom in as much as you
 can. Then you should be able to see the nucleotide sequence of the
 reference genome along the bottom:
 
 <img src="./media/image5.png" height="300"/>
 
-Next, we need to load the genome annotation. Use the menu item called
+Next, we need to load the **genome annotation**. Use the menu item called
 “File -&gt; Load from file” to select the annotation file that you
 downloaded earlier. This should be called
 ```GCA_000195955.2_ASM19595v2_genomic.gff```. After loading the
@@ -109,7 +110,8 @@ annotation and zooming out a bit, you should see something like this:
 
 <img src="./media/image6.png" height="300"/>
 
-Now, to improve clarity, right-click on the genes track and select the
+Notice that you have now added an extra track containing the annotation of the genome.
+Next, to improve clarity, right-click on the annotation track and select the
 “Expanded” option. Now you can see the individual genes more clearly on
 the reference genome:
 
@@ -146,10 +148,25 @@ like the following screenshot. Please note that right-clicking on
 various parts of the window brings up menus that allow you to configure
 and rename tracks.
 
+What is this 'alignment data' that you have added (from the .bam files)?
+It is the result of aligning each *sequence read* against this *reference genome* sequence.
+Make sure that you understand the following concepts:
+* DNA sequencing
+* Shodtgun DNA sequencing
+* A sequence read
+* Sequence alignment
+* Aligning sequence reads against a reference genome sequence
+* Coverage depth
+* "Paired-end" DNA sequencing
+
+If you are unsure then revise the relevant lecture
+material and recommended reading material. Also, please ask questions during the practicals and lectures
+or via the [discussion forum, here](https://vle.exeter.ac.uk/mod/forum/view.php?id=324560).
+
 <img src="./media/image11.png" height="300"/>
 
 So, now we can see individual sequence reads aligned against the
-reference genome. We can also see plots of coverage depth.
+reference genome. We can also see plots of *coverage depth*.
 
 Now let’s right-click on the tracks and choose the option to “View as
 pairs”. Now we can see pairs of reads joined by a thin horizontal line.
@@ -196,22 +213,32 @@ Notice how the reads are much longer but contain numerous errors:
 
 <img src="./media/image15.png" height="300"/>
 
+This illustrates the trade-off between read-length and read-accuracy that we are
+faced with when deciding the best strategy for sequencing a genome. In practice,
+often researchers have used a combination of Illumina plus PacBio sequencing, using 
+short, accurate Illumina reads to correct the errors in the long, innaccurate reads.
+(More recently, the accuracy of PacBio sequencing has improved dramatically, such that it
+is now feasible to use only long PacBio reads; but the databases still contain a lot of poor-quality
+legacy data).
+
+
 Now, let’s take a look at some transcriptomic data. Use “File -&gt; Load
 from file” to load alignment files
 ```SRR5061507.versus.GCA_000195955.2_ASM19595v2_genomic.aln.sorted.bam```
 and ```SRR5061515.versus.GCA_000195955.2_ASM19595v2_genomic.aln.sorted.bam```.
 
 You will learn more about transcriptomics during Dr Santos’ lectures
-during this course. For now, understand that this RNA-seq data consists
-of paired-read Illumina sequencing of fragments if cDNA. It therefore
-presents a survey of the transcripts present in the bacterial cell. The
+during this course. For now, understand that this data consists
+of Illumina sequencing of fragments of cDNA (*i.e.* DNA generated in the lab by
+reverse-transcribing messenger RNA). It therefore
+presents a survey of the sequences mRNA transcripts present in the cell. The
 two samples were prepared from the same bacterial strain but under
 different growth conditions.
 
 <img src="./media/image16.png" height="300"/>
 
 Note that the transcriptomics data looks quite different from the
-genomic data in at a few respects. Make sure you understand the reason
+genomic data in  a few respects. Make sure you understand the reason
 for each of these:
 
 * The depth of coverage by genomic sequence is more uniform than by
@@ -225,18 +252,18 @@ for each of these:
 
 Also note in the image above, it seems that gene *glmS* is significantly
 more expressed (transcribed) in one sample than in the other. Can you
-find any more examples of such differentially expressed genes?
+find any more examples of such **differentially expressed genes (DGEs)**?
 
 ## Qualimap: QC and summary statistics for alignments
 [Qualimap](https://www.ncbi.nlm.nih.gov/pubmed/?term=10.1093%2Fbioinformatics%2Fbts503)
-is a program that summarises the
-alignment in much more detail than the mapping stats file we produced.
+is a program that generates summary statistics for an alignment of reads against a reference sequence.
 It’s primarily a technical tool which allows you to assess the
 sequencing for any problems and biases in the sequencing and the
 alignment rather than a tool to deduce biological features. There is a
 lot of information in the report so here are just a few highlights:
 
 ## Loading a BAM file into Qualimap software:
+Recall that the alignment data is contained in the .bam file. So we must load this file into the Qualimap software.
 
 <img src="./media/image17.png" height="300"/>
 
@@ -246,21 +273,22 @@ lot of information in the report so here are just a few highlights:
 
 This shows the number of reads that 'cover' each section of the genome.
 The red line shows a rolling average around 50x - this means that on
-average every part of the genome was sequenced 50X. It is important to
+average every part of the genome was sequenced 50 times. It is important to
 have sufficient depth of coverage in order to be confident that any
-features you find in your data are real and not a result of sequencing
-errors.
+features you find in your data are real and not a result of noise (sequencing
+errors).
 
 <img src="./media/image20.png" height="300"/>
 
 The Insert Size Histogram displays the range of sizes of the DNA
-fragments. It shows how well your DNA was size selected before
-sequencing. Note that the 'insert' refers to the DNA that was inserted
+fragments that were sequenced. Note that the 'insert' refers to the DNA that was inserted
 between the sequencing adaptors, so equates to the size range of the DNA
-that was used.
+that was used. Recall that paired-end sequencing involves sequencing both ends of each fragment.
+Therefore, after aligning both ends against the reference, it is possible to measure the distance
+between each end of the fragment with respect to their positions in the reference genome.
 
 In this case we have paired 300-base reads and our insert
-size varies around 600 base; so there should only be a small unsequenced gap
+size is around 600 base; so there should only be a small unsequenced gap
 between the pair of reads.
 
 Have a look at some of the other graphs produced with your alignment
@@ -268,25 +296,25 @@ files and try to figure out their meaning and significance.
 
 ## What next? Comparative genomics of *Cyberlindnera fabianii*
 In your coursework assignment, you are asked to perform genomic comparisons between
-different sequenced strains of the yeast *Cyberlindnera fabianii*.
+different sequenced strains of a single microbial species.
+
+So, to help you plan how you might tackle that task, let's work through an example using the yeast *Cyberlindnera fabianii*.
 You will see from the [published literature](https://www.ncbi.nlm.nih.gov/pubmed/?term=candida+fabianii)
 that this yeast can cause [fungaemia](https://www.ncbi.nlm.nih.gov/books/NBK436012/) in human patients, albeit rarely.
 
-Now, you should apply the skills you have learned in these practicals to the *C. fabianii* data to find some interesting features of its genome and/or differences between different strains.
+Now, you should apply the skills you have learned in these practicals to the *C. fabianii* data to find some interesting features of its genome and/or differences between different strains. All of the files that you need are available via the links
+[on the ELE page, here](https://vle.exeter.ac.uk/course/view.php?id=4041#section-6).
 
 Below we work through an example.
 
 By [searching the NCBI Entrez web portal](https://www.ncbi.nlm.nih.gov/assembly/?term=candida+fabianii), you can see that there are several genome assemblies available for this species:
-
 
 Strain name | Assembly accession number                                                | SRA accession number  
 ----------- | ------------------------------------------------------------------------ | -------------------- 
 YJS4271     | [GCA_003205855.1](https://www.ncbi.nlm.nih.gov/assembly/GCA_003205855.1) | n/a                 
 65          | [GCA_001983305.1](https://www.ncbi.nlm.nih.gov/assembly/GCA_001983305.1) | [SRR5047278](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR5047278) 
 JCM 3601    | [GCA_001599195.1](https://www.ncbi.nlm.nih.gov/assembly/GCA_001599195.1) | [DRR032607](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=DRR032607) and [DRR032482](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=DRR032482)
-Ex2         | n/a *                                                                    | n/a *
-
-* Note that the Ex2 genomic data may not yet available in the public databases, but is provided to you via the OneDrive.
+Ex2         |  [GCA_004195225.1](https://www.ncbi.nlm.nih.gov/assembly/GCA_004195225.1) |  n/a
 
 Can you find out any information about these genome sequencing projects?
 For example, are there any published papers describing these genome?
@@ -298,7 +326,6 @@ YJS4271   |                             |  Yes              |
 65        |                             |                   |  
 JCM 3601  |                             |                   | Shen *et al*. (2018) Tempo and Mode of Genome Evolution in the Budding Yeast Subphylum. *Cell*. **175**:1533-1545.e20. 
 Ex2       | Clinical sample, Exeter     | No                | None     
-
 
 
 Let's load the genome of *C. fabianii* YJS4271 into the IGV viewer. First we load the genome sequence file
