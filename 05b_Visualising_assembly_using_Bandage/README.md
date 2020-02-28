@@ -83,7 +83,13 @@ Use the File -&gt; Load graph menu in Bandage item to load the graph file that y
 
 Now, when you click on the `Draw graph` button, you should see the assembly graph. It will look something like this:
 
-![](./media/image.5.png)
+![](./media/image5.png)
+
+Note the zoom control, which allows you to zoom in and take a closer look at a smaller part of the graph.
+
+Also, it would be good idea to switch on the Length, Name and Depth labels (see the 'node labels'  section).
+
+![](./media/node-labels.png)
 
 It is kind of fun to explore this assembly graph. Some things you can do:
 * Use the controls to zoom-in, zoom-out and move around the graph.
