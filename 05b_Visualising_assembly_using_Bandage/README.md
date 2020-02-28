@@ -63,7 +63,7 @@ Run the Bandage software, which should already be installed on your PC.
 IF it is not installed or not working, you can download the latest version
 from here: https://github.com/rrwick/Bandage/releases/. Click on appropriate
 file for your computer. assuming that you are using a Windows PC, then this will
-likely be [```Bandage_Windows_v0_8_1.zip```](https://github.com/rrwick/Bandage/releases/download/v0.8.1/Bandage_Windows_v0_8_1.zip). 
+likely be [`Bandage_Windows_v0_8_1.zip`](https://github.com/rrwick/Bandage/releases/download/v0.8.1/Bandage_Windows_v0_8_1.zip). 
 
 ![](./media/bandage0.png)
 
@@ -72,15 +72,16 @@ file called ```Bandage.exe```. Double click on that file and it will launch the 
 
 ![](./media/bandage1.png)
 
-Use the File -&gt; Load graph menu in Bandage item to load the graph file that you downloaded earlier
-`assembly_graph.gfa`:
+Earlier, you downloaded data from the OneDrive and, hopefully, unzipped it. You are going to need the file called `assembly_graph.gfa`, so make sure you know where this file is. 
 
 ![](./media/graph-file.png)
 
+Use the File -&gt; Load graph menu in Bandage item to load the graph file that you downloaded earlier
+(`assembly_graph.gfa`):
 
 ![](./media/image4.png)
 
-Now, use the `Draw graph` button to display the graph:
+Now, when you click on the `Draw graph` button, you should see the assembly graph. It will look something like this:
 
 ![](./media/image.5.png)
 
