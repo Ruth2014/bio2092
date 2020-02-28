@@ -62,7 +62,7 @@ remain.
 
 Run the Bandage software, which should already be installed on your PC.
 IF it is not installed or not working, you can download the latest version
-from here: https://github.com/rrwick/Bandage/releases/https://github.com/rrwick/Bandage/releases/
+from here: https://github.com/rrwick/Bandage/releases/
 and run it without needing to install it.
 
 Use the File -&gt; Load graph menu item to load the graph file
