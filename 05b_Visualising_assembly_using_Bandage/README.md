@@ -72,8 +72,11 @@ file called ```Bandage.exe```. Double click on that file and it will launch the 
 
 ![](./media/bandage1.png)
 
-Use the File -&gt; Load graph menu item to load the graph file
-`assembly\_graph.gfa`:
+Use the File -&gt; Load graph menu in Bandage item to load the graph file that you downloaded earlier
+`assembly_graph.gfa`:
+
+![](./media/graph-file.png)
+
 
 ![](./media/image4.png)
 
