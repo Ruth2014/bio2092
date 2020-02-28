@@ -16,7 +16,7 @@ results of assembling a bacterial genome sequence.
 
 The data are available here:
 
-https://universityofexeteruk-my.sharepoint.com/:f:/g/personal/d_j_studholme_exeter_ac_uk/EmaG2Iu5eKxHu-VkA-txFIEBzUXP5vfu2RPSSJ51UDMvEA?e=QYXiKr
+https://universityofexeteruk-my.sharepoint.com/:f:/r/personal/d_j_studholme_exeter_ac_uk/Documents/Teaching/bio2092/practicals/BIO2092%20practical%20data/Practical%205%20(Week%208)%20Sequence%20assembly/Xanthomonas%20vasicola%20NCPPB1060/Illumina-based%20assembly?csf=1&e=TVFx3I
 
 or, via ELE, here:
 
