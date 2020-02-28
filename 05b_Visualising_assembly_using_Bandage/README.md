@@ -96,28 +96,23 @@ It is kind of fun to explore this assembly graph. Some things you can do:
 * You can also label the nodes in the graph with their names, sequence depths, and lengths.
 * You can select nodes (contigs) and perform BLAST searches with the selected contigs (using the `Output` menu item).
 
-What genomic feature do you think is represented by this region of the graph (See image below)?
-Can you draw a diagram of the genomic region that it represents? Clue: it involves
-repeated sequences.
+What kind of genomic feature do you think node 14665 might be? Notice that it is cirular and that its depth of coverage is
+higher than the most of the genome.
 
-![](./media/bandage1.png)
+![](./media/14665.png)
 
-The sequences of the two contigs are:
+To investigate this feature further, you can select it by clicking on it and then go to the `Output` menu to copy its
+sequence to clipboard.
 
-`>2359056 (180bp) TAATCAATAAATTGATAACTGATAAGCGGAACGCCTGAGCTAAAGCTCATTGACGCAGTGGTTGACTGGTCATCCAATGGAGAATTGCCTGACCTAGTCAACTTTGCGGGGGAAATTCTAAGCAACCTAGATAAGGTTCGAGAATTTCTCCCTAAGAAACACTAATCAATAAATTGATAA`
+![](./media/copy-to-clipboard.png)
 
-and
+From there, you can go to the NCBI's BLAST website and paste the sequence into the query box. A BLASTN search against the NR database might reveal moe about this sequence. 
 
-`>2345186 (236 bp)
-GGTTGCTTAGAATTTCCCCCGCAAAGTTGACTAGGTCAGGCAATTCTCCATTGGATGACCAGTCAACCACTGCGTCAATGAGCTTTAGCTCAGGCGTTCCGCTTATCAGTTATCAATTTATTGATTAGTGTTTCTTAGGGAGAAATTCTCGAACCTTATCTAGGTTGCTTAGAATTTCCCCCGCAAAGTTGACTAGGTCAGGCAATTCTCCATTGGATGACCAGTCAACCACTGCG`
+![](./media/blast.png)
 
 
-### References
 
-Gurevich, A., Saveliev, V., Vyahhi, N., and Tesler, G. (2013) QUAST:
-quality assessment tool for genome assemblies. *Bioinformatics* **29**:
-1072–5.
 
-Wick, R.R., Schultz, M.B., Zobel, J., and Holt, K.E. (2015) Bandage:
-interactive visualization of de novo genome assemblies: Fig. 1.
-*Bioinformatics* **31**: 3350–3352.
+
+
+
