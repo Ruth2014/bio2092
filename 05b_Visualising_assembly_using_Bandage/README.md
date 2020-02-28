@@ -42,7 +42,7 @@ Next, take a look at the `Assembly statistics` folder.
 
 In particular,
 download and open  the `report.html` file, which contains a summary of several measures
-of assembly quality. MAke sure that you download the file (e.g. to your Downloads folder
+of assembly quality. Make sure that you download the file (e.g. to your Downloads folder
 and open the downloaded file rather than just trying to open it within OneDrive).
 
 Note the N<sub>50</sub> value. This is a measure of how contiguous the assembly is;
@@ -62,8 +62,12 @@ remain.
 
 Run the Bandage software, which should already be installed on your PC.
 IF it is not installed or not working, you can download the latest version
-from here: https://github.com/rrwick/Bandage/releases/
-and run it without needing to install it.
+from here: https://github.com/rrwick/Bandage/releases/. Click on appropriate
+file for your computer. assuming that you are using a Windows PC, then this will
+likely be [```Bandage_Windows_v0_8_1.zip```](https://github.com/rrwick/Bandage/releases/download/v0.8.1/Bandage_Windows_v0_8_1.zip). 
+
+![](./media/bandage1.png)
+
 
 Use the File -&gt; Load graph menu item to load the graph file
 `assembly\_graph.gfa`:
