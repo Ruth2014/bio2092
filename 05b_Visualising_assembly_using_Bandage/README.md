@@ -66,7 +66,7 @@ from here: https://github.com/rrwick/Bandage/releases/. Click on appropriate
 file for your computer. assuming that you are using a Windows PC, then this will
 likely be [```Bandage_Windows_v0_8_1.zip```](https://github.com/rrwick/Bandage/releases/download/v0.8.1/Bandage_Windows_v0_8_1.zip). 
 
-![](./media/bandage1.png)
+![](./media/bandage0.png)
 
 
 Use the File -&gt; Load graph menu item to load the graph file
