@@ -35,7 +35,6 @@ of the `contigs.fasta` and the `scaffolds.fasta` files using a text editor or wo
 These files contains the final results of the assembly process; that is the nucleotide sequences of the assembled
 contigs and scaffolds. 
 
-
 Next, take a look at the `Assembly statistics` folder. 
 
 ![](./media/assembly-statistics.png)
@@ -68,6 +67,10 @@ likely be [```Bandage_Windows_v0_8_1.zip```](https://github.com/rrwick/Bandage/r
 
 ![](./media/bandage0.png)
 
+Once you have downloaded the .zip file, you need to unzip it (try right-clicking on the filename). Then find the executable
+file called ```Bandage.exe```. Double click on that file and it will launch the Bandage software.
+
+![](./media/bandage1.png)
 
 Use the File -&gt; Load graph menu item to load the graph file
 `assembly\_graph.gfa`:
