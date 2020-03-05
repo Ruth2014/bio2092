@@ -6,6 +6,8 @@ In this computer practical, we will take a look at several web-based resources t
 lectures and outside reading about applying genomics to human health. We will try solve some of the web-based problems
 (Weblems) posed by the author of our primary course textbook; see: https://global.oup.com/uk/orc/biosciences/evolution/leskgenomics3e/student/weblems/.
 
+![Search form](media/EMT-screenshot-1.jpg)
+
 First, complete the Labster virtual lab simulation about **Crispr-Cas applied to TGF-beta induced EMT**.
 You can access this simulation via the link on the Labster section of the BIO2092 ELE page:
 https://vle.exeter.ac.uk/mod/lti/view.php?id=684279.
@@ -31,6 +33,7 @@ Let's use these to try to solve [Weblem 8.1 from Lesk's Introduction to Genomics
 In Ensembl (https://www.ensembl.org/Homo_sapiens/Info/Index), let's try searching for 'C4A':
 
 ![Search form](media/ensembl1.png)
+
 
 This should lead you to an entry for the human C4A gene:
 
