@@ -10,7 +10,7 @@ lectures and outside reading about applying genomics to human health. We will tr
 
 First, complete the Labster virtual lab simulation about **Crispr-Cas applied to TGF-beta induced EMT**.
 You can access this simulation via the link on the Labster section of the BIO2092 ELE page:
-https://vle.exeter.ac.uk/mod/lti/view.php?id=684279.
+https://vle.exeter.ac.uk/course/view.php?id=4041#section-8.
 
 Now is also a good opportunity to ask questions to the instructors and catch-up on any of the previous practicals.
 
@@ -110,7 +110,7 @@ Find SNPs that are associated with foetal haemoglobin measurement.
 Which SNP has the smallest p-value?
 In what chromosome band does it appear?
 
-To solve this, first navigate to the EBI-NHGRI GWAS catalogue (https://www.ebi.ac.uk/gwas/diagram). You have seen this previously
+To solve this, first navigate to the EBI-NHGRI GWAS catalogue (https://www.ebi.ac.uk/gwas/). You have seen this previously
 in a lecture. Select Haematological measurement:
 
 ![EBI-NHGRI GWAS catalogue](media/gwas.PNG)
