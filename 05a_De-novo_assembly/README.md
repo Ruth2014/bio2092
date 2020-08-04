@@ -148,8 +148,9 @@ partially. To see how this works, try assembling these 17 paired reads:
 (Note: in the practical, you will be provided with scissors and a card from which you
 can cut-out these sequences and arrange them on your desk.)
 
-You should find assembly using paired reads is much more accurate than
-using the unpaired reads. This illustrates one of the advantages of using paired reads, i.e.
+You should find assembly using paired reads is more accurate than
+using the unpaired reads, though it is still far from perfect with the number if repeats still ambiguous.
+This illustrates one of the advantages of using paired reads, i.e.
 where we sequence both ends of each DNA fragment rather than sequencing just one end (we routinely do this
 when using the short-read Illumina method of DNA sequenicng). 
 An alternative would be to generate longer reads such that an individual read spans across the repetive region.
