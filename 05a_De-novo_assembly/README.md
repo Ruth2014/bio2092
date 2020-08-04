@@ -105,8 +105,8 @@ Try assembling these 34 reads:
 (Note: in the practical, you will be provided with a card and scissors from which you
 can cut-out these sequences and arrange them on your desk.)
   
-What was the answer? Perhaps you assembled the sequence as ```CGCGCATATATATATATATATATGCCGATTGA```?
-Actually, the original genome sequence was ```CGCGCATATATATATATATATATATATATATATATATATATATATATATATATATATATGCCGATTGA```. See how the repeats have been collapsed.  
+What was the answer? Perhaps you assembled the sequence as ```CGCGCATATATATATATATATATGCCGATT```?
+Actually, the original genome sequence was ```CGCGCATATATATATATATATATATATATATATATATATATATATATATATATATATATGCCGATT```. See how the repeats have been collapsed.  
   
 However, using paired reads, we can overcome this problem, at least
 partially. To see how this works, try assembling these 17 paired reads:
@@ -159,7 +159,8 @@ An alternative would be to generate longer reads such that an individual read sp
 For this excercise, it is best to use a pen/pencil and paper. A blank sheet of paper is included in the booklet
 for this purpose. Your task is to generate a de Bruijn graph from the following ten sequence reads:
 
-```CGTTAGTG
+```
+   CGTTAGTG
     GTTAGTGG
      TTAGTGGC
       TAGTGGCA
@@ -168,7 +169,8 @@ for this purpose. Your task is to generate a de Bruijn graph from the following 
          TGGCAAGC
        AGTGGCAT
         GTGGCATT
-         TGGCATTC```
+         TGGCATTC
+         ```
          
 Notice that, for convenience, the reads have been aligned (but not assembled).
 If you have time, you could also try making the overlap graph (i.e.part of the OLC method).
